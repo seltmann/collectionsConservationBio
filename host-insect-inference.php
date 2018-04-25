@@ -9,19 +9,7 @@ if (mysqli_connect_errno())
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
   }
 
-  //===table columns in host_network_species table
-  //====i_family, i_tribe, i_genus, i_species, h_family, h_genus, h_species
-  //====i_family_id, i_tribe_id, i_genus_id, i_species_id, h_family_id, h_genus_id, h_species_id
-
-  //====coll_total_i - total number of times the insect was collected at any collecting event, indifferent of host collected on
-  //====coll_number_same_h - number of times collected at different collecting events, of host (at species level) + insect (at species level) - returns numberic value
-  //====coll_percent - percent of total colevents host (at species level) + insect (at species level)
-
-  //====h_n_specimens - greatest number of specimens found at single collecting event (at species level) (total)
-  //====i_j_same_col - number of total juveniles are found on host (at species level) - returns numberic value
-  //====h_voucher - occurrence is verified by vouchered host specimen - number of specimens that were vouchered
-
-//gets the information about the unique associations found in the host_network_species table
+//summary about the unique associations found in the host_network table
 	$sql = "Select * from host_network";
 	$results=mysqli_query($con,$sql);
 	
@@ -56,24 +44,24 @@ if (mysqli_connect_errno())
 		   }
 	
 	
-	/////---functions below ////////
-	
-	//total number of collecting events the insect was collected where host sp were recorded
+//total number of collecting events the insect was collected where host species was recorded
 	function coll_total_i($i_species_id){
 			global $con;
 		$sql = "Select count(distinct ColEventUID) from Specimen where Specimen.species='$i_species_id' AND Specimen.species !='0' AND Specimen.HostSp != '0'";
 		$results=mysqli_query($con,$sql);
 		$row=mysqli_fetch_array($results,MYSQLI_NUM);
 		$counts = $row[0];
-		//echo $counts;
-		//$sql_update = "UPDATE `pbi_locality`.`host_network` SET `coll_total_i` = '$counts' where `i_species_id`='$i_species_id'";
-		//mysqli_query($con,$sql_update);
+		echo $counts;
+		$sql_update = "UPDATE `pbi_locality`.`host_network` SET `coll_total_i` = '$counts' where `i_species_id`='$i_species_id'";
+		mysqli_query($con,$sql_update);
 		return $counts;	
 	
 	}
 	
 	
-	//checks to see if vouchers are found with the host-associate combination		
+	//checks to see if vouchers are found with the host-associate combination
+	//vouchers are specimens that are vouchered in a natural history collection
+			
 	function h_voucher($h_species_id,$i_species_id){
 		 global $con;
 		$sql = "Select count(distinct FieldHost.HerbID) from FieldHost left join Specimen on Specimen.FieldHostUID=FieldHost.FieldHostUID where Specimen.HostG='$h_species_id' AND Specimen.species='$i_species_id' AND FieldHost.HerbID !=''";
@@ -87,7 +75,10 @@ if (mysqli_connect_errno())
 	}
 
 
-	//percent of all collecting events is this association representing?
+	//percent of all collecting events is this interaction between host and insect representing?
+	//coll_number_same_h = collecting total same host
+	//collecting total for all hosts
+	
 	function coll_percent($coll_total_i,$coll_number_same_h,$h_species_id,$i_species_id){
 		global $con;
 		$insert_percent = ($coll_number_same_h / $coll_total_i) * 100;
@@ -96,7 +87,7 @@ if (mysqli_connect_errno())
 		mysqli_query($con,$sql_update);
 		return $rounded_percent;
 	}
-
+	
 
 	//number of colecting events with this combination
 	function coll_number_same_h($h_species_id,$i_species_id){
@@ -111,8 +102,8 @@ if (mysqli_connect_errno())
 	}
 	
 
-	//number of specimens found at a collecting event that is same species on same host. Cannot tell if that is the same plant or not.
-	//some information about number of specimens of things on same pin is in the notes. Could TRUE/FALSE if has like '%on pin%' as indication of more than one specimen. This again does not assume same plant, just collected together.
+	//number of specimens found at a collecting event that is same species on same host.
+	//some information about number of specimens of things on same pin is in the notes, so it is not counted.
 
 	function h_n_specimens($h_species_id,$i_species_id){
 		global $con;
@@ -137,8 +128,6 @@ if (mysqli_connect_errno())
 		mysqli_query($con,$sql_update);
 		return $counts;	
 	}
-
-
 
 
   // Free result set
