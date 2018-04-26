@@ -1,63 +1,54 @@
-#######----------------------------------------#####
-library(sm)
-library(ggplot2)
-attach(data)
-detach(data)
+################################################################################
+##Estimating the number of declining species using natural history collections##
+##############################Katja Seltmann, 2018##############################
+################################################################################
 
-#p(plant_redlisted|specific_wasp_species) = sum_redlistplants p(plant|wasp)
-#if 10 records of an insect and 5 on redlisted, probabiliy insect found on redlisted is 50% or .5
-#if 30% are redlist true, than probabllity on redlisted plant is 30%
-
-#Check to see how many removed (>3 collecting events?), describe
-#list number of singletons
-
-#redlisted probability is incorrect. 
-#Number record involving redlisted/total number for that insect = probability score
-
-#calculate P(rl) for all records
-#6.6% is this greater or less than all
-
-#clears r brain
 rm(list=ls())
-require(sm)
-require(RMySQL)
-library(devtools)
+
+#include libraries
+library(ggplot2)
+
+#set working directory
 setwd("~/Documents/collectionsConservationBio/collectionsConservationBio-git")
 
-#create a connection to the db:
-connection <- dbConnect(MySQL(), user="", password="", dbname="pbi_locality", host="localhost")
-dbListTables(connection)
-dbListFields(connection, "host_network")
-data.events <- dbGetQuery(connection, "select * from host_network")
-head(data.events)
-nrow(data.events)
-
+#read in output from database
 data <- read.delim("hostNetwork.tsv",header = TRUE)
+
+#append two new columns
 data$host <- paste(data$h_genus,data$h_species)
 data$insect <- paste(data$i_genus,data$i_species)
 
-head(data)
-par(mar = c(11, 5, 2, 2))
+#write new table
+write.table(data, "data.txt", , na = "NA", row.names = FALSE,col = TRUE, append = FALSE, sep="\t", quote=FALSE)
 
+##########simple description of data###################
 
 #total number of collecting events in entire dataset
 sumAllCollectingEvents <- sum(data$coll_number_same_h)
 
-#unique list of insect names in entire dataset
-uniqueInsectNameList <- unique(paste(data$i_genus,data$i_species))
+#write a unique list of insect names in entire dataset
+uniqueInsectNameList <- unique(data$insect)
+write.table(uniqueInsectNameList, "uniqueInsectNameList.txt", , na = "NA", row.names = FALSE,col = FALSE, append = FALSE, sep="\t", quote=FALSE)
 
-#unique list of host names in entire dataset
-uniqueHostNameList <- unique(paste(data$h_genus,data$h_species))
+#write a unique list of host names in entire dataset
+uniqueHostNameList <- unique(data$host)
+write.table(uniqueHostNameList, "uniqueHostNameList.txt", , na = "NA", row.names = FALSE,col = FALSE, append = FALSE, sep="\t", quote=FALSE)
 
+#subset data for only redlisted host plants and insects
 subdata <- subset(data,redList == TRUE)
 
-#plot showing insects/hosts by number collecting events for that combo
-p <-ggplot(subdata, aes(insect, host))
-p +geom_bar(stat = "identity")
+#write a unique list of insects on red listed plants
+uniqueInsectNameRedList <- unique(subdata$insect)
+write.table(uniqueInsectNameRedList, "uniqueInsectNameRedList.txt", , na = "NA", row.names = FALSE,col = FALSE, append = FALSE, sep="\t", quote=FALSE)
 
-p
+#write a unique list of red listed plants
+uniqueHostNameRedList <- unique(subdata$host)
+write.table(uniqueHostNameRedList, "uniqueHostNameRedList.txt", , na = "NA", row.names = FALSE,col = FALSE, append = FALSE, sep="\t", quote=FALSE)
 
-#plot showing insects and hosts clustered by host family or insect family
+################additional data about number of collecting events were on redlisted###################
 
-help("plot")
-dev.off()
+
+
+##########plots###################
+
+

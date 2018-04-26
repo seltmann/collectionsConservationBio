@@ -58,6 +58,8 @@ if (mysqli_connect_errno())
 	
 	}
 	
+	#count total number of colecting events species was recorded. 
+	#count total number of collecting events for species on redlisted plant
 	
 	//checks to see if vouchers are found with the host-associate combination
 	//vouchers are specimens that are vouchered in a natural history collection
@@ -75,7 +77,7 @@ if (mysqli_connect_errno())
 	}
 
 
-	//percent of all collecting events is this interaction between host and insect representing?
+	//percent of all collecting events is this interaction between host and insect representing
 	//coll_number_same_h = collecting total same host
 	//collecting total for all hosts
 	
