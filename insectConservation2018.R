@@ -7,9 +7,13 @@ rm(list=ls())
 
 #include libraries
 library(ggplot2)
+library(RColorBrewer)
+library(ggthemes)
 
 #set working directory
 setwd("~/Documents/collectionsConservationBio/collectionsConservationBio-git")
+
+##########simple description of database data###################
 
 #read in output from database
 data <- read.delim("hostNetwork.tsv",header = TRUE)
@@ -20,8 +24,6 @@ data$insect <- paste(data$i_genus,data$i_species)
 
 #write new table
 write.table(data, "data.txt", , na = "NA", row.names = FALSE,col = TRUE, append = FALSE, sep="\t", quote=FALSE)
-
-##########simple description of data###################
 
 #total number of collecting events in entire dataset
 sumAllCollectingEvents <- sum(data$coll_number_same_h)
@@ -45,10 +47,34 @@ write.table(uniqueInsectNameRedList, "uniqueInsectNameRedList.txt", , na = "NA",
 uniqueHostNameRedList <- unique(subdata$host)
 write.table(uniqueHostNameRedList, "uniqueHostNameRedList.txt", , na = "NA", row.names = FALSE,col = FALSE, append = FALSE, sep="\t", quote=FALSE)
 
-################additional data about number of collecting events were on redlisted###################
+################redlist proportions###################
+#read in output from database
+data <- read.delim("redListdata.txt",header = TRUE)
 
+#append two new columns
+data$scientificName <- paste(data$Genus,data$Species)
+write.table(data, "redListdata.txt", , na = "NA", row.names = FALSE,col = TRUE, append = FALSE, sep="\t", quote=FALSE)
 
-
+head(data)
 ##########plots###################
+#####group by scientific name#######
+data$scientificName <- factor(data$scientificName, levels = data$scientificName[order(data$Family)])
+cbPalette <- c("#999999", "#000000", "#D19392","#AA4643","#89A54E","#89A54E", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
 
-
+  p <- ggplot(data, aes(scientificName, Proportion)) + geom_point(aes(colour = Family), size = 3) + 
+    scale_colour_manual(values = cbPalette) +
+    xlab("Dose (mg)") + ylab("")
+  p + theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        axis.text.y=element_text(size=15),
+        legend.text=element_text(size=15))
+  
+help(scale_colour_brewer)
+colors()
+help("scale_colour_manual")
+  
+##number of listed families
+  p <- ggplot(data, mapping = aes(x = Family)) + geom_bar(aes(fill = scientificName))
+  p + theme(legend.position="none",axis.text.x = element_text(angle = 60, hjust = 1))
+  

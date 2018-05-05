@@ -16,4 +16,5 @@ echo "select * from host_network;" | mysql -u root -p -D pbi_locality > hostNetw
 perportion of that species of insect that were on a red listed host		
 0.555555556		proportion = fraction
 0.047619048		probability is the perportion of species of insect found on red listed plant
-0.157894737		probability of record in database vs sampling in the wild
+0.157894737		probability of record in database vs sampling in the wild, which has variables 
+
