@@ -5,7 +5,8 @@
 ###Introduction
 Some species are at a greater risk of extinction because they have combinations of extinction promoting traits. It is difficult to assess this risk in insects because they are small, difficult to identify and their current populations and distributions are unknown or difficult to determine. Insects in the family Miridae, or plant bugs, are a speciose order of insects that are known to be specialist plant predators. We assess the probable risk of Miridae species extinction by evaluating their specialization on threatened and endangered host plants, and use the better known host plants as a proxy for evaluating the plant bugs. In addition, this paper is part of a new generation of synthetic biological data research that utilizes the large amount of well-determined and geocoded natural history collection data available through the Integrated Digitized Biocollections project, and as such, introduces new methods for evaluating and handling those datasets.
 
-### Citation
+###Citation
+
 Katja C. Seltmann
 
 
@@ -28,6 +29,7 @@ echo "select * from host_network;" | mysql -u root -p -D pbi_locality > hostNetw
 ###Data Issues
 
 ###Summary
+
 perportion of that species of insect that were on a red listed host		
 0.555555556		proportion = fraction
 0.047619048		probability is the perportion of species of insect found on red listed plant
