@@ -33,7 +33,7 @@ while ($row=mysqli_fetch_array($result,MYSQLI_NUM)){
 	$h_species_id = $row[13];//F2.HostMNLUID - 15 - h_species_id
 
 	echo $row[0] . "$" . $row[1] ."$" . $row[12] ."$" . $row[2] ."$" . $row[3] ."$" . $row[4] ."$" . $row[5] ."$" . $row[6] . $row[7] ."$" . $row[13] ."$" . $row[8] ."$" . $row[9] ."$" . $row[10] ."$" . $row[11]."\n"; 
-	$sql_insert = "INSERT INTO `pbi_locality`.`host_network` (`id`, `h_family`, `h_species`,`h_genus`,`i_family`,`i_tribe`,`i_genus`,`i_species`,`h_family_id`,`h_genus_id`,`h_species_id`,`i_family_id`, `i_tribe_id`, `i_genus_id`, `i_species_id`) VALUES (NULL, '$h_family', '$h_genus', '$h_species','$i_family', '$i_tribe', '$i_genus', '$i_species', '$h_family_id', '$h_genus_id','$h_species_id','$i_family_id', '$i_tribe_id', '$i_genus_id', '$i_species_id')";
+	$sql_insert = "INSERT INTO `pbi_locality`.`host_network_bee` (`id`, `h_family`, `h_species`,`h_genus`,`i_family`,`i_tribe`,`i_genus`,`i_species`,`h_family_id`,`h_genus_id`,`h_species_id`,`i_family_id`, `i_tribe_id`, `i_genus_id`, `i_species_id`) VALUES (NULL, '$h_family', '$h_genus', '$h_species','$i_family', '$i_tribe', '$i_genus', '$i_species', '$h_family_id', '$h_genus_id','$h_species_id','$i_family_id', '$i_tribe_id', '$i_genus_id', '$i_species_id')";
 
 	mysqli_query($con,$sql_insert);
 }

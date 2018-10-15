@@ -1,0 +1,6059 @@
+Pinophylus stonedahli
+Megalopsallus flammeus
+Europiella pintoi
+Oligotylus schwartzi
+Plagiognathus phaceliae
+Plagiognathus polhemorum
+Megalopsallus femoralis
+Plagiognathus astericola
+Chlamydatus artemisiae
+Chlamydatus californicus
+Plagiognathus fenderi
+Plagiognathus piceicola
+Plagiognathus flavicornis
+Plagiognathus shepherdiae
+Megalopsallus sarcobati
+Megalopsallus knowltoni
+Plagiognathus urticae
+Chlamydatus montanus
+Adenostomocoris semiustus
+Maculamiris insulanus
+Quercophylus gonoporospinus
+Rubellomiris sparus
+Rubellomiris bispinosus
+Jornandes albipes
+Slaterocoris alpinus
+Cercocarpopsallus gracilis
+Bisulcopsallus polhemorum
+Campylomma novaki
+Chlorillus pictoides
+Ectagela punctata
+Eurycolpus bipunctatus
+Malacotes subris
+Megalocoleus matricariae
+Oncotylidea amplipilis
+Arizonapsallus stonedahli
+Ceratopsallus vauqueliniae
+Tinicephalus delamarei
+Tinicephalus nigropilosus
+Psallus sorbi
+Slaterocoris punctatus
+Chlamyopsallus lycii
+Pseudopsallus greggii
+Pseudopsallus tiquiliae
+Oaxacacoris schaffneri
+Pseudopsallus abroniae
+Daleapidea decorata
+Plesiodema gotohi
+Polyozus mina
+Polyozus manilla
+Polyozus tridens
+Polyozus bifurcata
+Coridromius punctatus
+Jornandes ceibae
+Jornandes lynnae
+Jornandes heliocarpusi
+Josephinus albicornis
+Exocarpocoris tantulus
+Jornandes cruralis
+Solenoxyphus kerzhneri
+Ficinus sagittarius
+Ancoraphylus carolus
+Ancoraphylus auski
+Ancoraphylus mariala
+Hypseloecus amyemicola
+Hypseloecus paramyemi
+Hypseloecus metamyemi
+Hypseloecus grossi
+Solenoxyphus nanophyti
+Mecomma pervinius
+Mecomma ruwenzoriense
+Solenoxyphus salsolae
+Solenoxyphus punctipennis
+Orthotylus aceris
+Orthotylus indigoferae
+Jornandes burserae
+Jornandes mimosae
+Hypseloecus visci
+Neoambonea slateri
+Europiella gilva
+Pilophorus clavicornis
+Pilophorus concolor
+Pilophorus floridanus
+Pilophorus setiger
+Atractotomus nicholi
+Coridromius neoguineanus
+Coridromius bulbopella
+Austropsallus drakensbergensis
+Austropsallus helichrysi
+Austropsallus senecionus
+Myrtlemiris russulatus
+Myrtlemiris silveirae
+Myrtlemiris agnew
+Orthotylus sidnicus
+Origonema splendida
+Campylomma tinctipennis
+Campylomma townesi
+Acrorrhinium pusae
+Campylomma rapae
+Campylomma rubrotincta
+Moissonia limbata
+Neisopsallus lutosus
+Harpocera atlantica
+Moissonia ampliata
+Opuna pilosula
+Decomia colae
+Agrametra aethiops
+Campylomma citrinella
+Campylomma subflava
+Campylomma longicornis
+Viscacoris tigris
+Campylomma collina
+Formicopsella regneri
+Hallodapus albofasciatus
+Orthotylus tafoensis
+Acrorrhinium drakensbergensis
+Acrorrhinium oudtshoornensis
+Pangania fasciatipennis
+Porphyrodema rhinoceros
+Dasymiris schoutedeni
+Kirkaldyella adunca
+Kirkaldyella argoantyx
+Kirkaldyella carotarhani
+Kirkaldyella notaurantia
+Kirkaldyella rugosa
+Eritingis agyiates
+Lopidella knighti
+Wallabicoris dicrastyli
+Wallabicoris ozothamni
+Wallabicoris waitzii
+Physatocheila biseriata
+Physatocheila suttoni
+Tanybyrsa secunda
+Wallabicoris pimelei
+Wallabicoris halganii
+Wallabicoris ellae
+Wallabicoris spyridiellus
+Wallabicoris trymalii
+Wallabicoris rhamnicola
+Wallabicoris pomaderri
+Oncophysa leai
+Lasiacantha serraseta
+Inoma innamincka
+Camptotylidea pallescens
+Camptotylidea lineata
+Camptotylidea bipunctata
+Camptotylidea candida
+Camptotylidea vitticollis
+Oncophysa vesiculata
+Hadronema breviatum
+Camptotylidea flavida
+Camptotylidea incarnata
+Atomophora nut
+Camptotylidea fuscomaculata
+Camptotylidea ephedrae
+Camptotylidea bucharica
+Camptotylidea eremobium
+Wallabicoris prostantheri
+Lasiacantha dysmikos
+Allocader sp
+Acrotelus caspicus
+Oncotylus affinis
+Engynoma immaculata
+Eritingis exalla
+Nasocoris platycranoides
+Nasocoris desertorum
+Nasocoris ephedrae
+Boopidocoris salsolae
+Pastocoris putonii
+Psallopsis caspia
+Phoenicocoris australis
+Psallopsis haloxyli
+Phoenicocoris modestus
+Stirophylus aristidae
+Psallopsis femoralis
+Phoenicocoris ponderosae
+Jornandes crotoni
+Jornandes tehuacanensis
+Jornandes zapotecas
+Pachyxyphus halimii
+Pachyxyphus cisti
+Thermocoris rivalis
+Tinicephalus rubiginosus
+Tinicephalus macciae
+Roudairea eckerleini
+Opisthotaenia striata
+Roudairea crassicornis
+Orectoderus cockerelli
+Megalocoleus krueperi
+Kasumiphylus ryukyuensis
+Megalocoleus chrysotrichus
+Tinicephalus flavopilosus
+Macrotylus bicolor
+Macrotylus lindbergi
+Omocoris unicolor
+Macrotylus dimidiatus
+Macrotylus bipunctatus
+Macrotylus josephinae
+Glaucopterum putshkovi
+Glaucopterum zygophylli
+Glaucopterum gobicum
+Harpocera hellenica
+Glaucopterum adspersum
+Yotvata picticornis
+Dasycapsus cunealis
+Pleuroxonotus longicornis
+Pseudophylus stundjuki
+Camptotylidea perirata
+Compsidolon nebulosum
+Compsidolon crotchi
+Compsidolon elegantulum
+Anonychiella eckerleini
+Compsidolon pseudocrotchi
+Parachlorillus spilotus
+Psallus michaili
+Psallus graminicola
+Psallus ulmi
+Psallus loginovae
+Psallus tonnaichanus
+Psallus siculus
+Psallus helenae
+Psallus aurora
+Psallus pardalis
+Psallus anaemicus
+Psallus luridus
+Psallus amoenus
+Psallus samdzijonicus
+Psallus bagjonicus
+Psallus tesongsanicus
+Psallus ocularis
+Psallus henschii
+Psallus dichrous
+Psallus lucanicus
+Psallus oleae
+Heterocapillus validicornis
+Dacota albipennis
+Atractotomus griseolus
+Larinocerus balius
+Coatonocapsus sweeti
+Malacotes abeillei
+Aphaenophyes richteri
+Malacotes phlomidis
+Camptozorus lactucae
+Halticus insularis
+Labopella claripennis
+Badezorus tomentosus
+Carvalhoisca michoacanus
+Carvalhoisca jacquiniae
+Atomoscelis galvagnii
+Atomoscelis noualhieri
+Psallus purshiae
+Maurodactylus albidus
+Slaterocoris argenteoides
+Choerocoris variegatus
+Austrotichus rugosus
+Moissonia punctata
+Campylomma lindbergi
+Widdringtoniola kirstenboschiana
+Moissonia cuneata
+Chorotingis sp
+Remaudiereana inornata
+Onymocoris izzardi
+Jiwarli exmaculae
+Restiophylus meeboldinae
+Nesidiorchestes pahulu
+Ceratocapsus lutescens
+Pachytomella passerinii
+Orthotylus acaciae
+Orthotylus zorensis
+Macrotylus syriacus
+Macrotylus tamerus
+Macrotylus interpositus
+Plagiognathus herbaalbae
+Marrubiocoris deserti
+Campylomma obscura
+Dichaetocoris juniperi
+Campylomma nigrifemur
+Compsidolon bipunctatum
+Compsidolon minutum
+Compsidolon hoggaricum
+Psallus brevicornis
+Tinicephalus rubropictus
+Megalocoleus fumanae
+Roudairea launaeae
+Tuponia mixticolor
+Campylomma simillima
+Sthenaropsis gobicus
+Sthenarus rotermundi
+Maurodactylus fulvus
+Maurodactylus semiustus
+Tarajala daphnidis
+Tarajala offrensis
+Sthenarus ehrenbergi
+Salicarus atlanticus
+Psallus cerridis
+Plesiodema oblonga
+Maurodactylus pictus
+Pronototropis brevirostris
+Ilnacora divisa
+Psallus apenninicus
+Acrotelus canariensis
+Labops utahensis
+Labops tumidifrons
+Felisacodes bryocorina
+Myrmecophyes oregonensis
+Salicarus halimodendri
+Psallodema kasja
+Tragiscocoris fieberi
+Stauralia chloracantha
+Orthotylus caprai
+Tuponia tibialis
+Orthotylus taxodii
+Orthotylus affinis
+Labopidea brooksi
+Pilophorus koreanus
+Stauralia compuncta
+Pherolepis aenescens
+Omphalonotus planus
+Omphalonotus quadriguttatus
+Alloeomimus unifasciatus
+Alloeomimus kurdus
+Systellonotus albofasciatus
+Pherolepis kiritshenkoi
+Myrmecophyes acutifrons
+Zanchius piperi
+Atractotomus jalisco
+Pilophorus banksianae
+Pilophorus vanduzeei
+Pilophorus utahensis
+Pilophorus jezzardi
+Pilophorus microsetosus
+Pilophorus merinoi
+Atractotomus polymorphae
+Atractotomus schaffneri
+Myrmecophyes trispiculus
+Parthenicus femoratus
+Parthenicus pictus
+Parthenicus incurvus
+Reuteroscopus abroniae
+Parthenicus giffardi
+Reuteroscopus antennatus
+Reuteroscopus complexus
+Reuteroscopus chillcotti
+Neoreuteroscopus carmelitanus
+Reuteroscopus dreisbachi
+Loulucoris kidoi
+Parthenicus cuneotinctus
+Dimorphocoris schmidti
+Dimorphocoris robustus
+Dimorphocoris bleusei
+Zanchiella ericae
+Orthocephalus scorzonerae
+Parthenicus atriplicis
+Parthenicus baccharidis
+Parthenicus boutelouae
+Parthenicus fuscosus
+Parthenicus johnstoni manuscript name
+Parthenicus nicholi
+Odoniellina unknown
+Dicyphus annulatus
+Dichaetocoris vanduzeei
+Paraproba pendula
+Orthocephalus proserpinae
+Orthocephalus medvedevi
+Orthotylus virens
+Sthenaridea vulgaris
+Orthotylus sicilianus
+Cyrtorhinus fulvus
+Dichaetocoris merinoi
+Falconia intermedia
+Falconia semirasa
+Falconiodes concolor
+Hyalochloria caviceps
+Orthotylus sophorae
+Orthotylus priesneri
+Lattinophylus artemisii
+Orthotylus callitris
+Orthotylus kogurjonicus
+Orthotylus blascoi
+Ceratocapsus sp#2
+Metopocoris magenta
+Sejanus novocaledonicus
+Zanchius alba
+Zanchius buddleiae
+Dicyphus tamaninii
+Laryngodus australiae
+Dicyphus constrictus
+Orthotylus divisus
+Orthotylus arabicus
+Orthotylus ceratoides
+Orthotylus bureschi
+Phylus nigriscapus
+Hyoidellus verticatus
+Paraproba burkei
+Orthotylus pallens
+Orthotylus boydi
+Paraproba fasciata
+Parthenicus brunneus
+Parthenicus tenuis
+Platycranus eckerleini
+Saileria compsus
+Reuteria wheeleri
+Ceratocapsus aurantiacus
+Ceratocapsus bifurcus
+Reuteria aceris
+Wallabicoris olearii
+Cornaus callosus
+Pilophoropsis quercicola
+Pilophoropsita carvalhoi
+Mecomma dispar
+Zanchisme inermis
+Dryophilocoris persimilis
+Dryophilocoris lucidus
+Dryophilocoris miyamotoi
+Cyllecoris equestris
+Hyoidea lindbergi
+Ausejanus neboissi
+Pseudoloxops guttulatus
+Pseudoloxops miyamotoi
+Hypsitylus prasinus
+Jobertus chryselectrus
+Platycranus jurineae
+Strongylocoris raimondoi
+Rhinacloa insularis
+Dampierella schwartzi
+Pseudosthenarus meridionalis
+Heterocordylus genistae
+Pachytomella doriae
+Halticus major
+Chinaola quercicola
+Macrotylus salviae
+Plagiognathus flavus
+Plagiognathus pini
+Protemiris isopogoni
+Protemiris adenanthi
+Moiseevichia pericarti
+Lopidea intermedia
+Orthotylus hedyotiodes
+Paralaemocoris anabaseus
+Agraptocoris nigrisetosus
+Macrotylus essigi
+Macrotylus polymonii
+Ausejanus iris
+Schuhistes lekkersingia
+Collessicoris bellissimus
+Karoocapsus trifasciatus
+Melaleucoides annae
+Melaleucoides cassisi
+Melaleucoides beaufortiae
+Melaleucoides brevifoliae
+Melaleucoides ozzii
+Mcateella exocarposa
+Melaleuca sp 50
+Melaleuca sp 114
+Melaleuca sp 189
+Melaleuca sp 44
+Melaleuca sp 239
+Melaleuca sp 40
+Melaleucoides micranthae
+Melaleucoides undulatae
+Melaleucoides castanea
+Ceratocapsus juglandis
+Izyacapsus rubrocuneatus
+Lasiacantha discordis
+Ampimpacoris flourensii
+Keltonia wheeleri
+Phytocoris junceus
+Phytocoris sulcatus
+Phytocoris uniformis
+Cariniocoris ilicis
+Thryptomenomiris yalgoo
+Harpagophylus thryptomeni
+Harpagophylus agnew
+Harpagophylus calytrix
+Harpagophylus scholtzii
+Lasiacantha pilbara
+Micromimetus saipanensis
+Mcateella kwoki
+Felisacus dauloi
+Felisacus nigrescens
+Leucophoroptera cavenda
+Biromiris scheyville
+Pilophoropsis cunealis
+Tiryus punctulatus
+Blesingia grandis
+Ausejanus schwartzi
+Ausejanus bournda
+Sejanus fasciatus
+Psallus confusus
+Psallus perrisi
+Apiomerus lanipes
+Austrodapus nsp queensland
+Pseudatomoscelis flora
+Compsidolon schrenkianum
+Epimixia nigriceps
+Orthotylus tantali
+Orthotylus pisoniae
+Orthotylus pisoniopsis
+Orthotylus pisonioides
+Orthotylus hedyoti
+Orthotylus hedyotiopsis
+Orthotylus hedyotiella
+Orthotylus hedyotivorus
+Orthotylus hedyotiphila
+Orthotylus psychotriae
+Orthotylus psychotrioides
+Orthotylus psychotricola
+Orthotylus neopsychotriae
+Orthotylus neopsychotriodies
+Orthotylus coprosmae
+Orthotylus coprosmoides
+Orthotylus coprosmopsis
+Orthotylus coprosmicola
+Orthotylus coprosmaphila
+Orthotylus neocoprosmae
+Orthotylus kara
+Orthotylus kopiko
+Orthotylus ilicis
+Orthotylus neoilicis
+Orthotylus clermontiae
+Orthotylus clermontioides
+Orthotylus clermontiella
+Orthotylus urericola
+Orthotylus ureraphila
+Orthotylus pipturi
+Orthotylus pipturoides
+Orthotylus xylosmae
+Orthotylus xylosmoides
+Orthotylus diospyri
+Orthotylus diospyropsis
+Orthotylus diospyroides
+Orthotylus hibisci
+Orthotylus metrosideri
+Orthotylus pilo
+Orthotylus sophoroides
+Orthotylus perrottetiopsis
+Orthotylus antidesmae
+Orthotylus melicopi
+Europiella alpina
+Dichrooscytus kerzhneri
+Tytthus fuscicornis
+Daerlac apicalis
+Tytthus piceus
+Johnstonsonius phalarosus
+Xiphoides luteolus
+Xiphoides multicolor
+Xiphoides regis
+Porpomiris curtulus
+Lasiacantha nipha
+Kelisia torquata
+Kelisia vesiculata
+Bakerella muscotana
+Syndelphax floridae
+Platycranus longicornis
+Delphacodes penepuella
+Platycranus pictus
+Trigonotylus schuhi
+Heterocapillus pici
+Heterocapillus nitidus
+Nothodelphax venusta
+Cyrtolobus oblongatus
+Sahlbergella singularis
+Chamus tuberculatus
+Lycidocoris thoracicus
+Pissonotus basalis
+Afropeltis corbisieri
+Nethersia nigra
+unknown unknown
+Lygus oregonae
+Platycranus erberi
+Platycranus wagneri
+Filicicoris meyeri
+Platycranus alkestis
+Platycranus rumelicus
+Platycranus boreae
+Platycranus minutus
+Platycranus jordanicus
+Platycranus remanei
+Trigonotylus slateri
+Euander lacertosus
+Udeocoris scudderi
+Prodromus thaliae
+Mircarvalhoia arecae
+Yangambia macarangae
+Villiersicoris sessensis
+Platyngomiris coreoides
+Palaucoris novaguineae
+Coridromius norfolkensis
+Stenozygum miniatulum
+Lasiacantha adamah
+Lasiacantha ningaloo
+Lasiacantha caneriverensis
+Ooldeon maculipes
+Lasiacantha meedo
+Avicenna aggressor
+Novatilla virgata
+Montrouzieriellus turneri
+Pissonotus dorsalis
+Nilaparvata wolcotti
+Penepissonotus bicolor
+Ribautodelphax pusilla
+Bromocoris souefi
+Guayaquila minuta
+Ommatodema leanum
+Stenotus witchelina
+Stenotus subglaucus
+Nesiomiris contortus
+Nesiomiris curvatus
+Nesiomiris beardsleyi
+Nesiomiris byroniae
+Nesiomiris bifurcatus
+Nesiomiris curvipes
+Capsus cinctus
+Cixidia shoshone
+Agramma vulturnum
+Nesiomiris ehu
+Filicicoris tatarnici
+Bolteria nevadensis
+Phylloscelis pallescens
+Cedusa gedusa
+Stobaera pallida
+Lygus gemellatus
+Lygus atritibialis
+Nesiomiris ilicivorus
+Neocapsus fasciativentris
+Nesiomiris kauilamahu
+Nesiomiris lihuensis
+Sogatella molina
+Dagbertus semipictus
+Phytocoris adenostomae
+Phytocoris electilis
+Delphacodes lutulenta
+Neolygus belfragii
+Deraeocoris punctum
+Neolygus contaminatus
+Furcilliger comptus
+Lygidea rubecula
+Lygus pratensis
+Synecdoche constellata
+Phytocoris roseipennis
+Phytocoris rubrimaculatus
+Cixius angustatus
+Nesiomiris mauiensis
+Akemetopon inornatum
+Phytocoris rufoscriptus
+Lygus rufidorsus
+Cedoaphis maxsoni
+Chorotingis indigena
+Illinoia (Illinoia) brevitarsis
+Nesiomiris nr. lapalapa or kauilamahu
+Nesiomiris lapalapa
+Nesiomiris legnotus
+Nesiomiris limitatus
+Nesiomiris ohe
+Nesiomiris olapa
+Nesiomiris pallasatus
+Cremnocephalus alpestris
+Cyrtopeltis modesta
+Cyrtopeltis notata
+Amphorophora urtica
+Pentagramma vittatifrons
+Aphidounguis mali
+Pycnoderes quadrimaculatus
+Sixeonotus albicornis
+Aetalion nervosopunctatum
+Banasa rolstoni
+Banasa tumidifrons
+Hypseloecus schuhi
+Tibicen bifidus
+Neaethus bicornis
+Eritingis amoena
+Pineus (Pineus) unknown
+Asiphonella dactylonii
+Orgerius ventosus
+Posidus maculiventris
+Aridia compressa
+Orgerius foliatus
+Phytocoris aesculinus
+Phytocoris albellus
+Phytocoris albidopictus
+Podisus acutissimus
+Phytocoris albifrons
+Phytocoris arizonensis
+Phytocoris americanus
+Phytocoris acaciae
+Grandolobus grandis
+Heliria gibberata
+Nesiomiris parasinuatus
+Carynota marmorata
+Nesiomiris restrictus
+Nesiomiris rufonotus
+Magicicada tredecim
+Sthenaropsidea mcateei
+Nesiomiris seminotatus
+Okanagana synodica
+Okanagana fumipennis
+Okanagana gibbera
+Okanagana occidentalis
+Hypsoprora nogolata
+Nesiomiris sinuatus
+Platycentrus brevicornis
+Nesiomiris swezeyi
+Inonemia mussiva
+Adelphocoris vandalicus
+Thelia uhleri
+Dionconotus cruentatus
+Autumnimiris koebelei
+Autumnimiris roseus
+Megamelanus bicolor
+Filicicoris rubramaculus
+Tylopelta gibbera
+Acaciacapsus bournda
+Acaciacapsus lolworthensis
+Telamona dubiosa
+Psammotettix dentatus
+Psammotettix greenei
+Bajulata bajula
+Tangia breviceps
+Paraproba sallei
+Leptoypha anceps
+Taedia deletica
+Atomoscelis modestus
+Diaspis toumeyi
+Polymerus elegans
+Cyrtopeltis tenuis
+Delphacodes compta
+Prosapia ignipectus
+Fitchiella rufipes
+Monelliopsis tuberculata
+Myzocallis (Myzocallis) ulmifoliae
+Brachyunguis letrapteralis
+Keyflana hasta
+Cyrpoptus reineckei
+Apachemiris minor
+Megamelus lobatus
+Stictocephala alta
+Myzocallis (Lineomyzocallis) meridionalis
+Tuberculatus (Pacificallis) kiowanicus
+Acanalonia similis
+Acanalonia invenusta
+Phymata arctostaphylae
+Oeclidius nanus
+Pterocallis rhombifoliae
+Tuberculatus (Tuberculatus) querceus
+Bostaera nasuta
+Eurybregma montana
+Delphacodes latidens
+Oncocephalus nubilus
+Liburnia pseudoseminigra
+Cerataphis brasiliensis
+Bothynotus pilosus
+Iziphya flabella
+Opuna hawaiiensis
+Phymata sp 2
+Carynota stupida
+Phymata sp 6
+Thripsaphis (Trichocallis) producta
+Pseudoloxops n sp 3
+Pseudoloxops n sp 4
+Lachnochaitophorus querceus
+Stictocephala palmeri
+Spissistilus femoratus
+Menecles insertus
+Acyrthosiphon (Acyrthosiphon) pseudodirhodum
+Cinara (Cinara) thatcheri
+Utamphorophora commelinensis
+Amphorophora rubicumberlandi
+Braggia agathona
+Aphis (Aphis) apigraveolens
+Anoecia graminis
+Anuraphis subterranea
+Cinara (Cinara) curtihirsuta
+Aphis (Aphis) astericola
+Aphis (Aphis) araliaeradicis
+Perkinsiella saccharicida
+Uroleucon (Uroleucon) atripes
+Schizaphis (Schizaphis) viridirubra
+Corythucha eriodictyonae
+Podisus modestus
+Aphis (Aphis) veratri
+Aphis (Aphis) cercocarpi
+Diuraphis (Diuraphis) noxia
+Corythucha distincta
+Corythucha immaculata
+Gargaphia albescens
+Gargaphia arizonica
+Aphis (Aphis) cuscutae
+Leptodictya plana
+Aphis (Aphis) euonymi
+Gargaphia iridescens
+Dichrooscytus minutus
+Dichrooscytus mexicanus
+Phymacysta tumida
+Dichrooscytus rufusculus
+Aphis (Aphis) epilobii
+Aphis (Zyxaphis) oregonensis
+Negosiana miliaris
+Ponana (Ponana) pectoralis
+Rhopalosiphum solani
+Ponana (Ponana) puncticollis
+Ponana (Ponana) scarlatina
+Clastoptera hyperici
+Aphis (Aphis) idaei
+Aphis (Aphis) ilicis
+Clastoptera proteus
+Stittocapsus mexicanus
+Aphis (Aphis) neilliae
+Catorhintha guttula
+Ceraleptus pacificus
+Taedia virgulata
+Aphis (Aphis) pawneepae
+Paradacerla formicina
+Cedusa bedusa
+Otiocerus coquebertii var. rubidus
+Chelinidea tabulata
+Aphis (Aphis) ramona
+Chlorotettix (Chlorotettix) excultus
+Nasonovia (Kakimia) muesebecki
+Aphis (Aphis) hiltoni
+Chaetofoveolocoris parsoni
+Aphis (Aphis) laciniariae
+Polymerus cognatus
+Dichrooscytus lagopinus
+Prepops confraternus
+Prepops erimicola
+Parathyginus kurandae
+Pseudoloxops rubromarginatus
+Scolopocerus secundarius
+Chlorocoris distinctus
+Ericaphis lilii
+Scolopocerus uhleri
+Tropidosteptes vittiscutis
+Polymerus rostratus
+Bolteria atricornis
+Bolteria mexicana
+Bolteria scutata
+Bolteria scutellata
+Okanagana cruentifera
+Phytocoris borregoi
+Colladonus januatus
+Phytocoris confluens/puella complex
+Caenodelphax nigriscutellata
+Monelliopsis pallida
+Euschistus emoorei
+Nesiomiris trifurcatus
+Nesiomiris uncinatus
+Mimoceps insignis
+Nesiomiris nr. waimeae
+Nesiomiris williamsi
+Polymerus wheeleri
+Phytocoris coronadoi
+Deraeocoris nr. albigulus
+Phytocoris cunealis
+Oecleus venosus
+Tylanira ustulata
+Dyctidea valida
+Rhynchomitra recurva
+Anotia bonnetii
+Uroleucon nigrotibius
+Phytocoris hualapai
+Repipta taurus
+Synecdoche dimidiata
+Bruchomorpha minima
+Deraeocoris stilipsis
+Euschistus strenuus
+Rhopalosiphum subterraneum
+Phytocoris mirus
+Gardena elkinsi
+Phytocoris lycii
+Graminella virginiana
+Laevicephalus sylvestris
+Cuspicona apothoracica
+Panaetius trabifer
+Rhopalosiphum nr. scirpifolii
+Ptilocnemus femoralis
+Alcaeus sp
+Tylocryptus eugenus
+Betulaphis quadrituberculata
+Baizongia pistaciae
+Oncopeltus quadriguttatus
+Dichrooscytus sequoiae
+Coatonocapsus pallidus
+Brachycaudus (Acaudus) lychnidis
+Phytocoris populi
+Phytocoris maritimus
+Cavariella aquatica
+Deraeocoris schuhi
+Darwinocoris australicus
+Embolophora monoceros
+Norvellina chenopodii
+Ceratovacuna nekoashi
+Calaphis nanae
+Myzocallis (Myzocallis) castaneoides
+Phytocoris schwartzi
+Myzus (Nectarosiphon) ajugae
+Cyarda sordida
+Phytocoris shoshoni
+Phytocoris tobrendae
+Phytocoris torridus
+Scaphoideus (Scaphoideus) tergatus
+Phytocoris quadriannulipes
+Cinara (Cinara) fresai
+Cinara (Cinara) glabra
+Cinara (Cinara) harmonia
+Cinara (Cinara) parvicornis
+Cinara (Cinara) taedae
+Spilostethus pacificus
+Thaumastocoris peregrinus
+Germalus kurandae
+Germalus lineolosus
+Cumare pallida
+Stylogeocoris maculatus
+Phytocoris tricinctipes
+Mormidea discoidea
+Phytocoris umbrosus
+Chaetosiphon jacobi
+Chaetosiphon thomasi
+Phytocoris usingeri
+Drepanaphis minuta
+Diuraphis (Holcaphis) frequens
+Diuraphis (Holcaphis) tritici
+Drepanaphis saccharini
+Nilaparvata lugens
+Phytocoris reticulatus
+Durocapillata utahensis
+Prokelisia crocea
+Cyrtopeltis bakeri
+Austrocapsus antennatus
+Opistostenus vulturnus
+Ontiscus obscurus
+Padaeus trivittatus
+Sanctanus (Sanctanus) fasciatus
+Ocirrhoe unimaculata
+Ocirrhoe australis
+Mycoolona atricornis
+Dictyotus roei
+Deraeocoris alnicola
+Scolopygos pallida
+Leioscyta bituberculata
+Melanerythrus biguttatus
+Magicicada cassinii
+Macrosiphum (Macrosiphum) solanifolii
+Setocoris bybliphilus
+Myzocallis (Myzocallis) tiliae (l.)
+Glyphina setosa
+Irbisia nigripes
+Hyperomyzus (Hyperomyzus) lampsanae
+Pissonotus guttatus
+Ceratocapsus drakei
+Illinoia (Illinoia) goldamaryae
+Pissonotus nitens
+Ittolemma micula
+Ittolemma credo
+Linosiphon sanguinarium
+Myzocallis (Lineomyzocallis) ephemerata
+Macrosiphum (Macrosiphum) agrimoniellum
+Cinara (Cinara) alacra
+Lopidea caesar
+Deraeocoris vanduzeei
+Macrosiphoniella millefolii
+Cinara (Cinara) caliente
+Neopeplus trianai
+Arhyssus parvicornis
+Stenozygum meridionale
+Ocirrhoe lutescens
+Leptocoris mitellatus
+Malandiola minys
+Campyloneuropsis annulatus
+Mutusca brevicornis
+Singhalesia tenuissima
+Capyella lobulata
+Cardiastethus aridimpressus
+Amorbus abdominalis
+Cuspicona simplex
+Termatophylum ochraceum
+Kundakimuka carvalhoi
+Phylloxera popularia
+Lopidea major
+Brentiscerus sp
+Ocirrhoe prasinata
+Baclozygum bergrothi
+Cinara (Cinara) hirsuta
+Cinara (Cinara) hirticula
+Cinara (Cinara) inscripta
+Cinara (Cinara) nimbata
+Cinara (Cinara) nitidula
+Dicyphus orientalis
+Poecilometis horni
+Blissus mixtus
+Mindarus victoria
+Myzocallis (Lineomyzocallis) exultans
+Myzocallis (Lineomyzocallis) pepperi
+Tropidosteptes tricolor
+Delphacodes quadrispinosa
+Delphacodes andromeda
+Spermatodes australis
+Ippatha sp
+Halticotoma nicholi
+Woodwardiola antennata
+Mozena arizonensis
+Ormenaria rufifascia
+Pseudocymus giffardi
+Hiarchas angularis
+Anischys lundbecki
+Diplazicoris lombokianus
+Hekista laudator
+Nasonovia (Kakimia) carolinensis
+Nasonovia (Kakimia) smithi
+Pappus andrei
+Pappus grandis
+Myzus (Myzus) oenotherae
+Pappus knighti
+Pappus scutellatus
+Uroleucon (Lambersius) richardsi
+Antillocoris spp.
+Tupiocoris similis
+Valtissius spp.
+Cinara (Cinara) oregoni
+Cinara (Cinara) pinicola
+Tinocallis zelkowae
+Uroleucon (Uroleucon) adenocaulonae
+Blissus arenarius
+Aleurodicus araujoi
+Phytocoris bituberis
+Aleurodicus cocois
+Phytocoris nigrisquamus
+Schoutedenia ralumensis
+Protopterocallis gigantea
+Cixius coloepeum
+Protopterocallis quadrata
+Cinara (Cinara) rubicunda
+Cinara (Cinara) saccharinipini
+Cyrtopeltocoris pronotusus #12
+Thasus neocalifornicus
+Podisus fretus
+Cinara (Cinara) sitchensis
+Cinara (Cinara) terminalis
+Sitobion (Sitobion) manitobense
+Pygospina spinata
+Rhopalosiphum nymphaeae
+Aleurodicus maritimus
+Macrosiphoniella (Macrosiphoniella) millefolii
+Uroleucon (Lambersius) tenuitarsum
+Pemphigus alnifoliae
+Cinara (Cinara) laricifex
+Amnestus spinifrons
+Essigella (Essigella) essigi
+Protaphis knowltoni
+Myzodium mimulicola
+Macrosiphum (Macrosiphum) diervillae
+Unknown unknown
+Aleurodicus rugioperculatus
+Aleuronudus manni
+Azuraleurodicus pentarthus
+Ceraleurodicus varus
+Dialeurodicus caballeroi
+Dialeurodicus tessellatus
+Eudialeurodicus bodkini
+Metaleurodicus bahiensis
+Toropa ferrifera
+Metaleurodicus variporus
+Nealeurodicus moreirai
+Nealeurodicus petiolaris
+Octaleurodicus nitidus
+Haplaxius pictifrons
+Paraleyrodes ancora
+Eurychilopterella barberi
+Keltonia rubrofemorata
+Aleurocanthus calophyllii
+Cinara (Cinara) wahhaca
+Cinara (Cinara) wahluca
+Cinara (Cinara) wahtolca
+Tetyra bipunctata
+Aleurocanthus lauriphaga
+Aleurocanthus longispinus
+Lappida tumidifrons
+Polymerus balli
+Idiocerus (Populicerus) cognatus
+Aleurochiton acerinus
+Aleurochiton aceris
+Ligyrocoris diffusus
+Aleurochiton pseudoplatani
+Scolops flavidus
+Aleuroclava euryae
+Aleuroclava murrayae
+Aleuroclava psidii
+Stenodema pilosipes
+Phylloscelis rubra
+Orthotylus empetri
+Aleurocyperus humus
+Scolops viridis
+Stenodema vicinum
+Aleurolobus osmanthi
+Aleurolobus philippinensis
+Aleurolobus scolopiae
+Tuxenella tibionigra
+Cnemodus mavortius
+Aleuromarginatus bauhinae
+Lineatopsallus slateri
+Okanagana nigriviridis
+Heraeus plebejus
+Sparnia praecellens
+Dicyphus gracilentus
+Aleuroplatus plumosus
+Aleuroplatus vaccinii
+Aleuropleurocelus laingi
+Aleuropleurocelus hyptisemoryi
+Nysius angustatus
+Membracis mexicana
+Dysaphis (Dysaphis) angelicae
+Stobaera affinis
+Balclutha punctata
+Mordwilkoja vesicalis
+Graminella oquaka
+Ericaphis ericae
+Aleurothrixus aepim
+Idiocerus (Populicerus) delongi
+Nothodelphax occlusa
+Amphaces major
+Parkana alata
+Plagiognathus geminatus
+Plagiognathus gleditsiae
+Prepops fraterculus
+Aleurotrachelus anonae
+Aleurotrachelus granosus
+Agallia novella
+Paraphlepsius (Strephonius) dentatus
+Aleurotulus nephrolepidis
+Megalonotus sabulicola
+Corimelaena cognata
+Corimelaena incognita
+Balclutha impicta
+Macropsis apicalis
+Peritrechus paludemaris
+Stobaera muiri
+Aleyrodes osmaroniae
+Eupolemus maculicollis
+Eupolemus picturatus
+Eupolemus marginatus
+Orthaea nigriceps
+Elasmostethus emeritus
+Deltocephalus sayii
+Prytanes confusus
+Galgupha ovalis
+Acalypta lillianis
+Atheas austroriparius
+Corythucha aesculi
+Chlorotettix (Chlorotettix) lusorius
+Lopidea wileyi
+Athysanella (Gladionura) contracta
+Athysanella (Gladionura) curtipennis
+Athysanella (Gladionura) emarginata
+Ballana (Viriosana) hebea
+Sarona akoko
+Agallia pumila
+Sarona dakine
+Sarona flavidorsum
+Sarona gagnei
+Athysanella (Amphipyga) obesa
+Athysanella (Pedumella) recurvata
+Sarona haleakala
+Sarona kaala
+Sarona kanaka
+Corythucha celtidis
+Sarona laka
+Macrocephalus spiculissimus
+Eratoneura accola
+Eratoneura aculeata
+Eratoneura anseri
+Sarona myoporicola
+Sarona oloa
+Lygus potentillae
+Eratoneura bella
+Lygus unctuosus
+Asterochiton simplex
+Bemisaleyrodes pauliani
+Melaleuca sp 251
+Flabellomicrosiphum knowltoni
+Melaleuca sp 75
+Eratoneura confirmata
+Stictocephala brevicornis
+Eratoneura delongi
+Eratoneura distincta
+Eratoneura eversi
+Eratoneura forfex
+Empoa (Empoa) casta
+Empoa (Empoa) querci
+Empoa (Empoa) rubricola
+Melanorhopala infuscata
+Bemisia flocculosa
+Melaleuca sp 117
+Melaleuca sp 240
+Bemisia pongamiae
+Eratoneura guicei
+Eratoneura hartii
+Eratoneura haysensis
+Corimelaena nigra
+Colladonus intricatus
+Carolinaia (Glabromyzus) schlingeri
+Glendenningia philadelphi
+Ferrisia claviseta
+Eratoneura immota
+Teleonemia cylindricornis
+Eratoneura interna
+Eratoneura knighti
+Dicyphus vestitus
+Melaleuca sp 254
+Melaleuca sp 38
+Chorizococcus shaferi
+Lopidea nicholella
+Cyrtopeltis kahakai
+Pycnoderes convexicollis
+Euscelis ohausi
+Flatoidinus scabrosus
+Eratoneura opulenta
+Eratoneura penesica
+Eratoneura phellos
+Eratoneura propria
+Eratoneura pyra
+Eratoneura teshi
+Eratoneura torella
+Eratoneura tenuitas
+Exortus fuscomaculosus
+Colladonus tessellatus
+Colladonus truncatus
+Engytatus phyllostegiae
+Eratoneura tantilla
+Eratoneura rostrata
+Eratoneura retusa
+Eratoneura unica
+Eratoneura trivittata
+Erythridula cauta
+Sixeonotus insignis
+Erythridula lawsoniana
+Erythroneura calycula
+Aspidiotus comstocki
+Deraeocoris appalachianus
+Agalliopsis (Agallaria) minor
+Hyalopeplus pellucidus
+Deraeocoris pinicola
+Deraeocoris ruber
+Stobaera azteca
+Psammotettix striatus
+Bulgarialeurodes cotesii
+Neolygus viburni
+Erythroneura diva
+Crescentaleyrodes vetiveriae
+Barberiella formicoides
+Phytocoris diversus
+Tumidagena propinqua
+Ribautodelphax albostriata
+Macropsis aurifera
+Macrosteles severini
+Koebelia californica
+Agonoscelis puberula
+Arvelius albopunctatus
+Dialeurodes nr decaspermi
+Monalonion dissimulatum
+Dialeurodes hongkongensis
+Psammotettix alienus
+Psammotettix attenuens
+Dialeurodes ixorae
+Helopeltis pellucida
+Dialeurodes sepangensis
+Tetraphleps furvus
+Dialeuropora spp.
+Oncopsis tenuifoliae
+Lipaleyrodes breyniae
+Lipaleyrodes emiliae
+Massilieurodes fici
+Massilieurodes formosensis
+Massilieurodes sakaki
+Gadigaleyrodes froggatti
+Mixaleyrodes polystichi
+Neocoelidia lineata
+Muirodelphax aubei
+Spangbergiella mexicana
+Spathanus acuminatus
+Corimelaena obscura
+Megamelus metzaria
+Rosenus obliquus
+Galgupha denudata
+Stenocranus (Codex) dorsalis
+Pealius kankoensis
+Orthotylus whiteheadi
+Maraenaspis funebris
+Orthotylus stanleyaea
+Aphrania elongata
+Aphrania vishnou
+Scaphytopius (Cloanthanus) spicatus
+Pealius liquidambari
+Pealius machili
+Neolygus invitus
+Conomelus anceps
+Pealius polygoni
+Pealius quercus
+Rhachisphora trilobitoides
+Oaxacacoris pueblensis
+Iphicrates sp
+Nabis koelensis
+Neolygus aesculi
+Microvelia vagans
+Cacodmus burmanus
+Cacodmus bambusicola
+Orthotylus aesculicola
+Balcanocerus provancheri
+Rutaleyrodes atalantiae
+Singhiella bicolor
+Carneocephala triguttata nottingham
+Singhiella nr pallida
+Neolygus neglectus
+Nabis nubigensu
+Phytocoris arundinicola
+Carsonus aridus
+Stragania grandis
+Stragania turgida
+Felisacus javanus
+Felisacus longiceps
+Idiocerus (Populicerus) lunaris
+Ragwelellus indonesicus
+Aphrodes bicincta
+Cacodmus tunetanus
+Hormaphis betulae
+Phytocoris junipericola
+Coccus mangiferae
+Phytocoris depictus
+Saldula exulans
+Parthenicus obsoletus
+Muirodelphax unda
+Lepidosaphes citricola
+Errhomus (Erronus) variabilis
+Phenacoccus citri
+Phenacoccus comstocki
+Phenacoccus nipae
+Phymata crassipes
+Dysmicoccus difficilis
+Ceratocapsus geminatus
+Polymerus nigropallidus
+Tetraleurodes oplismeni
+Tetraleurodes perseae
+Phenacoccus cupressicola
+Phenacoccus acericola
+Tetraleurodes quadratus
+Polymerus proximus
+Tetralicia ericae
+Neokolla (Grapheocephala syn.) dolobrata
+Saldula kauaiensis
+Trialeurodes euphorbiae
+Taedia gleditsiae
+Norvellina clarivida
+Lystridea frazieri
+Texananus (Texananus) graphicus
+Exortus punctiferus
+Peregrinus maidis
+Amycle pinyonae
+Multareoides planifrons
+Trialeurodes spp.
+Twiningia pellucida
+Barce werneri
+Tropidosteptes glaber
+Oxycarenus sp
+Dinomachus sp
+Malcus sp
+Cryptorhamphus sp
+Pneustocerus pluto
+Cimex antennatus
+Cimex brevis
+Cixidia colorata
+Blissiella castanea
+Cimex cavernicola
+Cimex japonicus
+Ossiannilssonola antigone
+Ossiannilssonola knulli
+Ossiannilssonola berenice
+Nasonovia (Kakimia) collomiae
+Parabolocratus flavidus
+Nasonovia (Kakimia) takala
+Cimex pipistrelli
+Kalania hawaiiensis
+Kamehameha lunalilo
+Cimex stadleri
+Eriococcus kemptoni
+Momar maculifrons
+Teleonemia belfragii
+Henrylygus ultranubilus
+Leprechaunus cristatus
+Palaeolecanium bituberculatum
+Kermes arizonensis
+Uroleucon (Uroleucon) maximilianicola
+Zelenius orientalis
+Choerocoris paganus
+Lachnus allegheniensis
+Cimex lectularius
+Uroleucon (Uromelan) parvotuberculatum
+Corythucha padi
+Empicoris errabundus
+Lindbergocapsus allii
+Acyrthosiphon (Acyrthosiphon) macrosiphum
+Dysdercus andreae
+Erythroneura aza
+Corythucha floridana
+Neseis (Leionysius) pallidus
+Uroleucon (Lambersius) zymozionense
+Macrosiphoniella cinerescens
+Corythaica carinata
+Macrosiphoniella pennsylvanica
+Neseis (Trachynysius) silvestris
+Cimexopsis nyctalis
+Hesperocimex cochimiensis
+Ceratocapsus nigrocephalus
+Melanaspis deliquescens
+Hesperocimex sonorensis
+Crophius bohemani
+Uroleucon (Lambersius) stoetzelae
+Uroleucon (Lambersius) suzannae
+Aleuroplatus magnoliae
+Lepidosallus miniatus
+Latrocimex spectans
+Clavaspis coursetiae
+Gastrodes conicola
+Macrosiphum (Macrosiphum) cockerelli
+Leptocimex duplicatus
+Leptocoris trivittatus
+Stictocephala inermis
+Pleotrichophorus sporadicus
+Pleotrichophorus tetradymiae
+Gastrodes pacificus
+Euschistus crenator
+Heliria cornutula
+Ademula ghanaensis
+Uroleucon (Lambersius) carberriense
+Uroleucon (Satula) brachychaetum
+Trialeurodes diminutis
+Haliaspis asymmetrica
+Harmostes fraterculus
+Bemisia capitata
+Bemisia porteri
+Oncopsis nigrinasi
+Dichrooscytus intermedius
+Garganus splendidus
+Loxaspis spinosa
+Kleidocerys ovalis
+Acutaspis albopicta
+Acutaspis reniformis
+Acutaspis tingi
+Vanduzea laeta
+Metriorrhynchomiris fallax
+Acutaspis umbonifera
+Malezonotus angustatus
+Phytocoris brooksi
+Aonidiella marginipora
+Diaspidiotus braunschvigi
+Aspidaspis florenciae
+Lygaeus belfragei
+Thecabius (Parathecabius) gravicornis
+Andaspis leucophleae
+Solenoxyphus kazakhstanicus
+Heliria molaris
+Heliria praealta
+Eratoneura adunca
+Epidiaspis tillandsiae
+Paracimex africanus
+Cyrtopeltocoris albofasciatus #7
+Chortinaspis chortina
+Chortinaspis subchortina
+Eratoneura emquu
+Heliria sinuata
+Pangaeus congruus
+Eratoneura externa
+Eratoneura flexibilis
+Eratoneura igella
+Erythroneura inepta
+Eratoneura lenta
+Diaspidiotus bumeliae
+Diaspidiotus caryae
+Eratoneura linea
+Trichosiphonaphis polygoni
+Ligyrocoris spp.
+Lygaeospilus pusio
+Lygaeus spp.
+Eratoneura lunata
+Diaspidiotus crescentiae
+Eratoneura maculata
+Macrosiphum (Macrosiphum) vandenboschi
+Macrosiphum (Macrosiphum) raysmithi
+Eratoneura maga
+Aulacaspis tubercularis
+Eratoneura ballista
+Eratoneura marilandicae
+Eratoneura direpta
+Uroleucon (Uroleucon) deltense
+Uroleucon (Uroleucon) elephantopicola
+Diaspidiotus hunteri
+Paracimex capitatus
+Dikraneura (Dikraneura) mali
+Ribautiana unca
+Furcaspis biformis
+Hemiberlesia gliwicensis
+Abgrallaspis ithacae
+Psitticimex uritui
+Uroleucon (Uroleucon) coloradensis
+Eratoneura metopia
+Abgrallaspis liriodendri
+Eratoneura mira
+Lindingaspis floridana
+Sthenarus mcateei
+Melanaspis bromiliae
+Eratoneura comoides
+Banasa sordida
+Stricticimex brevispinosus
+Eratoneura omani
+Eratoneura osborni
+Macrosiphum (Macrosiphum) tolmiea
+Eratoneura pamelae
+Eratoneura dimidiata
+Rhopalosiphum parvae
+Chlorochroa rossiana
+Synxenoderus comosus
+Erythridula lyratae
+Erythridula magnacalx
+Usingerella simplex
+Haematosiphon inodorus
+Ceratagallia (Aceratagallia) arida
+Eratoneura sorota
+Eratoneura staminea
+Uroleucon (Uroleucon) ivae
+Eratoneura stephensoni
+Eratoneura stoveri
+Eratoneura tammina
+Eratoneura tersa
+Uroleucon (Uromelan) nigrocampanulae
+Delphiniobium canadense
+Parthenicus rubropunctipes
+Acinopterus dulchellus
+Malandiola syscena
+Ancepaspis edentata
+Nasonovia (Kakimia) vockerothi
+Americodema knighti
+Cariniocoris nyssae
+Aonidomytilus incisus
+Aonidomytilus sabatius
+Aulacaspis alisiana
+Aulacaspis yasumatsui
+Carulaspis giffardi
+Acinopterus obtutus
+Flatormenis panamensis
+Telamonanthe turbinella
+Columbisoga gyneriicola
+Chionaspis lintneri
+Aradus heidemanni
+Afropeltis lalandei
+Helopeltis fasciaticollis
+Plagiognathus minuendus
+Chionaspis styracis
+Uroleucon (Uromelan) bonitum
+Aphis (Bursaphis) manitobensis
+Microsiphoniella millefolii
+Macrosiphum (Macrosiphum) holodisci
+Uroleucon (Uroleucon) erigeronense
+Erythridula sagittata
+Erythridula stolata
+Erythridula ulmalatae
+Pseudodoniella typica
+Dactylaspis dactylifera
+Diaspis diospyri
+Diaspis miranda
+Cyrtopeltocoris nudipronotum #2
+Megamelus iobatus
+Haplaxius enotatus
+Haliaspis distichlii
+Haliaspis litoralis
+Cixidia fusiformis
+Cixidia septentrionalis
+Pachypappa sacculi
+Lepidosaphes esakii
+Lepidosaphes granati
+Lepidosaphes noxia
+Lepidosaphes sciadopitysi
+Niveaspis vulcania
+Opuntiaspis javanensis
+Nysius beardsleyi
+Pilophorus nasicus
+Protodiaspis emoryi
+Protodiaspis didymus
+Protodiaspis lagunae
+Pemphigus ephemeratus
+Telamona spreta
+Pseudoparlatoria perparvula
+Palonica nogalana
+Neosymydobius luteus
+Pseudodiaspis elaphrii
+Pseudoparlatoria elongata
+Quernaspis quercicola
+Rutherfordia major
+Scytalaspis quadriclavata
+Illinoia (Illinoia) richardsi
+Thysanofiorinia leei
+Thysanofiorinia nephelii
+Unaspis citri
+Melanaphis bambusae
+Phloeomyzus passerinii
+Tibicen resh
+Pleotrichophorus acanthovillus
+Pleotrichophorus ambrosiae
+Pleotrichophorus decampus
+Nysius blackburni
+Pleotrichophorus hottesi
+Pleotrichophorus longipes
+Pleotrichophorus magnautensus
+Ceroplastes nakaharai
+Pleotrichophorus palmerae
+Pleotrichophorus patonkusellus
+Muscaphis canadensis
+Davidsonaspis aguacatae
+Ceroplastodes dugesii
+Coccus formicarii
+Pachypsylla celtidismamma
+Ceratagallia (Aceratagallia) obscura
+Monelliopsis bisetosa
+Myzodium modestum
+Luzulaspis caricis
+Metapulvinaria lycii
+Macropsis bifasciata
+Nasonovia nigra
+Ceratagallia (Aceratagallia) curvata
+Macrosiphum (Macrosiphum) manitobensis
+Macrosiphum (Macrosiphum) pallens
+Oncopsis (Oncopsis) minor
+Athysanella(Athysanella) rostrata
+Balclutha abdominalis
+Ceratagallia (Aceratagallia) triunata
+Perillus confluens
+Peribalus limbolarius
+Parabrochymena barberi
+Podisus sagitta
+Podisus pollens
+Psylla carpinicola
+Agalliopsis (Agallaria) oculata
+Alconeura (Alconeura) unipuncta
+Amplicephalus (Amplicephalus) simplex
+Amplicephalus (Amplicephalus) littoralis
+Phalacrococcus howertoni
+Philephedra floridana
+Philephedra lutea
+Philephedra tuberculosa
+Ballana (Viriosana) antlera
+Ballana (Viriosana) letura
+Ballana (Viriosana) apta
+Ballana (Viriosana) ortha
+Ballana (Viriosana) venditaria
+Ballana (Viriosana) vesca
+Ballana (Viriosana) vetula
+Bonneyana schwartzi
+Stictocephala tauriniformis
+Ceratagallia (Ceratagallia) longipes
+Ceratagallia (Ceratagallia) bigeloviae
+Ceratagallia (Ceratagallia) dondia
+Protopulvinaria longivalvata
+Misturaphis shiloensis
+Pissonotus divengens
+Pulvinaria ericicola
+Cuerna yuccae
+Macrosiphum (Macrosiphum) valerianae
+Macrosiphoniella leucanthemi
+Empoasca (Empoasca) viridescens
+Empoasca (Empoasca) ziona
+Cochlorhinus pluto
+Pulvinaria mammeae
+Illinoia (Masonaphis) menziesiae
+Pulvinaria phaiae
+Empoasca (Empoasca) jacinta
+Empoasca (Hebata) bitubera
+Empoasca (Empoasca) cerea
+Illinoia (Illinoia) simpsoni
+Myzus (Nectarosiphon) dianthicola
+Anisococcus imperialis
+Anthelococcus simondsi
+Draeculacephala californica
+Edwardsiana rosae
+Chlorococcus straussiae
+Chnaurococcus villosa
+Gyponana (Gyponana) elongata
+Gyponana (Gyponana) cunea
+Hamana herbida
+Chorizococcus fistulosus
+Chorizococcus senarius
+Chorizococcus snellingi
+Chorizococcus variabilis
+Kyboasca atrolabes
+Huleria quadripunctata
+Erythroneura vitifex
+Eupteryx (Eupteryx) melissae
+Eupteryx (Eupteryx) flavoscuta
+Hymetta balteata
+Parantonae hispida
+Exitianus picatus
+Maevius indecorus
+Cletus sp
+Aonidiella ensifera
+Aonidiella eremocitri
+Giprus cajon
+Giprus cinerosus
+Giprus joaquinus
+Gloridonus gemella
+Jalysus reductus
+Graphocephala cythura
+Acyrthosiphon (Acyrthosiphon) assiniboinense
+Norvellina varia
+Oncopsis aureostria
+Oncopsis distinctus
+Melaleuca sp 23
+Penestragania robusta
+Phlepsanus vanduzei
+Melaleuca sp 152
+Prairiana subta
+Clavicoccus tribulus
+Toonglasa munda
+Toonglasa prunimunda
+Homalodisca insolita
+Blissus minutus
+Discococcus hopi
+Distichlicoccus arundinis
+Distichlicoccus californicus
+Distichlicoccus megacirculus
+Dysmicoccus aciculus
+Dysmicoccus desertorum
+Empicoris culiciformis
+Pseudaonidia paeoniae
+Empicoris orthoneuron
+Dysmicoccus lasii
+Toonglasa tumorosis
+Toonglasa tumorosoides
+Dysmicoccus polymeris
+Dysmicoccus quercicolus
+Largus davisi
+Lycioides condalianus
+Reticopsis nubila
+Lasiomerus constrictus
+Nabicula (Nabicula) vanduzeei
+Heliococcus adenostomae
+Heliococcus atriplicis
+Texananus (Texananus) pergradus
+Lindingaspis rosii
+Heterococcus raui
+Tiaja arenaria
+Aspidiotus lataniae
+Humococcus ceraricus
+Cyrtomenus ciliatus
+Humococcus hilariae
+Ochrimnus lineoloides
+Nesopedronia hawaiiensis
+Scaphytopius (Convelinus) torridus
+Sophonia orientalis
+Nipaecoccus viridis
+Palmicultor guamensis
+Chilacis typhae
+Stragania californica
+Stragania franciscana
+Stragania major
+Dysdercus sp
+Ochterus americanus
+Oncopeltus sexmaculatus
+Aphis (Aphis) duckmountainensis
+Scaphytopius (Cloanthanus) graneticus
+Scaphytopius (Convelinus) nigricollis
+Scaphytopius (Cloanthanus) nigriviridis
+Neoamphorophora kalmiae
+Eupheno pallens
+Typhlocyba commissuralis
+Xerophloea robusta
+Paludicoccus distichlium
+Paradoxococcus mcdanieli
+Phenacoccus artemisiae
+Phenacoccus celtisifoliae
+Neocoelidia pallida
+Neocoelidia pulchella
+Neokolla (Grapheocephala syn.) severini
+Xyphon reticulata
+Phenacoccus giganteus
+Arundanus nacreosa
+Ploiaria sp
+Idiodonus heidemanni
+Phenacoccus infernalis
+Aphis (Aphis) iteae
+Aphis (Aphis) madderae
+Melormenis basalis
+Ochrostomus uhleri
+Melaleuca sp 74
+Melaleuca sp 102
+Melaleuca sp 167
+Otiocerus balli
+Homalocoris erythrogaster
+Homalocoris maculicollis
+Pintalia delicata
+Aphis (Aphis) neomonardae
+Idiocerus (Populicerus) stellaris
+Negosiana negotiosa
+Melaleuca sp 249
+Melaleuca sp 56
+Melaleuca sp 207
+Aphis (Aphis) rubiradicis
+Nysius fuscovittatus
+Oliarus vicarius
+Cixius basalis
+Cixius misellus
+Neosymydobius paucisetosus
+Scolops spurcus
+Aphis (Aphis) schuhi
+Pseudococcus floriger
+Pseudococcus landoi
+Nionia palmeri
+Synecdoche grisea
+Bipersona ochrocentri
+Apiomerus montanus
+Okanagana rimosa
+Ischnodemus conicus
+Obtusicauda (Obtusicauda) zerothermum
+Aphis (Aphis) zonassa
+Microporus obliquus
+Aphis (Aphis) whiteshellensis
+Pseudococcus nudus
+Pseudococcus pertusus
+Pseudococcus spanocera
+Pseudococcus swezeyi
+Spissistilus occidentalis
+Rhynocoris ventralis annulipes
+Rhynocoris ventralis femoralis
+Sinea anacantha
+Stictopelta varians
+Pseudotrionymus refertus
+Ripersiella bituberculata
+Castolus ferox
+Pselliopus zebra
+Braggia longicauda
+Braggia uncompahgrensis
+Ripersiella gracilis
+Saccharicoccus sacchari
+Scaptococcus milleri
+Neuroctenus simplex
+Spilococcus ceanothi
+Spilococcus corticosus
+Enchophora rosacca
+Sinea raptoria
+Carolinaia (Carolinaia) carolinensis
+Sinea sanguisuga
+Spilococcus geraniae
+Tetragonocephala flava
+Lophops saccharicida
+Calaphis castaneoides
+Calaphis neobetulella
+Telamona vestita flock
+Xyonysius basalis
+Braggia columbiana
+Spilococcus parkeri
+Spilococcus ventralis
+Lycorma delicatula
+Tridiscus multiorbis
+Trionymus violascens
+Callipterinella minutissima
+Nysius neckerensis
+Ormenis yumana
+Arelate limbellata
+Trionymus myersi
+Geocoris limbatus
+Aclerda andropogonis
+Aclerda arizonica
+Aclerda attenuata
+Melormenis leucophaea
+Aclerda tillandsiae
+Anomaloptera angustatus
+Aclerda tokionis
+Hyparrheniaspis cambelli
+Asterolecanium agavis
+Parantonae arida
+Parantonae hispida nevadensis
+Platycentrus acuticornis
+Anomaloptera bohemani
+Anomaloptera costatus
+Catonia lunata
+Graphocephala fennahi
+Neurocolpus brevicornis
+Neurocolpus flavescens
+Cerococcus deklei
+Dactylopius ceylonicus
+Megamelanus elongatus
+Oceanides bryani
+Antillocoris minutus
+Oceanides delicatus
+Loricula bipunctata
+Myrmedobia exilis
+Cornoculus densus
+Cryptococcus fagisuga
+Oceanides gressitti
+Oceanides humeralis
+Eriococcus carolinae
+Eriococcus dennoi
+Thylochromus nitidulus
+Eriococcus macrobactrus
+Eriococcus podhalensis
+Ladella pallida
+Eriococcus stauroporus
+Eriococcus tinsleyi
+Thionia variegata
+Oceanides montivagus
+Amastris lycioda
+Anisostylus stylatus
+Empoasca (Empoasca) batatae
+Juniperthia succinea
+Delphacodes albolineosa
+Oceanides nimbatus
+Synecdoche helenae
+Campyloneuropsis pygmaea
+Spiroporococcus yuccae
+Oceanides perkinsi
+Chaitophorus nudus
+Allokermes kingii
+Pseudopamera nitidula
+Oceanides picturatus
+Nanokermes iselini
+Nanokermes folium
+Olliffiella cristicola
+Platypedia aperta
+Platypedia bernardinoensis
+Oceanides pteridicola
+Paratachardina pseudolobata
+Tachardiella cornuta
+Oceanides sinuatus
+Oceanides usingeri
+Tachardiella mexicana
+Lecanodiaspis hodgsoni
+Oceanides arboricola
+Oceanides ventralis
+Oceanides vulcan
+Crypticerya townsendi
+Oceanides yoshimotoi
+Desmococcus captivus
+Pityococcus deleoni
+Pleotrichophorus infequenus
+Pleotrichophorus obscuratus
+Neosteingelia texana
+Eumargarodes laingi
+Heteromargarodes americanus
+Volumnus straminicolor
+Lopidea calli
+Matsucoccus californicus
+Matsucoccus paucicicatrices
+Matsucoccus secretus
+Puto decorosus
+Puto pacificus
+Puto profusus
+Puto simmondsiae
+Lecanodiaspis thamnosmae
+Conchaspis angraeci
+Eriococcus arctostaphyli
+Ovaticoccus variabilis
+Ovaticoccus senarius
+Ovaticoccus parkerorum
+Ovaticoccus salviae
+Pseudococcus beardsleyi
+Heliococcus deserticola
+Lepidosaphes pini
+Idiosystatus acutiusculus
+Paurocephala fremontiae
+Clastoptera lawsoni
+Arytaina pubescens
+Aphalara simila
+Aphalara minutissima
+Aphalara martini
+Prociphilus (Prociphilus) bumeliae
+Aphalara artemisiae
+Azumamiris vernalis
+Arytaina spartiophila
+Calophya nigrella
+Cacopsylla negundinis
+Sejanus komabanus
+Sejanus vivaricolus
+Aphrophora angulata
+Aphrophora annulata
+Aphrophora fulva
+Nipaecoccus floridensis
+Carynota maculata
+Trioza anceps
+Obtusicranus bifidus
+Psylla phoradendri
+Trioza koebelei
+Schedotrioza occidentalis
+Trioza phoradendri
+Arytaina robusta
+Cornegenapsylla euphoriae
+Homotoma ficus
+Macrocephalus dorannae
+Tropidocephala dryas
+Campylomma oertzenii
+Aphalara dentata
+Hevaheva perkinsi
+Hevaheva silvestris
+Cerotrioza bivittata
+Kuwayama gracilis
+Arytainilla spartiophila
+Megatrioza palmicola
+Trioza minuta
+Scaphoideus (Scaphoideus) crassus
+Glyptonysius amicola
+Trioza lanaiensis
+Trioza iolani
+Trioza ohiacola
+Graptostethus manillensis
+Nysius suffusus
+Trioza beameri
+Peritropis bassetti
+Cinara (Cinara) ontarioensis
+Nysius nigriscutellatus
+Heliria clitella
+Stenomacra marginella
+Neottiglossa cavifrons
+Thyanta perditor
+Arhaphe arguta
+Boreioglycaspis melaleucae
+Cinara (Cinara) piniradicis
+Phytocoris cinereus
+Phytocoris cochise
+Phytocoris commissuralis
+Chelinidea hunteri
+Cacopsylla annulata
+Nabis rubritinctus
+Nabis sylvestris
+Vanniopsis howense
+Craspedolepta artemisiae
+Eucalyptolyma maideni
+Phytocoris corticevivens
+Nyctiphalerus cercocarpi
+Freysuila dugesii
+Heteropsylla flexuosa
+Trichopepla grossa
+Reticulaphis fici
+Trioza shepherdiae
+Phylloplecta occidentalis
+Phytocoris yavapai
+Catorhintha mendica
+Misericoccus arenarius
+Zanchiella bowkeriae
+Idona minuenda
+Mcateeana sexnotata
+Parabolocratus viridis
+Dikrella (Dikrella) californica
+Empoasca (Empoasca) guevarai
+Sethenira ferruginea
+Allocoris pulicaria
+Myrmecoroides grossi
+Acanalonia clypeata
+Corimelaena extensa
+Cinara (Cinara) radicivora
+Juniperthia unimaculata
+Synecdoche necopina
+Oecleus cucullus
+Dendrocoris reticulatus
+Ilburnia wailupensis
+Melanoliarus truncatus
+Melanoliarus zyxus
+Ilburnia asteliae
+Ilburnia blackburni
+Zicrona caerulea
+Perillus lunatus
+Ilburnia giffardi
+Ilburnia gouldiae
+Stiretrus anchorago diana
+Apoecilus cynicus
+Aleurotrachelus atratus
+Nesothoe giffardi
+Hypselosoma acantheen
+Cinara (Cinara) villosa
+Cinara (Cinara) westi
+Dictyophorodelphax praedicta
+Trialeurodes vittata
+Ilburnia monticola
+Ilburnia bridwelli
+Ilburnia osborni
+Ilburnia rubescens fulla
+Ilburnia tetramalopii
+Emoloana emoloa
+Opiconsiva paludum
+Macrosiphum (Macrosiphum) miho
+Phytocoris loretoensis
+Loxa flavicollis
+Cinara (Cinara) engelmanniensis
+Ptilocnemus lemur
+Stobaera minuta
+Isodelphax basivitta
+Sitobion (Sitobion) niwanistum
+Xylocoris cursitans
+Anotia caliginosa
+Nymphocixia caribbea
+Persis foveatis
+Anthocoris whitei
+Eulachnus thunbergii
+Eumetopina krügeri
+Eumetopina flavipes
+Campylomma salaciella
+Empoasca (Empoasca) bifurcata
+Pilophorus meteorus
+Empoasca (Empoasca) mexicana
+Empoasca (Empoasca) pallida
+Empoasca (Empoasca) pallidula
+Alnopsallus godawari
+Campylomma chitwanense
+Erythridula cornipes
+Erythridula dowelli
+Moissonia schuhi
+Moissonia terai
+Psallomorpha alba
+Psallomorpha castanopsis
+Parthenicus ribesi
+Haplaxius crudus
+Omolicna mcateei
+Pareuidella triloba
+Moissonia takaii
+Pilophorus barbiger
+Acrorrhinium tritonion
+Campylomma miyamotoi
+Isometopus ishigaki
+Isometopus takaii
+Kohnometopus fraxini
+Teratocoris tagoi
+Phymata wolffii
+Eurychilopterella keltoni
+Acyrthosiphon (Acyrthosiphon) barri
+Apolygus lucorum
+Cuerna arida
+Chinannus bierigi
+Geopemphigus floccosus
+Aphis (Aphis) tetradymia
+Hadrophallus borealis
+Atarsos grindeliae
+Capitophorus jopepperi
+Ilburnia nephrolepidis
+Ilburnia pseudorubescens
+Odonaspis floridana
+Ilburnia rubescens
+Pissonotus albovenosus
+Ilburnia koae
+Morganella longispina
+Cinara (Cinara) tsugae
+Drepanaphis keshenae
+Parlatoria parlatoreoides
+Odonaspis greenii
+Essigella (Essigella) wilsoni
+Alebra eburnea
+Glarisia stitti
+Bledionotus systellonotoides
+Neaethus perlucidus
+Platylygus crinitus
+Platylygus grandis
+Macrolophus mimuli
+Macrolophus melanotoma
+Dictyssa mira
+Acutalis nigrinervis
+Parorgerius minor
+Dyctidea falcata
+Dyctidea variegata
+Scolops robustus
+Campylomma liebknechti
+Deraeocoris maoricus
+Frontimiris pandanaphilus
+Danepteryx robusta
+Crepusia fuliginosa
+Aphis (Aphis) gossypii
+Macrosiphum (Macrosiphum) euphorbiae
+Hemiberlesia lataniae
+Ophiderma flavicephala
+Aphis (Aphis) fabae
+Myzus (Nectarosiphon) persicae
+Myzus persicae
+Platycotis vittata
+Entylia carinata
+Aphis (Aphis) spiraecola
+Smilia fasciata
+Lygus lineolaris
+Ophiderma definita
+Cyrtolobus tuberosus
+Deraeocoris brevis
+Uroleucon (Uroleucon) ambrosiae
+Cyrtolobus fenestratus
+Chaitophorus populicola
+Cyrtolobus fuliginosus
+Rhinacloa forticornis
+Spissistilus festinus
+Graminella nigrifrons
+Lygus elisus
+Smilia camelus
+Exitianus exitiosus
+Corythucha morrilli
+Cyrtolobus clarus
+Geocoris punctipes
+Aphis (Aphis) craccivora
+Vanduzea arquata
+Aphis (Aphis) rumicis
+Chlamydatus associatus
+Macrosiphum (Macrosiphum) rosae
+Psallovius piceicola
+Prociphilus (Prociphilus) erigeronensis
+Xantholobus muticus
+Diaspidiotus perniciosus
+Blepharidopterus provancheri
+Pilophorus tibialis
+Atymna querci
+Pilophorus americanus
+Myzocallis (Neomyzocallis) punctata
+Aphis (Aphis) pomi
+Aphis (Aphis) helianthi
+Uroleucon (Lambersius) gravicorne
+Ophiderma evelyna
+Parthenolecanium corni
+Cyrtolobus maculifrontis
+Cyrtolobus vau
+Bemisia tabaci
+Aspidiotus nerii
+Parlatoria proteus
+Pseudatomoscelis seriatus
+Micrutalis calva
+Aonidiella aurantii
+Orius insidiosus
+Acutalis tartarea
+Lygus hesperus
+Planococcus citri
+Pinnaspis strachani
+Ophiderma pubescens
+Hyadaphis foeniculi
+Uroleucon (Uroleucon) pseudambrosiae
+Uroleucon (Lambersius) luteolum
+Fiorinia fioriniae
+Lepidosaphes beckii
+Phoenicocoris rostratus
+Europiella decolor
+Illinoia (Illinoia) liriodendri
+Periphyllus californiensis
+Aulacorthum(Aulacorthum) solani
+Nearctaphis bakeri
+Brachycaudus (Brachycaudus) helichrysi
+Rhopalosiphum maidis
+Draeculacephala portola
+Chrysomphalus dictyospermi
+Pseudococcus viburni
+Drepanaphis acerifoliae
+Abgrallaspis cyanophylli
+Cyrtolobus arcuatus
+Capitophorus elaeagni
+Graphocephala versuta
+Parlatoria pergandii
+Rhopalosiphum padi
+Taylorilygus apicalis
+Dichaetocoris piceicola
+Campylenchia latipes
+Hyalopterus pruni
+Periphyllus testudinaceus
+Dialeurodes citri
+Howardia biclavis
+Plagiognathus albatus
+Trialeurodes vaporariorum
+Dichrooscytus latifrons
+Acyrthosiphon (Acyrthosiphon) pisum
+Periphyllus lyropictus
+Monellia caryella
+Aphis (Aphis) coreopsidis
+Cyrtolobus togatus
+Polymerus basalis
+Pterocomma smithiae
+Phytocoris stellatus
+Cyrtolobus rufulus
+Pseudaulacaspis cockerelli
+Myzus (Myzus) cerasi
+Cyrtolobus fuscipennis
+Cyrtolobus pallidifrontis
+Anoecia corni
+Aonidiella orientalis
+Uroleucon nigrotuberculatum
+Pseudococcus maritimus
+Enchenopa binotata
+Drepanosiphum platanoidis
+Carolinaia (Glabromyzus) rhois
+Diaspis boisduvalii
+Melanaspis obscura
+Eucallipterus tiliae
+Toxoptera aurantii
+Lygus shulli
+Brevicoryne brassicae
+Aphis (Aphis) nerii
+Deraeocoris incertus
+Chrysomphalus aonidum
+Aonidiella citrina
+Pygovepres vaccinicola
+Periphyllus negundinis
+Empoasca (Empoasca) abrupta
+Aphis (Aphis) illinoisensis
+Phytocoris fraterculus
+Prociphilus (Prociphilus) tessellatus
+Dysaphis (Pomaphis) plantaginea
+Plagiognathus politus
+Stirellus bicolor
+Slaterocoris robustus
+Aphis (Aphis) carduella
+Myzocallis (Lineomyzocallis) walshii
+Macrosiphum (Macrosiphum) albifrons
+Atractotomus cooperi
+Ophiderma salamandra
+Pterocomma bicolor
+Fiorinia theae
+Aspidiella sacchari
+Parthenicus juniperi
+Slaterocoris breviatus
+Macrosteles fascifrons
+Phyllopidea picta
+Telamona monticola
+Sitobion (Sitobion) avenae
+Brachycaudus (Acaudus) cardui
+Uroleucon (Uroleucon) nigrotuberculatum
+Paromius longulus
+Empoasca (Empoasca) lauta
+Lepidosaphes pallida
+Plagiognathus tumidifrons
+Slaterocoris stygicus
+Phyllaphis fagi
+Aspidiotus destructor
+Orthotylus flavosparsus
+Stobaera caldwelli
+Ceruraphis viburnicola
+Myzus (Myzus) ornatus
+Harmostes reflexulus
+Plagiognathus suffuscipennis
+Agallia constricta
+Eulachnus rileyi
+Myzocallis (Myzocallis) coryli
+Coridromius chenopoderis
+Nasonovia (Nasonovia) ribisnigri
+Phoenicocoris longirostris
+Chlorochroa sayi
+Stictocephala brevitylus
+Chaitophorus populifolii
+Cavariella aegopodii
+Spanagonicus albofasciatus
+Geocoris pallens
+Callipterinella calliptera
+Aphis (Protaphis) middletonii
+Aonidomytilus solidaginis
+Plagiognathus fuscosus
+Oligotylus nigerrimus
+Phytocoris neglectus
+Chaitophorus viminalis
+Myzus ornatus
+Nysius raphanus
+Pemphigus populitransversus
+Xantholobus intermedius
+Pilophorus uhleri
+Lopidea nigridia
+Uroleucon (Uroleucon) sonchellum
+Phytocoris vanduzeei
+Prociphilus (Meliarhizophagus) fraxinifolii
+Harmostes angustatus
+Deltocephalus flavicosta
+Draeculacephala balli
+Irbisia serrata
+Pseudococcus longispinus
+Macrosiphum (Macrosiphum) californicum
+Aphis (Aphis) rubifolii
+Thecabius (Thecabius) affinis
+Neoprociphilus aceris
+Hemiberlesia rapax
+Neurocolpus nubilus
+Neoaliturus (Circulifer) tenellus
+Stragania robusta
+Megalopsallus sparsus
+Plagiognathus vitellinus
+Scalponotatus maturus
+Aphis (Aphis) sambuci
+Tuxedo cruralis
+Atractotomus balli
+Euschistus servus
+Deraeocoris fulgidus
+Diaspidiotus ancylus
+Phenacoccus solenopsis
+Clastoptera lineatocollis
+Cinara (Cinara) curvipes
+Podisus maculiventris
+Nabis roseipennis
+Liorhyssus hyalinus
+Geocoris uliginosus
+Prociphilus (Neoparacletus) corrugatans
+Acutaspis perseae
+Ophiderma grisea
+Cedusa spp
+Orthotylus coagulatus
+Tuberolachnus salignus
+Hyperomyzus lactucae
+Rhopalosiphum cerasifoliae
+Deraeocoris bakeri
+Dichrooscytus uhleri
+Calaphis betulaecolens
+Ovatus crataegarius
+Trigonotylus tenuis
+Pleotrichophorus oestlundii
+Cyrtolobus dixianus
+Liosomaphis berberidis
+Phoenicocoris strobicola
+Aoplonema princeps
+Aphis (Aphis) asclepiadis
+Prociphilus (Prociphilus) americanus
+Blepharidopterus diaphanus
+Ausejanus albisignatus
+Uroleucon (Uroleucon) rudbeckiae
+Liburniella ornata
+Aulacorthum solani
+Uroleucon (Uroleucon) paucosensoriatum
+Phenacoccus madeirensis
+Chlamydatus monilipes
+Dichrooscytus repletus
+Oligotylus cercocarpicola
+Pilophorus diffusus
+Lopidea picta
+Aphis (Aphis) lugentis
+Dichrooscytus flavescens
+Brachycorynella asparagi
+Deraeocoris piceicola
+Tinocallis ulmifolii
+Scaphytopius (Cloanthanus) acutus
+Oncotylus guttulatus
+Europiella consors
+Pilophorus piceicola
+Melaleuca sp
+Acrosternum hilare
+Pleotrichophorus glandulosus
+Aleyrodes spiraeoides
+Diaspidiotus juglansregiae
+Prociphilus (Stagona) crataegistrobi
+Chlorotettix (Chlorotettix) viridius
+Acyrthosiphon (Acyrthosiphon) kondoi
+Rhodobium porosum
+Eriosoma americanum
+Macrosiphum (Macrosiphum) lilii
+Tetraleurodes mori
+Ceratagallia (Aceratagallia) pallida
+Slaterocoris atritibialis
+Irbisia solani
+Macrosiphoniella sanborni
+Microcentrus perditus
+Euceraphis punctipennis
+Lepidosaphes camelliae
+Reuteroscopus unknown
+Pilophorus amoenus
+Dichrooscytus elegans
+Phytocoris tenuis
+Euceraphis betulae
+Monosynamma bohemanni
+Brooksetta inconspicua
+Cyrtolobus ovatus
+Cinara (Cinara) atlantica
+Lipaphis erysimi
+Uroleucon (Uromelan) helianthicola
+Chaetosiphon fragaefolii
+Acutaspis morrisonorum
+Plagiognathus modestus
+Atractotomus magnicornis
+Deraeocoris nebulosus
+Orthops scutellatus
+Cavariella (Cavariella) aegopodii
+Nearctaphis crataegifoliae
+Aphis (Aphis) medicaginis
+Polymerus diffusus
+Xyonysius californicus
+Arhyssus lateralis
+Corimelaena pulicaria
+Pinnaspis aspidistrae
+Trialeurodes abutiloneus
+Tuxedo susansolomonae
+Orthotylus albocostatus
+Ceruraphis eriophori
+Dysaphis (Dysaphis) tulipae
+Myzocallis (Neomyzocallis) discolor
+Stegophylla quercicola
+Cinara (Cinara) strobi
+Utamphorophora crataegi
+Eriosoma lanigerum
+Phyllopidea montana
+Aleuropleurocelus spp.
+Acinopterus angulatus
+Ischnaspis longirostris
+Carneocephala flaviceps
+Ceratocapsus pumilus
+Orthotylus dorsalis
+Dichrooscytus longirostris
+Aphis (Aphis) oestlundi
+Chelinidea vittiger
+Mindarus abietinus
+Plagiognathus verticalis
+Pseudopsallus angularis
+Ophiderma flava
+Cryptomyzus (Cryptomyzus) ribis
+Takecallis arundinariae
+Myzocallis (Lineomyzocallis) bellus
+Aspidiotus ancylus
+Macrosiphum (Macrosiphum) tissoti
+Pulvinaria floccifera
+Planococcus kraunhiae
+Uroleucon (Lambersius) erigeronense
+Aphis (Aphis) maidiradicis
+Rhinocapsus vanduzeei
+Phytocoris inops
+Phenacoccus solani
+Aoplonema rubrum
+Sinea spinipes
+Nysius tenellus
+Uroleucon (Uromelan) rurale
+Dynaspidiotus californicus
+Mycetaspis californicus
+Lopidea robiniae
+Psallus aethiops
+Irbisia californica
+Lepidosaphes gloverii
+Oligotylus ceanothi
+Megalopsallus nigrofemoratus
+Ceratocapsus modestus
+Cavariella (Cavariella) pastinacae
+Phymata pacifica
+Aphis (Bursaphis) oenotherae
+Aleurothrixus floccosus
+Melanaspis smilacis
+Diaspis echinocacti
+Parthenolecanium pruinosum
+Teleorhinus cyaneus
+Neolygus semivittatus
+Adelphocoris rapidus
+Zelus renardii
+Gargaphia solani
+Essigella (Essigella) californica
+Euthoracaphis umbellulariae
+Toumeyella liriodendri
+Tortistilus albidosparsus
+Chaitophorus nigrae
+Atomoscelis onustus
+Rayieria acaciae
+Hyaliodes vitripennis
+Aphis (Aphis) cephalanthi
+Therioaphis (Therioaphis) trifolii
+Diaspidiotus osborni
+Parlatoria oleae
+Thelia bimaculata
+Pilophorus perplexus
+Sinea diadema
+Stictocephala lutea
+Sogatella kolophon
+Uroleucon (Uroleucon) chrysanthemi
+Wahlgreniella nervata
+Blissus leucopterus
+Lygus striatus
+Pemphigus populicaulis
+Obtusicauda (Obtusicauda) coweni
+Chlamydatus obliquus
+Plagiognathus cornicola
+Blepharidopterus angulatus
+Criocoris saliens
+Irbisia silvosa
+Braggia eriogoni
+Capitophorus hippophaes
+Neacoryphus bicrucis
+Hayhurstia atriplicis
+Melanaspis tenebricosa
+Parlatoria camelliae
+Xerophloea peltata
+Aphis (Aphis) forbesi
+Lopidea dakota
+Ectopiocerus anthracinus
+Lopidea marginata
+Aphis (Aphis) solani
+Deraeocoris diveni
+Myodocha serripes
+Corythucha ciliata
+Sarucallis kahawaluokalani
+Mercetaspis halli
+Coccus pseudomagnoliarum
+Europiella artemisiae
+Slaterocoris croceipes
+Hoplomachidea consors
+Ceratocapsus apicatus
+Irbisia pacifica
+Glossonotus univittatus
+Periphyllus americanus
+Protaphis middletoni
+Acyrthosiphon (Acyrthosiphon) lactucae
+Euceraphis gillettei
+Pappus rubripes
+Odonaspis ruthae
+Psallovius dimorphicus
+Acanalonia conica
+Tamalia coweni
+Cinara (Cinara) ponderosae
+Dichrooscytus rostratus
+Leptoglossus oppositus
+Ceratagallia (Aceratagallia) californica
+Corythucha cydoniae
+Cyrtolobus discoidalis
+Prociphilus (Prociphilus) piniradicivorus
+Phallospinophylus setosus
+Campylomma verbasci
+Irbisia brachycera
+Lygidea annexa
+Phytocoris tibialis
+Oncopeltus fasciatus
+Anoecia querci
+Plagiognathus pemptos
+Atractotomus atricolor
+Atractotomus kolenatii
+Glossonotus acuminatus
+Pappus vanduzeei
+Rhopalosiphum insertum
+Graphocephala coccinea
+Chorizococcus rostellum
+Diaspidiotus aesculi
+Parasaissetia nigra
+Spilococcus implicatus
+Plagiognathus tsugae
+Plagiognathus moerens
+Tuxedo bicinctus
+Ceratocapsus fuscinus
+Phytocoris dumicola
+Trigonotylus caelestialium
+Thionia simplex
+Cyrtolobus auroreus
+Cinara (Cupressobium) juniperi
+Cinara (Cinara) tujafilina
+Pinalitus solivagus
+Gyponana (Gyponana) striata
+Zelus luridus
+Melanocallis caryaefoliae
+Opuna sharpianus
+Plagiognathus fuscipes
+Atractotomus ovatus
+Reuteroscopus ornatus
+Pseudoxenetus regalis
+Stobaera tricarinata
+Aphis (Aphis) ceanothi
+Longistigma caryae
+Hysteroneura setariae
+Dichrooscytus angustifrons
+Macrosiphum (Macrosiphum) rhamni
+Pseudopsallus repertus
+Americodema nigrolineatum
+Trialeurodes ruborum
+Chionaspis nyssae
+Haliaspis uniolae
+Stegophylla essigi
+Plagiognathus brunneus
+Oligotylus carneatus
+Plagiognathus delicatus
+Slaterocoris pallidicornis
+Pilophorus strobicola
+Telamona unicolor
+Phytocoris ventralis
+Pinalitus approximatus
+Schizaphis graminum
+Nysius vinitor
+Pterocomma populifoliae
+Eriosoma crataegi
+Hamamelistes spinosus
+Longicaudus trirhodus
+Phytocoris consors
+Pterocallis alnifoliae
+Macrosiphoniella ludovicianae
+Myzus (Myzus) lythri
+Aphis (Aphis) gregalis
+Pterocomma salicis
+Plagiognathus obscurus
+Pinophylus rolfsi
+Pinophylus carneolus
+Lopidea confraterna
+Apiomerus crassipes
+Nabis americoferus
+Aphis (Aphis) hederae
+Phorodon humuli
+Monelliopsis caryae
+Harmostes dorsalis
+Macrosiphum (Macrosiphum) gei
+Ormenis saucia
+Corythucha arcuata
+Tetraleurodes acaciae
+Chionaspis pinifoliae
+Uroleucon (Uromelan) eoessigi
+Oncometopia (Oncometopia) undata
+Asterodiaspis minor
+Drepanaphis carolinensis
+Izyaius sericeus
+Microtechnites bractatus
+Ormenoides venusta
+Publilia concava
+Archasia belfragei
+Elatobium abietinum
+Cavariella (Cavariella) theobaldi
+Schizolachnus piniradiatae
+Aleurodicus dispersus
+Uroleucon (Uroleucon) russellae
+Paraphlepsius irroratus
+Oceanaspidiotus spinosus
+Semium hirtum
+Thyanta custator accerra
+Europiella unipuncta
+Roburocoris exiguus
+Adenostomocoris pintoi
+Lopidea ute
+Ceratocapsidea fusiformis
+Dichaetocoris spinosus
+Dichrooscytus ruberellus
+Nearctaphis kachena
+Drepanosiphum braggii
+Forda marginata
+Smynthurodes betae
+Corimelaena lateralis
+Duplaspidiotus tesseratus
+Lepidosaphes ulmi
+Oebalus pugnax
+Pleotrichophorus elongatus
+Chlamydatus keltoni
+Megalopsallus humeralis
+Plagiognathus dispar
+Slaterocoris apache
+Plesiodema pinetella
+Slaterocoris flavipes
+Pilophorus neoclavatus
+Pilophorus vicarius
+Cyrtolobus inermis
+Neolygus caryae
+Phytocoris politus
+Nysius spp.
+Rhopalosiphum rufiabdominale
+Pemphigus betae
+Lopidea heidemanni
+Phytocoris jucundus
+Paraleyrodes minei
+Ripersiella kondonis
+Ctenarytaina eucalypti
+Europiella umbrina
+Slaterocoris ambrosiae
+Orthotylus vestitus
+Atymna helena
+Dicyphus hesperus
+Knightomiris distinctus
+Stictocephala diceros
+Stictocephala taurina
+Deraeocapsus fraternus
+Chromaphis juglandicola
+Aphis (Aphis) farinosa
+Empoasca (Empoasca) fabae
+Homalodisca lacerta
+Duplachionaspis divergens
+Prociphilus (Prociphilus) caryae
+Aonidiella taxus
+Saissetia miranda
+Draeculacephala zeae
+Planchonia arabidis
+Plagiognathus laricicola
+Roburocoris maculosus
+Orthotylus alni
+Pilophorus crassipes
+Pilophorus gracilis
+Heterotoma planicornis
+Atractotomus mali
+Murgantia histrionica
+Myzocallis (Neomyzocallis) asclepiadis
+Pappus rolfsi
+Pulvinaria acericola
+Aspidiotus excisus
+Uroleucon (Lambersius) anomalae
+Microsiphoniella artemisiae
+Ceroplastes sinensis
+Scaphytopius (Convelinus) irroratus
+Lepidargyrus ancorifer
+Aoplonema nigrum
+Paraproba capitata
+Brochymena quadripustulata
+Takecallis arundicolens
+Euschistus tristigmus
+Phytocoris heidemanni
+Phytocoris mellarius
+Dichaetocoris gillespiei
+Myzocallis (Lineomyzocallis) multisetis
+Parabemisia myricae
+Chionaspis ortholobis
+Cacopsylla pyricola
+Blastopsylla occidentalis
+Nabis alternatus
+Alebra aurea
+Megalopsallus punctipes
+Orthotylus pennsylvanicus
+Cyrtolobus gramatanus
+Pseudoloxops n sp
+Norvellina seminuda
+Macrosiphoniella tapuskae
+Diaspidiotus coniferarum
+Pulvinaria vitis
+Corythucha pergandei
+Acizzia uncatoides
+Plagiognathus tinctus
+Knightomiroides contortae
+Orthotylus neglectus
+Orthotylus brindleyi
+Ceratocapsus barbatus
+Schaffneria davisi
+Flatormenis chloris
+Chlorochroa ligata
+Telamona decorata
+Pinalitus rubrotinctus
+Jalysus wickhami
+Phytocoris decurvatus
+Aphis (Aphis) viburniphila
+Brachycaudus (Brachycaudus) cardui
+Tuberculatus (Pacificallis) californicus
+Macrosteles quadrilineatus
+Neopamera bilobata
+Diaspidiotus mccombi
+Carynota mera
+Spilococcus pressus
+Chaitophorus viminicola
+Europiella stigmosa
+Chlamydatus pulicarius
+Plagiognathus chrysanthemi
+Labops hesperius
+Ausejanus vividus
+Slaterocoris tibialis
+Sejanus brittoni
+Orthotylus iolani
+Engytatus modestus
+Chaitophorus populifoliae
+Garganus fusiformis
+Obtusicauda (Artemisaphis) artemisicola
+Coccus longulus
+Dichrooscytus junipericola
+Neocapsus leviscutatus
+Deraeocoris bullatus
+Brachycaudus (Acaudus) schwartzi
+Scaphytopius (Cloanthanus) frontalis
+Aleuropleurocelus nigrans
+Cuerna costalis
+Corythucha juglandis
+Cyrtolobus acutus
+Orthotylus modestus
+Haliaspis spartinae
+Neopinnaspis harperi
+Situlaspis yuccae
+Eulecanium cerasorum
+Hemiberlesia palmae
+Saissetia oleae
+Tibicen tibicen
+Eriococcus azaleae
+Camptotylus reaumuriae
+Coridromius monotocopsis
+Psallopsis minimus
+Slaterocoris pallipes
+Brooksetta chelifer
+Lopidea media
+Lygidea salicis
+Atymna castaneae
+Brachycaudus (Acaudus) persicae
+Aphthargelia symphoricarpi
+Publilia modesta
+Zelus tetracanthus
+Aphis (Zyxaphis) canae
+Dichrooscytus convexifrons
+Aphis (Aphis) neogillettei
+Lopidea confluenta
+Pachybrachius spp.
+Aleurodicus dugesii
+Occidentodema mcfarlandi
+Diaspidiotus forbesi
+Stephanitis pyrioides
+Nasonovia (Eokakimia) wahinkae
+Myzocallis (Myzocallis) asclepiadis
+Bambusaspis bambusae
+Plagiognathus punctatipes
+Melymacra apicalis
+Coquillettia venusta
+Compsidolon salicellum
+Pilophorus clavatus
+Lopus decolor
+Neoborops vigilax
+Metopolophium dirhodum
+Philaenus spumarius
+Lygus robustus
+Chaitophorus macrostachyae
+Agalliopsis (Agalliopsis) novellus
+Oestlundiella flava
+Tinocallis platani
+Uroleucon (Uromelan) illini
+Euceraphis mucida
+Pemphigus bursarius
+Leptoglossus phyllopus
+Neotoxoptera violae
+Kleidocerys resedae
+Stegophylla davisi
+Uroleucon (Uroleucon) sonchi
+Ceratagallia (Aceratagallia) nitidula
+Bemisia berbericola
+Semium subglaber
+Dysmicoccus morrisoni
+Icerya purchasi
+Mesolecanium nigrofasciatum
+Prociphilus (Prociphilus) carolinensis
+Toumeyella pinicola
+Sehirus cinctus
+Carolinaia (Carolinaia) caricis
+Largus cinctus
+Mordwilkoja vagabunda
+Schizolachnus parvus
+Epimixia veteris
+Megalocoleus molliculus
+Atractotomus miniatus
+Ceratocapsidea complicata
+Pseudopsallus puberus
+Mcateella elongata
+Irbisia shulli
+Telamona reclivata
+Lopidea minima
+Hyaliodes harti
+Deraeocoris manitou
+Myzocallis (Lineomyzocallis) melanocera
+Neotoxoptera formosana
+Pachypappa pseudobyrsa
+Phytocoris interspersus
+Siphoninus phillyreae
+Pseudococcus comstocki
+Uroleucon (Uroleucon) reynoldense
+Diaspis digna
+Chariesterus antennator
+Epidiaspis leperii
+Ceratagallia (Ceratagallia) nubila
+Aphis (Aphis) spiraephila
+Ormenis pruinosa
+Eriococcus quercus
+Plagiognathus nigronitens
+Oligotylus purshiae
+Plesiodema pinicolus
+Ceratocapsus fasciatus
+Pseudosthenarus namaquaensis
+Pseudosthenarus rozeni
+Ilnacorella argentata
+Dichrooscytus suspectus
+Deraeocoris schwarzii
+Xantholobus nigrocinctus
+Cinara (Cinara) confinis
+Aphis (Aphis) nasturtii
+Corythucha marmorata
+Stenophyella macreta
+Neomyzus circumflexum
+Chaetosiphon (Pentatrichopus) fragaefolii
+Lygaeus kalmii
+Phytocoris rostratus
+Ericaphis scoliopi
+Illinoia (Illinoia) morrisoni
+Illinoia (Masonaphis) rhokalaza
+Macrosiphum (Macrosiphum) ptericolens
+Pterocallis alni
+Aspidiotus diffinis
+Idiocerus (Populicerus) pallidus
+Diaspis coccois
+Diaspis bromeliae
+Pulvinaria psidii
+Aulacizes irrorata
+Piceophylus keltoni
+Megalopsallus atriplicis
+Atractotomus acaciae
+Lattinova jacki
+Orthotylus pacificus
+Pilophorus walshii
+Paraproba cincta
+Ilnacora stalii
+Psallus falleni
+Pycnocoris ursinus
+Metcalfa pruinosa
+Closterocoris amoenus
+Dichrooscytus rainieri
+Lygocoris pabulinus
+Halticotoma valida
+Dysaphis (Dysaphis) apiifolia
+Aphis (Zyxaphis) chrysothamni
+Aphis (Aphis) craccae
+Ceratagallia (Aceratagallia) sanguinolentus
+Idiocerus (Populicerus) vagus
+Phytocoris occidentalis
+Phytocoris sagax
+Cinara (Cinara) pinea
+Hyalopteroides humilis
+Monelliopsis nigropunctata
+Thripsaphis (Thripsaphis) ballii
+Macrosiphum (Macrosiphum) gaurae
+Pleotrichophorus packi
+Aleurocanthus woglumi
+Aulacaspis rosae
+Duplaspidiotus claviger
+Paracoccus gillianae
+Chaitophorus pallipes
+Xantholobus tumidus
+Heteropsylla texana
+Stobaera concinna
+Quernocoris caliginosus
+Phymatopsallus rinconae
+Oncophysa sp
+Dacota hesperia
+Occidentodema polhemusi
+Tuponia prasina
+Orthotylus virescens
+Oligotylus centralis
+Amblytylus nasutus
+Stictocephala stimulea
+Appendiseta robiniae
+Phytocoris ramosus
+Acanalonia bivittata
+Essigella (Essigella) pini
+Oxycarenus luctuosus
+Rhopalosiphum oxyacanthae
+Rhopalosiphoninus (Rhopalosiphoninus) latysiphon
+Phytocoris hopi
+Cinara (Cinara) pseudotsugae
+Germalus humeralis
+Phytocoris stitti
+Thecabius (Thecabius) populimonilis
+Hyperomyzus (Hyperomyzus) lactucae
+Chaitophorus salicicola
+Anasa armigera
+Pappus luridus
+Sipha (Sipha) flava
+Stegophylla quercifoliae
+Uroleucon (Uromelan) taraxaci
+Aleuroplatus gelatinosus
+Ceroplastes cirripediformis
+Trialeurodes merlini
+Trialeurodes tentaculatus
+Texananus (Texananus) latipex
+Ceratocapsus taxodii
+Aonidomytilus ceanothi
+Ceratagallia (Aceratagallia) sanguinolenta
+Pemphigus populivenae
+Melaphis rhois
+Parthenolecanium quercifex
+Gyponana (Gyponana) hasta
+Acyrthosiphon (Acyrthosiphon) malvae
+Crisicoccus pini
+Dysmicoccus mackenziei
+Dysmicoccus ryani
+Rhizoecus cacticans
+Rhizoecus dianthi
+Opuntiaspis carinata
+Dictyobia varia
+Aurantiocoris cuneotinctus
+Slaterocoris solidaginis
+Daleapidea albescens
+Plesiodema polhemi
+Orthocephalus coriaceus
+Megalopsallus schwartzi
+Orthotylus candidatus
+Saileria irrorata
+Tytthus wheeleri
+Bolteria amicta
+Banasa dimiata
+Neosymydobius albasiphus
+Zelus cervicalis
+Parthenolecanium fletcheri
+Piesma cinereum
+Aphis (Aphis) maculatae
+Orius tristicolor
+Colladonus geminatus
+Pselliopus cinctus
+Uroleucon (Uroleucon) leonardi
+Cachryphora serotinae
+Coatonocapsus nr. pallidus
+Cavariella pastinacae
+Cavariella (Cavariella) konoi
+Deraeocoris quercicola
+Nonlygus nubilatus
+Pentalonia nigronervosa
+Nasonovia (Ranakimia) purpurascens
+Idiocerus (Populicerus) snowi
+Corythucha associata
+Colladonus montanus
+Ceroplastes floridensis
+Puto yuccae
+Trialeurodes vittatus
+Uroleucon (Uroleucon) pepperi
+Macrosiphum (Macrosiphum) aetheocornum
+Uroleucon (Uroleucon) ciefi
+Lepidosaphes conchiformis
+Empoasca (Empoasca) neaspersa
+Ollarianus strictus
+Ehrhornia cupressi
+Phenacoccus helianthi
+Rhizoecus falcifer
+Endria inimica
+Eriococcus spurius
+Ovaticoccus agavium
+Lecanodiaspis rufescens
+Cacopsylla minor
+Orgerius concordus
+Danepteryx manca
+Arctostaphylocoris manzanitae
+Coquillettia pergrandis
+Parthenicus wheeleri
+Psallus betuleti
+Urentius sarinae
+None none
+Orthotylus angulatus
+Pilophorus nevadensis
+Brooksetta shoshonea
+Lygocoris deraeocoroides
+Banasa euchlora
+Taedia scrupea
+Dichrooscytus abietis
+Nasonovia (Kakimia) aquilegiae
+Phytocoris geniculatus
+Balclutha neglecta
+Nabis kinbergii
+Cinara (Cinara) pilicornis
+Phytocoris squamosus
+Therioaphis (Therioaphis) riehmi
+Dichaetocoris anasazi
+Dichaetocoris coloradensis
+Macrosiphum (Neocorylobium) carpinicolens
+Blissus insularis
+Therioaphis (Therioaphis) maculata
+Pleotrichophorus pseudoglandulosus
+Aleuroplatus berbericolus
+Neortholomus arphnoides
+Idiocerus (Populicerus) nervatus
+Tannerocoris sarcobati
+Aleyrodes amnicola
+Pseudaulacaspis pentagona
+Saissetia coffeae
+Allokermes galliformis
+Uroleucon (Uroleucon) nigrotibium
+Circulaspis fistulella
+Aleyrodes pruinosus
+Aspidaspis densiflorae
+Chrysomphalus bifasciculatus
+Lopidea incurva
+Selenaspidus albus
+Furchadaspis zamiae
+Quernaspis quercus
+Kilifia acuminata
+Erasmoneura variabilis
+Antonina graminis
+Myzocallis (Lineomyzocallis) frisoni
+Ferrisia gilli
+Ferrisia malvastra
+Aphis (Aphis) knowltoni
+Pemphigus nortonii
+Spilococcus eriogoni
+Multareis cornutus
+Bactericera lavaterae
+Nyctiphalerus vermiculosus
+Pealius kelloggi
+Plagiognathus flavoscutellatus
+Megalopsallus ephedrae
+Hamatophylus guttulosus
+Orectoderus obliquus
+Europiella albipennis
+Coridromius pilbarensis
+Malandiola semota
+Phaeochiton ebulum
+Orthotylus katmai
+Coquillettia schwartzi
+Parthenicus peregrinus
+Brooksetta viridicata
+Parthenicus basicornis
+Mecomma gilvipes
+Deraeocoris fusifrons
+Rayieria basifer
+Irbisia oreas
+Henrylygus nubilus
+Hadrophallus bubalus
+Aphis (Aphis) lupini
+Eucarazzia elegans
+Litomiris debilis
+Calaphis betulella
+Phytocoris relativus
+Sidnia kinbergi
+Grylloprociphilus imbricator
+Irbisia cascadia
+Dichaetocoris calocedrus
+Cerataphis lataniae
+Tupiocoris notatus
+Siphonatrophia cupressi
+Pseudasiphonaphis corni
+Pleotrichophorus patonkus
+Toumeyella turgida
+Aleuroparadoxus arctostaphyli
+Pseudopachybrachius basalis
+Carolinaia (Glabromyzus) howardii
+Trialeurodes intermedia
+Chionaspis americana
+Gargaphia opacula
+Uroleucon (Uroleucon) obscuricaudatum
+Sitobion (Sitobion) fragariae
+Uroleucon (Uroleucon) chrysopsidicola
+Microparsus (Microparsus) olivei
+Draeculacephala minerva
+Largus succinctus
+Dysmicoccus pinicolus
+Aphrophora permutata
+Neophyllura arctostaphyli
+Ticida dammersi
+Mistharnophantia sonorana
+Plagiognathus longipennis
+Megalopsallus pictipes
+Plagiognathus alnicenatus
+Chlamydatus schuhi
+Vanduzeephylus falcatus
+Orectoderus arcuatus
+Crassomiris fatisco
+Atractotomus agrifoliae
+Pseudopsallus atriseta
+Blepharidopterus ulmicola
+Blesingia fasciatipennis
+Cyrtolobus puritanus
+Nesiomiris hawaiiensis
+Stenotus binotatus
+Neurocolpus arizonae
+Nesiomiris secularis
+Proba californica
+Phymata americana
+Tupiocoris californicus
+Physoderes azrael
+Cinara (Cinara) arizonica
+Dichrooscytus irroratus
+Graminella villica
+Cepegillettea myricae
+Setocoris russelli
+Deraeocoris rubroclarus
+Boisea trivittata
+Aleurodicus pulvinatus
+Orthotylus ornatus
+Nysius coenosulus
+Eurycoccus blanchardii
+Oncometopia (Oncometopia) orbona
+Kaltenbachiella ulmifusa
+Aspidiotus osborni
+Clavaspis herculeana
+Aonidomytilus albus
+Ceratocapsus incisus
+Neoneides muticus
+Chionaspis heterophyllae
+Rhizaspidiotus dearnessi
+Myzocallis (Agrioaphis) castanicola
+Texananus (Texananus) excultus
+Phenacoccus graminicola
+Aphis (Aphis) sedi
+Mycetococcus ehrhorni
+Trialeurodes bellissima
+Cacopsylla curta
+Calophya californica
+Mycetaspis personata
+Plagiognathus shoshonea
+Phymatopsallus tuberculatus
+Melymacra knighti
+Lopidella flavoscuta
+Compsidolon pumilum
+Orthotylus nassatus
+Labopidea lenensis
+Malacocoris chlorizans
+Pilophorus juniperi
+Orthotylus ramus
+Protemiris conospermi
+Heterocordylus malinus
+Ilnacora malina
+Orthotylus kanakanus
+Trigonotylus americanus
+Rayieria decorata
+Lygus punctatus
+Brochymena sulcata
+Phytocoris californicus
+Neolygus tiliae
+Telamonanthe pulchella
+Cyrtolobus limus
+Nabis (Tropiconabis) capsiformis
+Thelaxes californica
+Therioaphis (Therioaphis) ononidis
+Cinara (Cinara) occidentalis
+Drepanaphis monelli
+Deraeocoris fulvescens
+Niesthrea louisianica
+Brooksetta ferox
+Anasa tristis
+Sanbornia juniperi
+Symydobius americanus
+Macrosiphum (Neocorylobium) pseudocoryli
+Lineatopsallus biguttulatus
+Aleuroglandulus subtilis
+Singhiella citrifolii
+Micracanthia humilis
+Chionaspis gleditsiae
+Aleuroparadoxus iridescens
+Uroleucon (Uromelan) eupatorifoliae
+Phoenicocoris claricornis
+Cupidaspis beshearae
+Stramenaspis kelloggi
+Nipaecoccus nipae
+Palmicultor palmarum
+Apiomerus californicus
+Apache californicum
+Ticida miracula
+Plagiognathus morrisoni
+Tuxedo flavicollis
+Hadronema pictum
+Eminoculus drosanthemi
+Phoenicocoris dissimilis
+Orthotylus basicornis
+Tuponia elegans
+Orthotylus ute
+Atractotomus albidicoxis
+Brooksetta malvastri
+Oligotylus meridionalis
+Ausejanus meridionalis
+Lopidea minor
+Lopidea teton
+Melaleucoides verticordiae
+Leucophoroptera quadrimaculata
+Nothodelphax consimilis
+Irbisia cuneomaculata
+Moromorpha tetra
+Amphorophora rubi
+Thyanta pallidovirens
+Stiretrus anchorago
+Archasia auriculata
+Agnocoris pulverulentus
+Leioscyta ferruginipennis
+Tortistilus wickhami
+Zelus longipes
+Amphorophora rossi
+Aphis (Zyxaphis) chrysothamnicola
+Aphis (Aphis) rubicola
+Pterocomma pseudopopuleum
+Uroleucon (Uroleucon) impatiensicolens
+Cachryphora canadensis
+Myzocallis (Myzocallis) castaneae
+Cinara (Cinara) pergandei
+Calaphis alni
+Drepanaphis sabrinae
+Alydus eurinus
+Drepanaphis spicata
+Deraeocoris mutatus
+Chaitophorus populialbae
+Setocoris droserae
+Macrosiphoniella tanacetaria
+Dichrooscytus vittatus
+Prociphilus (Paraprociphilus) tessellatus
+Irbisia mollipes
+Euscelidius variegatus
+Neolygus omnivagus
+Tuberculatus (Tuberculoides) annulatus
+Sipha (Rungsia) elegans
+Acutaspis aliena
+Neocyrtopeltocoris triangularis
+Corythucha coryli
+Pemphigus popularius
+Brevennia rehi
+Phenacoccus eriogoni
+Anoecia setariae
+Kuwanaspis howardi
+Kermes rimarum
+Xylococculus macrocarpae
+Matsucoccus acalyptus
+Lauritrioza alacris
+Bactericera cockerelli
+Craspedolepta pulchella
+Psyllopsis fraxinicola
+Cacopsylla brevistigmata
+Palinaspis quohogiformis
+Oligotylus paracarneatus
+Megalopsallus froeschneri
+Plagiognathus rideri
+Plagiognathus longirostris
+Europiella carvalhoi
+Slaterocoris longipennis
+Ceratopsallus pintoi
+Hadronema militare
+Ceratocapsus luteus
+Labopidea simplex
+Parthenicus pallidicollis
+Labops hirtus
+Orthotylus concolor
+Pilophoropsis brachypterus
+Schaffneria pilophoroides
+Megalopsallus rubricornis
+Protemiris grevilleae
+Pseudosthenarus brendae
+Phytocoris sewardi
+Phytocoris strigosus
+Micromimetus pictipes
+Psallus kimi
+Trigonotylus exilis
+Tibicen canicularis
+Myzus (Myzus) formosanus
+Phytocoris albidosquamus
+Cyrtolobus funkhouseri
+Xantholobus lateralis
+Calaphis flava
+Holcostethus limbolarius
+Dichrooscytus alpinus
+Nabis (Reduviolus) alternatus
+Phytocoris cercocarpi
+Phytocoris conspersipes
+Pseudopantilius australis
+Cavariella (Cavariella) salicis
+Phytocoris sublineatus
+Phytocoris juliae
+Phytocoris radiatae
+Rhopalosiphum fitchii
+Irbisia fuscipubescens
+Irbisia sericans
+Macchiatiella rhamni
+Brooksetta nevadensis
+Arhyssus validus
+Belonochilus numenius
+Ozophora picturata
+Aleurocybotus occiduus
+Aleuroplatus coronatus
+Lopidea arizonae
+Eupolemus insularis
+Leptoypha mutica
+Tupiocoris rhododendri
+Neolygus betulae
+Dysmicoccus brevipes
+Parlatoria theae
+Aonidomytilus concolor
+Microparsus variabilis
+Myzocallis (Lineomyzocallis) granovskyi
+Protopulvinaria pyriformis
+Pulvinaria hydrangeae
+Deltocephalus sonorus
+Antonina pretiosa
+Gyponana (Gyponana) procera
+Idiocerus (Populicerus) alternatus
+Distichlicoccus salinus
+Ferrisia dasylirii
+Tridiscus distichlii
+Cavariella (Cavariella) digitata
+Craspedolepta suaedae
+Plocamaphis flocculosa
+Cinara (Cinara) edulis
+Anthocoris antevolens
+Agnocoris rubicundus
+Ilburnia pipturi
+Danepteryx artemisiae
+Trama rara
+Plagiognathus parshleyi
+Plagiognathus concoloris
+Plagiognathus lineatus
+Megalopsallus pallipes
+Plagiognathus maculipennis
+Plagiognathus physocarpi
+Plagiognathus annulatus
+Exocarpocoris aurum
+Solenoxyphus pallens
+Halticus intermedius
+Pilophorus brunneus
+Texocoris nigrellus
+Pseudopsallus mojaviensis
+Lopidea instabilis
+Ausejanus sp
+Xiphoidellus furvus
+Agraptocoris concolor
+Rhinacloa basalis
+Salignus tahoensis
+Nethersia pilbara
+Trigonotylus viridis
+Lygus atriflavus
+Pselliopus spinicollis
+Neurocolpus montanus
+Stictocephala bisonia
+Palonica pyramidata
+Okanagana hesperia
+Okanagana bella
+Poecilocapsus lineatus
+Banasa calva
+Periphyllus brevispinosus
+Aphis (Zyxaphis) hermistonii
+Aphrophora parallella
+Leptopterna amoena
+Megaloceroea recticornis
+Myzocallis agrifolicola
+Phytocoris navajo
+Phytocoris nigrolineatus
+Pissonotus piceus
+Melanopleurus belfragei
+Deraeocoris cochise
+Cinara (Cupressobium) cupressi
+Drepanaphis kanzensis
+Geoica lucifuga
+Taedia multisignata
+Merocoris curtatus
+Macrosiphum (Neocorylobium) coryli
+Euthochtha galeator
+Tuberculatus (Pacificallis) maureri
+Hemiberlesia diffinis
+Nysius niger
+Coloradoa rufomaculata
+Eriosoma ulmi
+Xantholobus inflatus
+Deraeocoris poecilus
+Latalus (Latalus) sayii
+Trialeurodes packardi
+Amblysellus grex
+Nasonovia (Kakimia) crenicorna
+Nezara viridula
+Adelphocoris lineolatus
+Aphis (Aphis) heraclella
+Aonidomytilus hyperici
+Tiliphagus lycoposugus
+Diaspidiotus uvae
+Glossonotus turriculatus
+Unaspis euonymi
+Plagiognathus atricornis
+Carulaspis minima
+Telamona collina
+Menosoma cincta
+Ceratagallia (Aceratagallia) vulgaris
+Microparsus singularis
+Physokermes concolor
+Pulvinaria bigeloviae
+Macrosiphum (Macrosiphum) avenae
+Amonostherium lichtensioides
+Empoasca (Empoasca) alboneura
+Fieberiella florii
+Hoplinus echinata
+Nysius ericae
+Rhizoecus floridanus
+Spilococcus mamillariae
+Pityococcus ferrisi
+Insignorthezia insignis
+Orthezia annae
+Bactericera maculipennis
+Psylla alni americana
+Orgerius bilobatus
+Nesiomiris timberlakei
+Dichrooscytus flagellatus
+Nearctaphis clydesmithi
+Pruneocoris stonedahli
+Aurantiocoris purshiae
+Plagiognathus mundus
+Guentherocoris atritibialis
+Vesperocoris paddocki
+Slaterocoris sheridani
+Squamocoris pallidinervus
+Polyozus galbanus
+Eritingis aporema
+Phoenicocoris nevadensis
+Anonychiella brevicornis
+Pilophorus laetus
+Atractotomus cercocarpi
+Pilophorus exiguus
+Brooksetta incurva
+Beckocoris bullatus
+Orthotylus leviculus
+Lopidea salicis
+Lopidea scutata
+Halticus apterus
+Ilnacora albifrons
+Pseudosthenarus alboantennatus
+Agraptocoris oncotyloides
+Delphacodes puella
+Lygus convexicollis
+Thionia elliptica
+Cosmopepla bimaculata
+Deraeocoris sayi
+Diceroprocta eugraphica
+Apache degeeri
+Phymata rossi
+Tuxedo drakei
+Pinalitus rubricatus
+Aphis (Aphis) debilicornis
+Dichrooscytus rubidus
+Obtusicauda coweni
+Narnia pallidicornis
+Kosswigianella lutulenta
+Synecdoche impunctata
+Arilus cristatus
+Polymerus castilleja
+Phytocoris eurekae
+Deraeocoris barberi
+Phytocoris yollabollae
+Eulachnus agilis
+Nasonovia (Kakimia) cynosbati
+Cinara (Cinara) medispinosa
+Dichaetocoris pinicola
+Dichaetocoris utahensis
+Deraeocoris picipes
+Aufeius impressicollis
+Neosymydobius agrifoliae
+Kleidocerys franciscanus
+Aleuroclava jasmini
+Eupolemus angularis
+Aleuroplatus interrogationis
+Trialeurodes glacialis
+Trialeurodes variabilis
+Lecanodiaspis prosopidis
+Utamphorophora humboldti
+Aonidomytilus crookiae
+Andaspis hawaiiensis
+Trialeurodes corollis
+Uroleucon (Uromelan) tardae
+Elasmostethus atricornis
+Lindingaspis rossi
+Parlatoria pittospori
+Slaterocoris hirtus
+Plagiognathus salicicola
+Telamona maculata
+Humococcus atriplicis
+Miscanthicoccus miscanthi
+Apiomerus flaviventris
+Trionymus smithii
+Acanthococcus coccineus
+Aphalaroida inermis
+Acizzia acaciaebaileyanae
+Rhopalosiphum musae
+Aphrophora saratogensis
+Pemphigus longicornus
+Planococcus ficus
+Rubeospineus bicorniger
+Bisulcopsallus huachucae
+Slaterocoris pilosus
+Squamocoris latisquamus
+Slaterocoris rubrofemoratus
+Eminoculus laevigatus
+Diplocysta bilobata
+Conostethus hungaricus
+Monocris griseolus
+Macrotylus mundulus
+Psallus variabilis
+Diplocysta trilobata
+Pseudopsallus demensus
+Labopidea nigrisetosa
+Atractotomus reuteri
+Reuteria fuscicornis
+Lopidea bullata
+Nicholia eriogoni
+Stenocranus (Codex) brunneus
+Scolops sulcipes
+Sinea complexa
+Chlorochroa uhleri
+Phytocoris canescens
+Deraeocoris shastan
+Pycnoderes medius
+Vanduzea segmentata
+Stictocephala basalis
+Telamona extrema
+Corticoris signatus
+Enchenopa permutata
+Lopidea eremita
+Abgrallaspis oxycoccus
+Dacerla mediospinosa
+Lipaphis pseudobrassicae
+Lygus ceanothi
+Cyrtolobus parvulus
+Empicoris rubromaculatus
+Amphorophora agathonica
+Uroleucon (Lambersius) katonkae
+Aphis (Aphis) cytisorum
+Pediopsoides (Nanopsis) distincta
+Polymerus basivittis
+Dichrooscytus dentatus
+Dichrooscytus utahensis
+Tropidosteptes pacificus
+Dichrooscytus taosensis
+Phytocoris comulus
+Pygolampis pectoralis
+Cedoaphis incognita
+Rhopalomyzus (Judenkoa) lonicerae
+Rhopalosiphum enigmae
+Phytocoris knowltoni
+Emesaya brevipennis
+Duadicus pallidus
+Chaetosiphon minor
+Germalus victoriae
+Euceraphis lineata
+Lopidea staphyleae
+Mastopoda pteridis
+Acanthocephala (Metapodiessa) femorata
+Pseudopsallus lattini
+Pappus piceicola
+Cinara (Cinara) pseudotaxifoliae
+Aleurolobus spp.
+Keltonia sulphurea
+Galgupha loboprostethia
+Ferrisia virgata
+Engytatus confusa
+Neolygus quercalbae
+Dialeurodes kirkaldyi
+Acompocoris lepidus
+Nabis blackburni
+Neolygus inconspicuus
+Tetraleurodes errans
+Barce fraterna
+Nysius communis
+Umbonia crassicornis
+Usingerella bakeri
+Macrosiphum (Macrosiphum) pseudorosae
+Idiocerus (Populicerus) lachrymalis
+Norvellina pannosa
+Melaleuca sp 28
+Myzocallis (Lineomyzocallis) neoborealis
+Laevicephalus cinerosus
+Neocoelidia lactipennis
+Pseudococcus dispar
+Cyrtolobus vanduzii
+Polyamia (Polyamia) weedi
+Aphis (Aphis) cornifoliae
+Dactylopius confusus
+Eriococcus eriogoni
+Crypticerya rileyi
+Kuwania quercus
+Puto atriplicis
+Ctenarytaina spatulata
+Glycaspis brimblecombei
+Thyanta calceata
+Tylozygus bifidus
+Kelisia spinosa
+Microcentrus caryae
+Deraeocoris hesperus
+Chaitophorus stevensis
+Microparsus (Microparsus) desmodiorum
+Plagiognathus davisi
+Megalopsallus parapunctipes
+Plagiognathus flavidus
+Megalopsallus nicholi
+Orectoderus bakeri
+Rubeospineus truncatus
+Leutiola ajo
+Parthenicus rufus
+Parthenicus vaccini
+Saileria bella
+Scalponotatus albibasis
+Myrtlemiris yalgoo
+Inoma fuscata
+Epimixia vulturna
+Psallus varians
+Oechalia schellenbergii
+Pilophorus salicis
+Labops burmeisteri
+Orthotylus atriplicis
+Reuteria querci
+Ausejanus tiramisu
+Cyrtorhinus caricis
+Macrotylus vanduzeei
+Lopidea taurina
+Ausejanus mcdonaldi
+Xiphoidellus unicolor
+Mcateella interioris
+Metriorrhynchomiris dislocatus
+Aitkenia exocarpos
+Tytthus vagus
+Cyrtolobus griseus
+Cixidia variegata
+Lygus humeralis
+Neolygus hirticulus
+Schizaphis (Schizaphis) graminum
+Nearctaphis sensoriata
+Cyrtolobus flavolatus
+Cyrtolobus gratiosus
+Pissonotus delicatus
+Cavariella (Cavariella) pustula
+Dendrocoris humeralis
+Chaitophorus saliciniger
+Dysaphis (Dysaphis) foeniculus
+Publilia reticulata
+Ceratagallia (Aceratagallia) uhleri
+Aphis (Aphis) impatientis
+Oxycarenus westraliensis
+Stenodema trispinosa
+Myzocallis (Myzocallis) boerneri
+Muirodelphax arvensis
+Orthotylus azalais
+Aphis (Bursaphis) varians
+Phytocoris plenus
+Capitophorus carduinus
+Cinara (Cinara) coloradensis
+Calaphis leonardi
+Mormidea lugens
+Eriosoma rileyi
+Essigella (Lambersella) fusca
+Aloephagus myersi
+Oedancala dorsalis
+Jadera haematoloma
+Magicicada septendecim
+Pemphigus populiglobuli
+Saissetia hemisphaerica
+Pseudopsallus major
+Scolops abnormis
+Aleuropleurocelus coachellensis
+Irbisia sita
+Malezonotus sodalicius
+Aleyrodes proletella
+Cosmopepla uhleri
+Paraphlepsius (Sabix) irroratus
+Ceratocapsus punctulatus
+Orchamoplatus mammaeferus
+Tylocentrus quadricornis
+Trialeurodes hutchingsi
+Cimex adjunctus
+Cimex pilosellus
+Euschistus conspersus
+Phoenicocoris obscurellus
+Prociphilus (Pulvius) probosceus
+Lopidea hesperus
+Pseudaonidia trilobitiformis
+Chionaspis sassceri
+Situlaspis daleae
+Crassaspis multipora
+Ceratagallia (Aceratagallia) longula
+Ballana (Viriosana) dira
+Idiocerus (Populicerus) formosus
+Physokermes insignicola
+Pulvinariella mesembryanthemi
+Illinoia (Illinoia) pepperi
+Anisococcus ephedrae
+Gloridonus gloriosus
+Delottococcus confusus
+Maconellicoccus hirsutus
+Melaleuca sp 3
+Largus sp
+Neotoxoptera oliveri
+Pseudococcus diversus
+Ormenis chloris
+Pseudococcus microcirculus
+Pseudococcus sparsus
+Kleidocerys modestus
+Pemphigus monophagus
+Aradus antennalis
+Ripersiella hibisci
+Spilococcus atriplicis
+Chaetosiphon (Pentatrichopus) thomasi
+Allokermes essigi
+Praelongorthezia artemisiae
+Nysius terrestris
+Aphalara calthae
+Cacopsylla fatsiae
+Acinopterus acuminatus
+Trioza eugeniae
+Emoloana swezeyi
+Tibicen chloromera
+Amphorophora forbesi
+Dictyssa obliqua
+Proxys punctulatus
+Tetraleurodes perileuca
+Pilophorus taxodii
+Bolteria luteifrons
+Epameibaphis atricornis
+Oligotylus maneadero
+Megalopsallus teretis
+Plagiognathus blatchleyi
+Plagiognathus rosicola
+Tuxedo nicholi
+Knightopiella albipubescens
+Coquillettia nigrithorax
+Bisulcopsallus fuscipunctatus
+Pilophorus schwarzi
+Myrtlemiris tesselatus
+Eritingis trivirgata
+Physatocheila objicis
+Eritingis koebeli
+Inoma silveirae
+Inoma arrernte
+Wallabicoris pinocchii
+Tytthus pubescens
+Chlamydatus eurotiae
+Megalopsallus punctatus
+Pseudopsallus anograe
+Tuponia cristifera
+Laryngodus cervantes
+Orthotylus nyctalis
+Pilophorus confusus
+Pilophorus discretus
+Atractotomus schwartzi
+Zanchius tarasovi
+Megalopsallus brendae
+Macrotylus intermedius
+Melaleucoides systenae
+Ceratocapsus cunealis
+Neolygus communis
+Rhinocapsus rubricans
+Tiryus fuscosignatus
+Megamelus davisi
+Leptopterna dolabrata
+Kelisicranus arundiniphagus
+Tholosanus proximus
+Gargara genistae
+Sciocoris obscurus
+Macrocarenoides scutellatus
+Capsus ater
+Otiocerus coquebertii
+Chlorochroa granulosa
+Euschistus inflatus
+Notholopisca californica
+Deraeocoris davisi
+Xantholobus nitidus
+Vanduzea triguttata
+Monelliopsis californica
+Pseudoloxops rubrocuneatus
+Cinara (Cinara) costata
+Jalysus spinosus
+Pagasa fusca
+Oxycarenus arctatus
+Phytocoris brevicornis
+Phytocoris conspurcatus
+Phytocoris hypoleucoides
+Stephanitis queenslandensis
+Phytocoris erectus
+Phytocoris maricopae
+Phytocoris olseni
+Phytocoris pulchricollis
+Phytocoris intermontanus
+Chaitophorus longipes
+Helochara communis
+Drepanaphis nigricans
+Phytocoris rubroornatus
+Germalus sp
+Deraeocoris convexulus
+Illinoia (Illinoia) azaleae
+Nasonovia (Kakimia) heucherae
+Coquillettia insignis
+Lygus bradleyi
+Lopidea fuscosa
+Cinara (Cinara) glehna
+Macrosiphum (Macrosiphum) pteridis
+Tropidosteptes cardinalis
+Closterotomus norvegicus
+Stethaulax marmoratus
+Perillus bioculatus
+Phytocoris nobilis
+Geocoris atricolor
+Idiocerus (Populicerus) amoenus
+Aleuropleurocelus ornatus
+Idiocerus (Populicerus) ramentosus
+Aleurotithius atratus
+Sarona saltator
+Colladonus belli
+Neurocolpus simplex
+Sixeonotus albohirtus
+Deraeocoris albigulus
+Deraeocoris cerachates
+Nabis capsiformis
+Neolygus tinctus
+Velataspis dentata
+Pleotrichophorus zoomontanus
+Prociphilus (Stagona) picearubensis
+Aspidaspis arctostaphyli
+Oeciacus vicarius
+Aonidia shastae
+Uroleucon (Lambersius) crepusisiphon
+Macrosiphum (Macrosiphum) occidentalis
+Tepa yerma
+Chionaspis corni
+Schizolachnus pineti
+Fiorinia japonica
+Macrosiphum (Macrosiphum) walkeri
+Japananus hyalinus
+Ceratagallia (Aceratagallia) lyrata
+Macropsis basalis
+Nasonovia (Kakimia) houghtonensis
+Microlophium sibiricum
+Ceratagallia (Ceratagallia) tergata
+Ceratagallia (Ceratagallia) lobata
+Saissetia neglecta
+Balanococcus diminutus
+Phenacoccus aceris
+Anoecia oenotherae
+Vryburgia brevicruris
+Vryburgia trionymoides
+Catonia pumila
+Thyanta rugulosa
+Acanthococcus dubius
+Eriococcus pittospori
+Kermes shastensis
+Chaitophorus pusillus
+Aleuropleurocelus oblanceolatus
+Eulecanium caryae
+Pulvinaria rhois
+Cacopsylla tenuata
+Schizolachnus curvispinosus
+Aleurotuba jelinekii
+Tetraphleps uniformis
+Aphis (Aphis) holodisci
+Morganella cueroensis
+Dictyssa monroviana
+Dichaetocoris nevadensis
+Oligotylus pluto
+Nevadocoris becki
+Tuberculatus (Pacificallis) pasaniae
+Aphis (Aphis) feminea
+Catamergus kickapoo
+Aphis (Aphis) salicariae
+Pealius azaleae
+Lepidosaphes flava
+Neolygus geneseensis
+Plagiognathus brevirostris
+Strophopoda aprica
+Plagiognathus guttatipes
+Plagiognathus repetitus
+Europiella angulata
+Slaterocoris sparsus
+Crassomiris anaticula
+Solenoxyphus lepidus
+Coquillettia luteiclava
+Myrtlemiris rubrocuneatus
+Zanessa pictulifer
+Camptotylidea alba
+Psallopsis longicornis
+Kasumiphylus kyushuensis
+Inoma stysi
+Sacculifer picticeps
+Atractotomus prosopidis
+Phaeochiton caraganae
+Beckocoris lattini
+Jiwarli solanum
+Ceratocapsus digitulus
+Asciodema obsoleta
+Orthotylus viridinervis
+Sthenaridea australis
+Reuteroscopus tinctipennis
+Orthotylus robiniae
+Chorosomella jakowleffi
+Atractotomus quercinus
+Orthocephalus bivittatus
+Anapus kirschbaumi
+Brooksetta azteci
+Beckocoris laticephalus
+Orthotylus oschanini
+Orthotylus mistus
+Ceratocapsus cecilsmithi
+Pilophoropsidea camela
+Pseudosthenarus anapophysis
+Europiella lividella
+Ilnacorella sulcata
+Ausejanus arvensus
+Phytocoris salicis
+Agraptocoris eugeniae
+Conostethus americanus
+Daerlac nigricans
+Poecilometis fuscescens
+Dacerla alata
+Apateticus bracteatus
+Phytocoris aurora
+Aphis (Aphis) hyperici
+Diceroprocta apache
+Cacama valvata
+Teleonemia scrupulosa
+Tortistilus inermis
+Delphacodes detecta
+Telamona tiliae
+Chaitophorus neglectus
+Polymerus gracilentus
+Podisus placidus
+Corythucha confraterna
+Dichrooscytus brevirostris
+Dichrooscytus rufivenosus
+Aphis (Aphis) frangulae
+Proba sallei
+Idiopterus nephrelepidis
+Aphis (Aphis) vernoniae
+Polymerus relativus
+Phytocoris calli
+Kathleenum cornutum
+Phytocoris cowaniae
+Draeculacephala antica
+Rhynchomitra microrhina
+Thionia bullata
+Phytocoris hettenshawi
+Oncerotrachelus acuminatus
+Catonia nava
+Rhopalosiphum oxyacanthae-padi complex
+Panaetius lobulatus
+Crompus opacus
+Phytocoris purshiae
+Chaitophorus minutus
+Phytocoris quercinus
+Drepanaphis simpsoni
+Alydus pilosulus
+Leptoglossus clypealis
+Cinara (Cinara) melaina
+Cinara (Cinara) murrayanae
+Lygus keltoni
+Lygus rugulipennis
+Neophyllaphis (Neophyllaphis) araucariae
+Malezonotus rufipes
+Sipha flava
+Dynaspidiotus britannicus
+Uroleucon (Uroleucon) eupatoricolens
+Myzocallis (Neomyzocallis) tuberculatus
+Macrosiphum (Macrosiphum) pechumani
+Essigella (Essigella) hoerneri
+Amphorophora ampullata
+Idiocerus (Populicerus) amabilis
+Aleuroclava aucubae
+Aleuroclava spp.
+Orthotylus kassandra
+Corythucha ulmi
+Colladonus montanus reductus
+Flatoidinus punctatus
+Pealius maskelli
+Cardiastethus assimilis
+Tetraleurodes caulicola
+Trialeurodes bemisae
+Trialeurodes floridensis
+Lygus abroniae
+Corythucha salicata
+Antoninoides parrotti
+Heliococcus stachyos
+Chionaspis furfura
+Prociphilus (Stagona) xylostei
+Pseudaonidia tesserata
+Parlatoria pseudaspidiotus
+Tuberculatus (Orientuberculoides) fangi
+Diaspidiotus ehrhorni
+Abgrallaspis colorata
+Hemiberlesia popularum
+Hemiberlesia quercicola
+Selenaspidus rubidus
+Kuwanaspis hikosani
+Protodiaspis agrifoliae
+Ceroplastes irregularis
+Muscaphis smithi
+Eulecanium excrescens
+Monellia microsetosa
+Amphigonalia bispinosa
+Myzocallis (Lineomyzocallis) spinosa
+Antianthe expansa
+Deltocephalus fuscinervosus
+Anisococcus adenostomae
+Pagaronia tredecimpunctata
+Anthracosiphon crystleae
+Macrosteles divisus
+Texananus (Texananus) spatulatus
+Hypogeococcus spinosus
+Rhizoecus leucosomus
+Paracoccus juniperi
+Spilococcus larreae
+Spilococcus prosopidis
+Trionymus dolus
+Cerococcus quercus
+Hannabura alnosa
+Erythroneura maculata
+Pleotrichophorus gnaphalodes
+Xylococculus quercus
+Dimargarodes meridionalis
+Pleotrichophorus quadritrichus
+Pleotrichophorus utensis
+Epameibaphis utahensis
+Psylla alni
+Craspedolepta angustipennis
+Diclidophlebia fremontiae
+Thyanta pallidovirens setosa
+Calophya triozomima
+Aloha dubantiae
+Sitobion (Sitobion) luteum
+Ilburnia montistantala
+Ticida transversa
+Macrolophus usingeri
+Neaethus fragosus
+Phytocoris roseus
+Psallovius nigroantennatus
+Cinara (Cinara) watsoni
+Macrosiphum (Macrosiphum) tiliae
+Ceratagallia (Aceratagallia) truncata
+Microsiphoniella acophorum
+Pleotrichophorus pycnorhysus
+Empoasca (Empoasca) solana
+Ptochiomera nodosa
+Daleapidea daleae
+Centrodontus atlas
+Megalopsallus nuperus
+Pronotocrepis clavicornis
+Salicopsallus lucidus
+Parthenicus psalliodes
+Hypseloecus lysiani
+Solenoxyphus asanovae
+Psallovius flaviclavus
+Kirkaldyella pilosa
+Malandiola sp
+Wallabicoris lachnostachyos
+Wallabicoris pityrodii
+Physatocheila uniseriata
+Wallabicoris rutidosi
+Ulonemia mjobergi
+Lasiacantha luritja
+Boopidocoris vitticollis
+Phoenicocoris pallidicornis
+Macrotylus zinovievi
+Epimixia sp
+Sacculifer rufinervis
+Anischys luteovarius
+Jornandes genetivus
+Ephedrodoma multilineata
+Hyalochloria unicolor
+Orthotylus turanicus
+Nevadocoris tetradymii
+Eurycolpus flaveolus
+Reuteria bifurcata
+Pamillia behrensii
+Orthocephalus saltator
+Mecomma angustata
+Plagiognathus luteus
+Lopidea lathyri
+Schuhistes lyciae
+Karoocapsus middelburgensis
+Mcateella austera
+Scholtzicoris linnavuorii
+Ceratocapsus fanseriae
+Araucanophylus pacificus
+Ilnacora recurvata
+Hypseloecus amyemi
+Melaleucoides pileanthicola
+Felisacus elegantulus
+Austrodapus nitens
+Tytthus alboornatus
+Tytthus parviceps
+Tytthus femoralis
+Litomiris curtus
+Filicicoris viridis
+Cermatulus nasalis
+Everardia picta
+Omyta centrolineata
+Brochymena affinis
+Pelitropis rotulata
+Thyanta custator
+Ischnotingis fasciata
+Phytocoris apache
+Eurychilopterella luridula
+Helonica excelsa
+Nesiomiris pilosus
+Nesiomiris reductus
+Phytocoris vinaceus
+Betulaphis brevipilosa
+Creontiades rubrinervis
+Aphelonema decorata
+Glossonotus nimbatulus
+Cinara (Cinara) schwarzii
+Penthimia americana
+Pseudoloxops nigrobasicornis
+Pseudoloxops adamsoni
+Myzus (Nectarosiphon) ascalonicus
+Polymerus tumidifrons
+Phytocoris corticola
+Rhopalomyzus (Rhopalomyzus) poae
+Phytocoris deserticola
+Okanagana vanduzeei
+Phytocoris simulatus
+Codophila remota
+Drepanaphis parva
+Phytocoris varius
+Austrocapsus martigena
+Engytatus nicotianae
+Forda formicaria
+Irbisia knighti
+Illinoia (Oestlundia) rubicola
+Arhyssus scutatus
+Lopidea garryae
+Boisea rubrolineata
+Cinara (Cinara) pinivora
+Aphis (Aphis) thaspii
+Protopterocallis fumipennellus
+Cinara (Cinara) sibericae
+Macrosiphum (Macrosiphum) pisi
+Phytocoris tiliae
+Lasiomerus annulatus
+Aleurocanthus spiniferus
+Scaphoideus (Scaphoideus) opalinus
+Eriosoma pyricola
+Plagiognathus lattini
+Ceratocapsus uniformis
+Erythroneura integra
+Engytatus terminalis
+Aspidiotus forbesi
+Apachemiris vigilax
+Aspidiotus perniciosus
+Chrysomphalus tenebricosus
+Aphis (Zyxaphis) filifoliae
+Oeciacus hirundinis
+Oncopsis sobrius
+Neolygus piceicola
+Tetraneura (Tetraneurella) akinire
+Fiorinia externa
+Pangaeus bilineatus
+Gymnaspis aechmeae
+Clavaspis covilleae
+Perillus splendidus
+Aulacaspis rosarum
+Chionaspis salicis
+Ranzovius clavicornis
+Situlaspis atriplicis
+Xerophilaspis prosopidis
+Ceroplastes rubens
+Coccus viridis
+Eulecanium tiliae
+Neolecanium cornuparvum
+Prococcus acutissimus
+Oncocephalus geniculatus
+Illinoia (Illinoia) spiraecola
+Toumeyella mirabilis
+Toumeyella parvicornis
+Dikraneura (Dikraneura) carneola
+Comstockiella sabalis
+Phenacoccus alleni
+Neokolla (Grapheocephala syn.) confluens
+Neokolla (Grapheocephala syn.) hieroglyphica
+Oliarus slossoni
+Pseudococcus importatus
+Pseudococcus odermatti
+Aradus kormilevi
+Spilococcus sequoiae
+Trionymus frontalis
+Trionymus modocensis
+Parantonae hispida hispida
+Platycotis minax
+Asterodiaspis quercicola
+Graphocephala teliformis
+Eriococcus euphorbiae
+Kermes sylvestris
+Nanokermes pubescens
+Stomacoccus platani
+Xylococculus betulae
+Banasa dimidiata
+Matsucoccus fasciculensis
+Matsucoccus bisetosus
+Dysaphis (Dysaphis) radicola
+Euphyllura arbuti
+Craspedolepta minutissima
+Euglyptoneura robusta
+Calinda collaris
+Trichopepla semivittata
+Heteropsylla cubana
+Dictyophorodelphax mirabilis
+Prokelisia marginata
+Megacopta cribraria
+Cinara (Cinara) ferrisi
+Hoplomachus affiguratus
+Myzocallis (Lineomyzocallis) longiunguis
+Telamona tristis
+Idiocerus (Populicerus) suturalis
+Macrosiphum (Macrosiphum) stanleyi
+Megalopsallus nigricaput
+Plagiognathus melliferae
+Megalopsallus rubropictipes
+Ceratopsallus quercicola
+Tuponia arcufera
+Squamocoris purshiae
+Europiella livida
+Pilophorus furvus
+Roburocoris grandiculus
+Hadronema incognitum
+Myrmecoridea sp
+Parada approba
+Nethersia setosa
+Wallabicoris paradicrastyli
+Wallabicoris thomasii
+Camptotylidea suturalis
+Inoma sp
+Camptotylidea astarte
+Camptotylidea sinaitica
+Psallopsis halostachydis
+Psallus ambiguus
+Atractotomus quercicola
+Keltonia clinopodii
+Jiwarli ptilotus
+Ceratocapsus setosus
+Paredrocoris pectoralis
+Pseudopsallus badger
+Pseudopsallus stitti
+Labopidea pallida
+Pilophorus heidemanni
+Parthenicus sabulosus
+Pilophorus fuscipennis
+Orthotylus interpositus
+Dimorphocoris albipilis
+Parapseudosthenarus wiborgii
+Lestonia haustorifera
+Xiphoidellus gilvus
+Xiphoidellus dumosus
+Xiphoidellus aureus
+Pseudoloxops signatus
+Mcateella splendida
+Melaleuca sp 36
+Acaciacoris acaciae
+Xiphoidellus pallidus
+Lasiacantha aureolus
+Ilnacora chloris
+Agraptocoris pallescens
+Orthotylus submarginatus
+Tytthus pygmaeus
+Cyphopelta modesta
+Stenocranus (Codex) lautus
+Stenocranus (Codex) unipunctatus
+Trigonotylus antennatus
+Rayieria gearyi
+Pirricoris annectans
+Arniscus humeralis
+Dictyotus caenosus
+Otiocerus wolfii
+Cixidia fusca
+Lygidea rosacea
+Lygidea viburni
+Phytocoris difformis
+Schuhirandella fulva
+Nesiomiris lanaiensis
+Delphacodes pacifica
+Micrutalis dorsalis
+Colladonus clitellarius
+Diaphnidia debilis
+Acaciacapsus appha
+Poblicia fuliginosa
+Lygus rolfsi
+Capitophorus shepherdiae
+Phymata salicis
+Hoplochaitophorus quercicola
+Periphyllus aceris
+Pseudoloxops flavus
+Cinara (Cupressobium) fresai
+Sipha (Sipha) agropyronensis
+Pinalitus rostratus
+Dichrooscytus apicalis
+Lygus rubroclarus
+Aphis (Aphis) saniculae
+Phytocoris berbericola
+Phytocoris chihuahuanae
+Trigonotylus hawaiiensis
+Phymata fasciata
+Cixius praecox
+Illinoia (Masonaphis) lambersi
+Phytocoris laevis
+Zelus sp
+Atrachelus cinereus
+Phytocoris megatuberis
+Phytocoris dreisbachi
+Cinara (Cinara) juniperivora
+Cymus sp
+Eriosoma wilsoni
+Mictis profana
+Deraeocoris gilensis
+Irbisia elongata
+Neopamera albocinta
+Arbela telomi
+Lachnochaitophorus obscurus
+Dichaetocoris geronimo
+Macrosiphum (Macrosiphum) venaefuscae
+Halticotoma spp.
+Myiomma cixiiforme
+Cymodema breviceps
+Cymus angustatus
+Tupiocoris elongatus
+Subsaltusaphis virginica
+Boernerina variabilis
+Eurychilopterella pacifica
+Irbisia incomperta
+Irbisia limata
+Labopidea allii
+Eupolemus tasmanicus
+Anomaloptera scabrosus
+Piesma cinerea
+Aleurotrachelus trachoides
+Perigenes constrictus
+Eulachnus brevipilosus
+Eratoneura curta
+Teleonemia nigrina
+Eratoneura manus
+Pseudophilippia quaintancii
+Deraeocoris nubilus
+Pasadenus margaritae
+Ilnacora vittifrons
+Coccobaphes frontifer
+Galgupha carinata
+Empoasca (Hebata) decora
+Empoasca (Hebata) nigra
+Singhius hibisci
+Aspidiotus juglans-regiae
+Cacodmus sumatrensis
+Cacodmus vicinis
+Idiocerus (Populicerus) rotundens
+Irbisia morio
+Texananus (Texananus) ovatus
+Prepops fraternus
+Toonglasa umbrata
+Paraulacizes irrorata
+Nysius palor
+Acyrthosiphon (Acyrthosiphon) loti
+Holcostethus abbreviatus
+Pleotrichophorus wasatchii
+Plagiognathus caryae
+Andaspis punicae
+Lopidea davisi
+Hemiberlesia candidula
+Tepa rugulosa
+Acinopterus inornatus
+Aonidomytilus variabilis
+Carulaspis visci
+Carpocoris remotus
+Odoniella rubra
+Delphacodes saccharicola
+Cupidaspis cupressi
+Lepidosaphes yanagicola
+Prociphilus (Prociphilus) pergandei
+Telamona westcotti
+Pemphigus junctisensoriatus
+Eucalymnatus tessellatus
+Dalbulus maidis
+Ceratagallia (Ceratagallia) arroya
+Pulvinaria delottoi
+Cuerna occidentalis
+Chorizococcus abroniae
+Coatonocapsus nr. transvaalensis
+Osbornellus (Sorbonellus) scalaris
+Cryptoripersia arizonensis
+Hoplistoscelis sordidus
+Heterococcus nudus
+Hypogeococcus pungens
+Lygaeus turcicus
+Cymus luridus
+Phymata borica
+Twiningia permista
+Phenacoccus colemani
+Phenacoccus eremicus
+Galgupha atra
+Phenacoccus gossypii
+Acanalonia servillei
+Amnestus pusillus
+Pseudococcus sorghiellus
+Abstrusomyzus leucocrini
+Rhizoecus californicus
+Tortistilus pacificus
+Eriococcus diaboli
+Eriokermes gillettei
+Allokermes ferrisi
+Kermes cockerelli
+Puto laticribellum
+Scaphytopius (Cloanthanus) argutus
+Trioza albifrons
+Euglyptoneura fuscipennis
+Tibicen lyricen
+Bactericera lobata
+Aphalaroida spinifera
+Cacopsylla minuta
+Aloha kirkaldyi
+Trialeurodes lauri
+Tetraphleps latipennis
+Nabis nigrovittatus
+Nabis rufusculus
+Acyrthosiphon (Acyrthosiphon) purshiae
+Macrotylus sexguttatus
+Cinara (Cinara) puerca
+Drepanosiphum oregonensis
+Deserta bipunctata
+Platylygus rolfsi
+Orthotylus viridis
+Hyporhinocoris fratruelis
+Pilophorus mongolicus
+Pissonotus binotatus
+Aphis (Zyxaphis) minutissima
+Neophyllaphis (Neophyllaphis) podocarpi
+Macrosiphum (Macrosiphum) pallidum
+Lygidea obscura
+Daktulosphaira vitifoliae
+Plagiognathus ribesi
+Diaspis manzanitae
+Dichrooscytus pinicola
+Plagiognathus amorphae
+Insulaphylus cruz
+Insulaphylus meridianus
+Coquillettia mimetica
+Teleorhinus tephrosicola
+Coquillettia albella
+Ceratopsallus pantherinus
+Noctuocoris fumidus
+Dilatops fici
+Hypseloecus neoamyemi
+Hypseloecus amyemopsis
+Ceratopsallus aquilonius
+Coquillettia attica
+Coquillettia albiclava
+Coquillettia vicina
+Eminoculus auratus
+Myrtlemiris meanarra
+Aoplonemella festiva
+Paracopium albofasciatum
+Wallabicoris newcastelii
+Wallabicoris schwartzi
+Wallabicoris tasmanensis
+Radinacantha darwini
+Wallabicoris spyridii
+Lasiacantha inaquosa
+Atomophora oculata
+Paracopium furvum
+Nethersia absimilis
+Psallopsis kirgisicus
+Orectoderus montanus
+Inoma kalbarri
+Phimophorus spissicornis
+Restiophylus leptocarpi
+Ceratocapsus rubricornis
+Falconia poetica
+Pseudopsallus plagiatus
+Phaeochiton alenae
+Presidiomiris infuscatus
+Labopidea artemisiae
+Labopidea planifrons
+Myrmecophyes lacteipennis
+Labops brooksi
+Macrotylus tristis
+Orthotylus ericetorum
+Orthotylus stitti
+Reuteria irrorata
+Ceratocapsus quadrispiculus
+Ausejanus tasmaniae
+Hypseloecus cassisi
+Lopidea ampla
+Plagiognathus arbustorum
+Pseudosthenarus aquilonius
+Macrotylus geminus
+Ausejanus femoralis
+Karoocapsus pulchrus
+Mcateella esperancensis
+Mcateella schuhi
+Melaleucoides leuropomae
+Ceratocapsidea balli
+Ilnacora arizonae
+Lasiacantha eremophila
+Phytocoris crawfordi
+Aitkenia latevagans
+Phylus coryli
+Psallus haematodes
+Otiocerus stollii
+Witchelinamiris viridimaculatus
+Daerlac cephalotes
+Sciomenida mcfarlandi
+Monalocoris americanus
+Sinea rileyi
+Avicenna inquinata
+Kalkadoona confinis
+Dictyotus inconspicuus
+Irbisia bliveni
+Nesiomiris cheliferus
+Ischnotingis sp
+Nesiomiris elongatus
+Lygus borealis
+Chlorochroa congrua
+Oecleus borealis
+Melanoliarus ecologus
+Tuberculatus (Pacificallis) quercifolii
+Eritingis sp
+Anisostylus gillettei
+Rayieria kennedyi
+Okanagana utahensis
+Brachyunguis (Xerophilaphis) tetrapteralis
+Inoma multispinosa
+Atymna inornata
+Acaciacapsus aureolus
+Polymerus chrysopsis
+Tumidagena terminalis
+Macrocephalus barberi
+Pterocomma populeum
+Acuticauda asterensis
+Cinara (Cinara) californica
+Melanorhopala clavata
+Dichrooscytus texanus
+Physatocheila sp
+Dichrooscytus rugosus
+Dichrooscytus rubromaculatus
+Planicephalus flavocostatus
+Pithanus maerkelii
+Nesiomiris waimaeae
+Asiphonaphis pruni
+Phytocoris hirsuticus
+Phytocoris minituberculatus
+Sanctanus (Sanctanus) sanctus
+Inoma breviseta
+Dilompus woodwardi
+Cinara (Cinara) apini
+Cinara (Cinara) hottesi
+Neottiglossa undata
+Graptostethus servus
+Colopha ulmicola
+Drepanaphis knowltoni
+Austropeplus annulipes
+Megalotomus quinquespinosus
+Leptocoris sp
+Leptoglossus zonatus
+Ithamar hawaiiensis
+Metadelphax propinqua
+Elasmucha lateralis
+Elasmostethus cruciatus
+Maculolachnus submacula
+Acanthocephala (Metapodiessa) terminalis
+Leptoglossus corculus
+Microlophium carnosum
+Dilompus sp
+Melanacanthus sp
+Myzocallis (Callifornicallis) agrifolicola
+Woodwardiola sp
+Neosymydobius memorialis
+Aphanus umbrosus
+Paracopium australicum
+Myzus (Nectarosiphon) ligustri
+Allaphis verrucosa
+Pemphigus populiramulorum
+Cinara (Cinara) setulosa
+Aphis (Aphis) decepta
+Metaleurodicus cardini
+Nealeurodicus bakeri
+Paraleyrodes bondari
+Paraleyrodes pseudonaranjae
+Lygaeus truculentus
+Prepops rubrovittatus
+Geocoris bullatus
+Phytocoris varipes
+Neocenchrea heidemanni
+Aleurolobus marlatti
+Aleuropleurocelus sierrae
+Idiocerus (Populicerus) ensiger
+Amblysellus curtisii
+Elasmostethus lineus
+Irbisia castanipes
+Ceratagallia (Aceratagallia) nanella
+Athysanella (Amphipyga) occidentalis
+Cosmopepla conspicillaris
+Colladonus flavocapitatus
+Eratoneura lawsoni
+Dicyphus famelicus
+Eratoneura lucyae
+Bemisia tuberculata
+Deraeocoris betulae
+Tagosodes cubanus
+Diphleps unica
+Crenidorsum aroidephagus
+Rayieria sp
+Paraxenetus guttulatus
+Dialeurodes nr navarroi
+Massilieurodes americanus
+Orthotylus symphoricarpi
+Aulacaspis pentagonia
+Cacodmus villosus
+Xylocoris galactinus
+Tetraleurodes fici
+Rhiginia cruciata
+Trialeurodes similis
+Lygus aeratus
+Nasonovia (Kakimia) castelleiae
+Plautia crossata var. stali
+Pacarina puella
+Fissuraspis ulmi
+Nysius sp
+Chionaspis acericola
+Pleotrichophorus xerozoous
+Oncopsis minor
+Stegophylla quercina
+Trialeurodes madroni
+Takecallis sasae
+Aonidiella inornata
+Ornithocoris pallidus
+Clavaspis ulmi
+Diaspidiotus degeneratus
+Circulaspis fistulata
+Melanaspis elaeagni
+Pseudaonidia duplex
+Macrosiphum (Macrosiphum) zionense
+Eratoneura penerostrata
+Thyanta accerra
+Targionia bigeloviae
+Parlatoreopsis chinensis
+Parlatoria ziziphi
+Froggattiella penicillata
+Oncopsis variabilis
+Carulaspis juniperi
+Obtusicauda (Obtusicauda) anomella
+Diaspis parasiti
+Macrosiphum (Macrosiphum) ambrosiae
+Pinnaspis buxi
+Poliaspis media
+Phymata pennsylvanica
+Ceroplastes ceriferus
+Telamona gibbera
+Ceroplastes cistudiformis
+Ceratagallia (Aceratagallia) fuscoscripta
+Milviscutulus mangiferae
+Macrosiphum (Macrosiphum) clydesmithi
+Macrosteles sexnotata
+Pulvinaria urbicola
+Colladonus coquilletti
+Erasmoneura vulnerata
+Chorizococcus polyporus
+Chorizococcus wilkeyi
+Homalodisca liturata
+Opsius stactogalus
+Dysmicoccus grassii
+Dysmicoccus obesus
+Chelysomidea guttata
+Twiningia bicolor
+Phenacoccus dicoriae
+Neokolla (Grapheocephala syn.) circellata
+Oncopsis verticus
+Phenacoccus pauperatus
+Neosymydobius chrysolepis
+Pseudococcus jackbeardsleyi
+Catonia luella
+Apiomerus spissipes
+Obtusicauda (Obtusicauda) artemisiphila
+Aphis (Aphis) viburni
+Ormenis septentrionalis
+Nysius delectus
+Nysius lichenicola
+Cavariella (Cavariella) hendersoni
+Vryburgia distincta
+Asterolecanium grandiculum
+Graphocephala constricta
+Planchonia stentae
+Sclerosococcus tillandsiae
+Cerococcus parrotti
+Allokermes gillettei
+Allokermes kosztarabi
+Tachardiella pustulata
+Erythroneura obliqua
+Phoenicococcus marlatti
+Puto cupressi
+Paratrioza cockerelli
+Cacopsylla nigranervosa
+Craspedolepta veaziei
+Scaphytopius (Cloanthanus) scriptus
+Scaphytopius (Cloanthanus) triangularis
+Hymenarcys nervosa
+Nysius rubescens
+Arytaina genistae
+Psylla buxi
+Parabrochymena arborea
+Cinara (Cinara) pruinosa
+Stictopleurus plutonius
+Phytocoris fuscosignatus
+Clavaspis disclusa
+Synecdoche nervata
+Nesothoe eugeniae
+Aleurothrixus interrogationis
+Thyanta custator custator
+Ericaphis wakibae
+Aphrophora cribrata
+Aulacorthum(Aulacorthum) dorsatum
+Mycetaspis defectopalus
+Odonaspis saccharicaulis
+Drepanaphis idahoensis
+Ilburnia oahuensis
+Danepteryx barbarae
+Idiocerus (Populicerus) snowi raphus
+Europiella pilosula
+Aspidiotus marisci
+Uroleucon (Lambersius) escalantii
+Pappus pseudotsugae
+Plagiognathus fulvaceus
+Chlamydatus uniformis
+Reuteroscopus mexicanus
+Brooksetta tibialis
+Plagiognathus lonicerae
+Ragwelellus suspectus
+Uroleucon caligatum
+Pleotrichophorus heterohirsutus
+Collaria meilleurii
+Tibicen pruinosus
+Myzus (Myzus) varians
+Papulaphis sleesmani
+Squamocoris utahensis
+Nesiomiris trinesiotes
+Plesiodema abiesicolus
+Plagiognathus emarginatae
+Plagiognathus rosicoloides
+Plagiognathus viticola
+Chlamydatus pallidicornis
+Phymatopsallus dubiosus
+Maculamiris baja
+Orectoderus longicollis
+Slaterocoris fuscomarginalis
+Bisulcopsallus texanus
+Phymatopsallus acaciae
+Phymatopsallus patagoniae
+Ramentomiris baja
+Polyozus furcilla
+Polyozus kojonup
+Hadronema simplex
+Hadronemidea echinata
+Exocarpocoris praegracilis
+Solenoxyphus fuscovenosus
+Pilophorus tomentosus
+Macrotylus dorsalis
+Coridromius chinensis
+Kirkaldyella boweri
+Codotingis evansi
+Dictyla amitina
+Paracopium summervillei
+Wallabicoris cassisi
+Wallabicoris chrysocephali
+Taeniophorus hyalinus
+Camptotylidea obscurata
+Nasocoris argyrotrichus
+Psallopsis bisulcis
+Compositocoris senecionus
+Hadrophyes sulphurella
+Tinicephalus croceus
+Megalocoleus lunula
+Glaucopterum lukjanovitshi
+Eumecotarsus breviceps
+Coridromius sp
+Ceratocapsus decurvatus
+Sthenaropsis obscurus
+Paraproba hamata
+Microtechnites inesalti
+Salicarus fulvicornis
+Salicarus concinnus
+Compsidolon kerzhneri
+Compsidolon balachowskyi
+Lepidargyrus instabilis
+Tuponia statices
+Tuponia suturalis
+Voruchiella dubia
+Pilophorus sinuaticollis
+Pilophorus erraticus
+Pilophorus niger
+Pilophorus validicornis
+Pilophorus miyamotoi
+Pilophorus disjunctus
+Paralaemocoris anabasus
+Myrmecophyes alboornatus
+Atractotomus tuthilli
+Myrmecophyes muminovi
+Dimorphocoris mongolicus
+Sthenaridea suturalis
+Nevadocoris lattini
+Orthotylus thymelaeae
+Ceratocapsus sp#1
+Orthotylus fieberi
+Metopocoris joannae
+Orthotylus leonardi
+Orthotylus junipericola
+Heterocordylus tibialis
+Paraproba crotonica
+Parthenicus cowaniae
+Parthenicus picicollis
+Blesingia gularis
+Orthotylus jordii
+Platycranus metriorrynchus
+Keltonia tuckeri
+Goodeniaphila schuhi
+Plagiognathus bipunctatus
+Pachyxyphus caesareus
+Amblytylus peitho
+Lopidea pteleae
+Pseudosthenarus ater
+Ausejanus minutus
+Melaleuca sp 120
+Mcateella sp
+Melaleuca sp 118
+Melaleucoides sheathianae
+Melaleucoides similis
+Chlamydatus suavis
+Cariniocoris geminatus
+Thryptomenomiris kalbarri
+Oligotylus pintoi
+Lasiacantha darwini
+Parapseudosthenarus buchenroederae
+Angulonotus grisescens
+Tytthus uniformis
+Dictyophorodelphax swezeyi
+Javesella pellucida
+Physophoropterella denticollis
+Nethersia maculosa
+Clivinema regalis
+Rayieria albaornata
+Heliria cristata
+Mcateella coolgardie
+Hyoidea notaticeps
+Campyloneura virigula
+Telamona salvini
+Stictopelta marmorata
+Pissonotus brunneus
+Piezodorus oceanicus
+Macrocarenus acuminatus
+Prokelisia dolus
+Dichrooscytus barberi
+Anotia uhleri
+Bolteria schaffneri
+Phytocoris candidus
+Euschistus variolarius
+Juniperthia indella
+Nesiomiris mahu
+Pycnoderes drakei
+Thionia producta
+Tibicen duryi
+Perillus exaptus
+Publilia erecta
+Tibicen dealbatus
+Beckocoris inventarium
+Megalopsallus ellae
+Lepyronia quadrangularis
+Tylocentrus reticulatus
+Telamona concava
+Delphacodes turgida
+Lopidea lateralis
+Tibicen dorsatus
+Brachycaudus (Appelia) tragopogonis
+Catonia picta
+Phytocoris vau
+Clivinema medialis
+Lophoscutus uhleri
+Zelus nugax
+Amphorophora sensoriata
+Nearctaphis argentinaeradicis
+Amaurochrous cinctipes
+Brochymena arborea
+Multareoides digitatus
+Protemiris distichi
+Dichrooscytus tescorum
+Aphis (Aphis) hamamelidis
+Clastoptera obtusa
+Stittocapsus franseriae
+Aphis (Bursaphis) neomexicana
+Taedia casta
+Aphis (Aphis) plantaginis
+Oncerometopus nigriclavus
+Otiocerus abbotii
+Tropidosteptes amoenus
+Narnia snowi
+Pachygrontha austrina
+Bolteria arizonae
+Cixius cultus
+Phytocoris nr. gracillatus
+Deraeocoris borealis
+Bruchomorpha oculata
+Phytocoris ketinelbi
+Phytocoris miniatus
+Rocconota annulicornis
+Duadicus namyatovae
+Dichrooscytus maculatus
+Cavariella araliae
+Catamergus fulvae
+Cavariella salicis
+Macrosteles lepidus
+Copicerus irroratus
+Heinsius pallidus
+Leptocoris tagalicus
+Leptocoris rufomarginata
+Calaphis betulicola
+Phytocoris schuhi
+Cinara (Cinara) fornacula
+Phytocoris tricinctus
+Cinara (Cinara) atra
+Restiophylus lyginiae
+Deraeocoris validus
+Thecabius (Thecabius) nr. populimonilis
+Phlegyas abbreviatus
+Hoplochaitophorus heterotrichus
+Boocoris bufiformis
+Gypsoaphis oestlundi
+Hyalomyzus eriobotryae
+Hyperomyzus (Hyperomyzus) pallidus
+Hyperomyzus (Neonasonovia) ribiellus
+Chaitophorus salicicortis
+Ittolemma teretis
+Macrosiphum (Macrosiphum) adianti
+Cinara (Cinara) abietis
+Cinara (Cinara) anzai
+Macrosiphoniella frigidicola
+Macrosiphoniella glabra
+Cinara azteca
+Cinara (Cinara) braggii
+Phylloxera stellata
+Lopidea falcicula
+Maculolachnus sijpkensi
+Cinara (Cinara) idahoensis
+Leptoglossus fulvicornis
+Clivinema sp
+Engytatus hawaiiensis
+Kelisia flava
+Corticoris unicolor
+Pappus intermedius
+Pappus contortae
+Tanybyrsa ampliata
+Myzus (Myzus) hemerocallis
+Pappus usingeri
+Uroleucon (Lambersius) madia
+Uroleucon (Uroleucon) cirsii
+Aleuroctarthrus destructor
+Phytocoris nigrifrons
+Cinara (Cinara) sonata
+Macrosiphoniella absinthii
+Rhizaspidiotus helianthi
+Paraleyrodes naranjae
+Paraleyrodes urichii
+Geocoris nr. lividipennis
+Aleurocerus spp.
+Watarrkamiris pallidus
+Scolops pallidus
+Scolops fumidus
+Scolops angustatus
+Draeculacephala inscripta
+Lopidea anisacanthi
+Sangarius paradoxus
+Elasmostethus suffusus
+Eriosoma herioti
+Perigenes similis
+Galgupha aterrima
+Sarona hiiaka
+Sarona kohana
+Sarona mokihana
+Codophila sulcata
+Dendrocoris pini
+Eratoneura brevipes
+Bemisia afer
+Gargaphia angulata
+Eratoneura knullae
+Ilnacora inusta
+Eratoneura richardsi
+Asteliamiris johnpolhemi
+Pasadenus pasadenus
+Neolygus vitticollis
+Agnocoris rossi
+Macropsis hesperia
+Dagbertus olivaceus
+Dialeurolonga decempuncta
+Cyrtolobus pictus
+Limotettix (Scleroracus) unknown
+Limotettix (Scleroracus) finitimus
+Jikradia olitorius
+Tibicen chiricahua
+Rusostigma tristylii
+Scaphytopius (Cloanthanus) acutus cirrus
+Phytocoris canadensis
+Aspidiotus uvae
+Asterolecanium bambusae
+Felisacus sp
+Aphrodes bicinctus
+Chrysomphalus obscurus
+Lyctocoris stalii
+Parthenicus oreades
+Saldula oahuensis
+Trialeurodes ricini
+Unoka gillettei
+Dimorphopterus zuluensis
+Coptosoma xanthogramma
+Nabis kahavalu
+Physatocheila variegata
+Corythucha obliqua
+Melanaspis deklei
+Xyphon flaviceps
+Chionaspis hamoni
+Pleotrichophorus pullus
+Chionaspis caryae
+Diceroprocta viridifascia
+Leptocimex vespertilionis
+Telamonanthe rileyi
+Neolygus atricallus
+Tetraneura (Tetraneurella) nigriabdominalis
+Malezonotus barberi
+Lampromicra senator
+Eratoneura gemina
+Clavaspis pedilanthi
+Eratoneura longa
+Macrosiphum (Macrosiphum) osmaroniae
+Paracimex setosus
+Orthotylus juglandis
+Eratoneura mirifica
+Tepa brevis
+Eratoneura dira
+Selenaspidus articulatus
+Parlatoria blanchardi
+Ceratagallia (Aceratagallia) calcaris
+Rugaspidiotus sculpturatus
+Ancepaspis tridentata
+Plagiognathus guttulosus
+Nesomartis psammophila
+Exuviaspis enceliae
+Ferrisidea magna
+Lepidosaphes chinensis
+Niveaspis ilicis
+Pallulaspis ephedrae
+Prociphilus (Prociphilus) longianus
+Pseudoparlatoria parlatorioides
+Pleotrichophorus brevinectarius
+Euschistus spp.
+Myzus (Nectarosiphon) certus
+Monellia maculella
+Columbisoga zapote
+Physokermes hemicryphus
+Monellia hispida
+Monelliopsis pecanis
+Anisococcus crawii
+Anisococcus oregonensis
+Anisococcus quercus
+Paraputo olivaceus
+Chorizococcus californicus
+Empoasca (Empoasca) aspera group
+Idiocerus (Populicerus) gillettei
+Rhytidodus decimaquarta
+Cucullococcus vaccinii
+Myzocallis (Lineomyzocallis) longirostris
+Dysmicoccus neobrevipes
+Dysmicoccus texensis
+Dysmicoccus wistariae
+Texananus (Texananus) oregonus
+Heterococcus arenae
+Tibicen davisi
+Scaphytopius (Convelinus) fuscifrons
+Scaphytopius (Convelinus) nitridus
+Aphis (Aphis) gerardiae
+Phenacoccus dearnessi
+Neocoelidia orovila
+Neocoelidia robusta
+Norvellina bicolorata
+Phenacoccus eschscholtziae
+Xyphon triguttata
+Phenacoccus hurdi
+Phenacoccus multisetosus
+Otiocerus degeeri
+Otiocerus francilloni
+Anotia fitchi
+Ripersiella kelloggi
+Braggia urovaneta
+Scaptococcus californicus
+Draeculacephala septemguttata
+Spilococcus keiferi
+Syrmococcus spirapuncta
+Trionymus caricis
+Trionymus quadricirculus
+Aclerda californica
+Kuwanaspis vermiformis
+Kuwanaspis pseudoleucaspis
+Acutaspis agavis
+Cerococcus artemisiae
+Dactylopius tomentosus
+Eriococcus uvaeursi
+Eriococcus barri
+Eriococcus larreae
+Oregmopyga johnsoni
+Oceanides planicollis
+Platypedia similis
+Tachardiella larreae
+Lecanodiaspis yuccae
+Crypticerya morrilli
+Lepidosaphes newsteadi
+Crypticerya tabernicola
+Beameria venosa
+Nysius nemorivagus
+Matsucoccus monophyllae
+Arctorthezia occidentalis
+Arctorthezia pseudoccidentalis
+Pleotrichophorus pseudopatonkus
+Ovaticoccus mackenziei
+Trioza collaris
+Aphalara curta
+Trioza bakeri
+Psylla floccosa
+Aphalara rumicis
+Cicadetta calliope
+Largus californicus
+Nabis oscillans
+Largus cinctus h.s. x californicus (vd)
+Neophyllura arbuti
+Nabis subrufus
+Siphanta acuta
+Dendrocoris contaminatus
+Aloha ipomaeae
+Nesothoe elaeocarpi
+Paraleyrodes perseae
+Acrosternum marginatum
+Trialeurodes pergandei
+Ilburnia raillardiicola
+Emoloana sporobolicola
+Brochymena parva
+Semiaphis heraclei
+Sminthuraphis ulrichi
+Tetraneura (Tetraneura) ulmi
+Aulacorthum(Aulacorthum) pterinigrum
+Alebra floridae
+Osbornia cornuta
+Dictyobia spp.
+Cercocarpopsallus bispinosus
+Multareoides bifurcatus
+Aphis (Aphis) coweni
+Graphocephala confluens
+Solenoxyphus candidatus
+Aphis (Aphis) fraserae
+Hyperomyzus (Neonasonovia) nabali
+Cinara (Cinara) oregonensis
+Idiocerus (Populicerus) apache
+Empoasca (Empoasca) arida
+Telonaca ramona pasadena
+Stephanitis rhododendri
+Stictopsallus aspersus
+Camptotylidea flavescens
+Camptozorus chondrillae
+Ceratocapsus pilosulus
+Orthotylus hamatus
+Ceratocapsus blatchleyi
+Pseudodoniella pacifica
+Okanagana rubrovenosa
+Dichrooscytus rufipennis
+Bolteria juniperi
+Phytocoris fuscipennis
+Deraeocoris balli
+Dilompus robustus
+Neacoryphus lateralis
+Deraeocoris fasciolus
+Trialeurodes drewsi
+Trialeurodes eriodictyonis
+Hyalomyzus collinsoniae
+Uroleucon (Uroleucon) astronomus
+Oceanaspidiotus araucariae
+Chlamydatus pullus
+Physokermes taxifoliae
+Hordnia circellata
+Puto echinatus
+Craspedolepta martini
+Cinara (Cinara) pulverulens
+Chaitophorus leucomelas
+Phyllaphis grandifoliae
+Dactylopius opuntiae
+Orthotylus notabilis
+Nesiomiris kawau
+Camptozygum aequale
+Nesiomiris oahuensis
+Singhiella simplex
+Nipaecoccus aurilanatus
+Parthenicus covilleae
+Ctenarytaina longicauda
+Idiocerus (Populicerus) distinguendus
+Corythucha pallipes
+Plagiognathus grandis
+Pseudoloxops n sp 1
+Dichrooscytus ochreus
+Plagiognathus flavipes
+Plagiognathus cibbetsi
+Tuxedo elongatus
+Europiella lattini
+Plagiognathus aquilinus
+Arctostaphylocoris arizonensis
+Calidroides schaffneri
+Megalopsallus marmoratus
+Oligotylus brevitylus
+Rubellomiris mariposa
+Coquillettia soligena
+Coquillettia polhemorum
+Coquillettia impluviata
+Ceratopsallus septentrionalis
+Salicopsallus schwartzi
+Noctuocoris conspurcatus
+Pseudopsallus tulare
+Pseudopsallus enceliae
+Pseudopsallus artemisicola
+Moiseevichia leyserae
+Polyozus australianus
+Polyozus kuringgai
+Solenoxyphus halocnemi
+Chileria andina
+Neoambonea cynanchi
+Ceratopsallus plautus
+Ethelastia liturata
+Myrtlemiris newmanensis
+Moissonia importunitas
+Heterocapillus tigripes
+Roburocoris peramplus
+Kirkaldyella ngarkati
+Hadronema bispinosum
+Euaulana tasmaniae
+Nethersia silveirae
+Nethersia sp
+Wallabicoris cuneotinctus
+Lasiacantha ephemera
+Atomophora maculosa
+Acrotelus pilosicornis
+Oncotylus reuteri
+Oncotylus pyrethri
+Psallopsis neglecta
+Psallopsis kalidiicola
+Tinicephalus discrepans
+Amblytylus concolor
+Macrotylus paykullii
+Harpocera orientalis
+Solenoxyphus loginovae
+Chrysochnoodes breviceps
+Compsidolon narzykulovi
+Psallus cinnabarinus
+Psallus wagneri
+Stephanitis sp
+Radinacantha sp
+Psallus clarus
+Dacota nigritarsis
+Ballella basicornis
+Larinocerus personatus
+Badezorus immaculatus
+Orthopidea fusciceps
+Campylomma acaciae
+Goodeniaphila cassisi
+Coleotichus costatus
+Maurodactylus nigrigenis
+Thaumastocoris petilus
+Jiwarli heliotropium
+Restiophylus hypolaenae
+Orthotylus chilensis
+Sejanus potanini
+Tuponia concinna
+Pseudopsallus viridicans
+Presidiomiris knighti
+Tuponia hippophaes
+Tuponia vulnerata
+Voruchiella pallida
+Voruchiella plagiata
+Labopidea arizonae
+Labopidea bermani
+Reuteroscopus diffusus
+Malacorisella endoi
+Atractotomus iturbide
+Parthenicus lalannei
+Zanchius gubernator
+Parthenicus pinicola
+Orthocephalus vittipennis
+Baclozygum brachypterum
+Diaphnidia richardsi
+Paraproba viridipennis
+Brooksetta nicholi
+Orthotylus bilineatus
+Orthotylus flemingi
+Dicyphus stachydis
+Orthotylus adenocarpi
+Dicyphus pallidus
+Orthotylus nymphias
+Orthotylus eurotiae
+Orthotylus minutus
+Orthotylus harryi
+Orthotylus robineaui
+Parthenicus aureosquamis
+Pseudopsallus hixsoni
+Reuteria craigi
+Reuteria dobsoni
+Reuteria mesasiatica
+Ausejanus cordatus
+Squamocoris fumosus
+Heterotoma dentipennis
+Tuxenella similaris
+Tuxenella fasciolaris
+Hypseloecus weirauchi
+Cremnocephalus albolineatus
+Lopidea chandleri
+Plagiognathus olivaceus
+Pseudosthenarus albipes
+Macrotylus amoenus
+Cranberrus MS baccus
+Teddus (MS) payne
+Sejanus funereus
+Karoocapsus occidentalis
+Mcateella reidi
+Mcateella gibber
+Melaleucoides uncinatae
+Melaleuca sp 9
+Melaleuca sp 91
+Melaleucoides raphiophyllae
+Melaleucoides akaina
+Ceratocapsidea rufistigma
+Apiomerus longispinis
+Ilnacora chihuahuaensis
+Tupiocoris agilis
+Phytocoris lasiomerus
+Harpagophylus verticordii
+Ilnacora nicholi
+Ranzovius californicus
+Arafuramiris queenslandensis
+Agraptocoris pamirica
+Ausejanus macrozonata
+Conostethus venustus
+Oncotylus punctipes
+Orthotylus perkinsi
+Epimixia vittata
+Kelisia pectinata
+Bakerella penefusca
+Atractotomus parvulus
+Leialoha hawaiensis
+Megamelus distinctus
+Muellerianella laminalis
+Bryocoropsis soror
+Distantiella theobromae
+Bryocoropsis laticollis var. infuscata
+Monalocoris filicis
+Cyrtolobus pulchellus
+Coridromius taravao
+Pseudapines geminata
+Heterocordylus tumidicornis
+Cooperocoris australis
+Pseudopsallus occidentalis
+Stictopelta nova
+Dippilana membranacea
+Poecilometis punctiventris
+Neagenor spinosus
+Picumna chinai
+Megamelus aestus
+Nesiomiris cheirodendronae
+Nesiomiris fasciatus
+Anotia robertsonii
+Caloloma uhleri
+Lygidea illota
+Perissonemia sodalis
+Metopolophium festucae
+Delphacodes fulvidorsum
+Illinoia (Illinoia) ceanothi
+Illinoia (Illinoia) grindeliae
+Nesiomiris maculatus
+Neurocolpus longirostris
+Denticulophallus adenandrae
+Nesiomiris pallidus
+Cedusa kedusa
+Otiocerus kirbyii
+Stictocephala militaris
+Podisus serieventris
+Okanagana striatipes
+Campylomma sp
+Nesiomiris spatulatus
+Campylenchia curvata
+Cepegillettea betulaefoliae
+Calaphis coloradensis
+Neomegamelanus elongatus
+Heliria scalaris
+Patara vanduzei
+Acanalonia laticosta
+Neomegamelanus spartini
+Deraeocapsus ingens
+Macrocephalus arizonicus
+Pseudoloxops tahiticus
+Physoderes curculionis
+Cinara (Cinara) cedri
+Collaria oculata
+Pseudoloxops n sp 12
+Acyrthosiphon (Acyrthosiphon) caraganae
+Tibicen linnei
+Euthyrhynchus floridanus
+Diceroprocta texana
+Corythucha incurvata
+Micrutalis occidentalis
+Dictyla labeculata
+Aphis (Aphis) folsomii
+Dichrooscytus flavivenosus
+Dichrooscytus flagitiosus
+Ceratagallia (Ceratagallia) sordida
+Corythucha sphaeralceae
+Obtusicauda frigidae
+Clastoptera arborina
+Dichrooscytus visendus
+Clastoptera xanthocephala
+Taedia evonymi
+Dichrooscytus fuscosignatus
+Taedia marmorata
+Aphis (Aphis) ornata
+Cedusa incisa
+Oncerometopus spp.
+Cedusa mallochi
+Aphis (Aphis) pulchella
+Mozena buenoi
+Aphis (Aphis) urticata
+Nysius caledoniae
+Clivinema villosa
+Dinomachus australis
+Tropidosteptes neglectus
+Polymerus testaceipes
+Phytocoris nr. brevicornis
+Phytocoris buenoi
+Lygus plagiatus
+Teratocoris paludum
+Deraeocoris apache
+Aspidaphis adjuvans
+Synecdoche nemoralis
+Cyrpoptus vanduzeei
+Flatoidinus fuscus
+Pleotrichophorus spatulavillus
+Apiomerus sp
+Allorhinocoris speciosus
+Phytocoris breviusculus
+Neocapsus cuneatus
+Ocirrhoe wilsoni
+Democoris sp
+Delphacodes nigrifacies
+Sorhoanus orientalis
+Dicrotelus prolixus
+Gelonus tasmanicus
+Crompus oculatus
+Eurynysius sp
+Cavariella theobaldi
+Slaterellus hackeri
+Capitophorus xanthii
+Calaphis unknown
+Phytocoris seminotatus
+Chaetosiphon (Pentatrichopus) potentillae
+Phytocoris fenestratus
+Ochrimnus mimulus
+Phytocoris quercicola
+Cinara (Cinara) juniperensis
+Cinara (Cinara) pini
+Coloradoa artemisiae
+Cryptomyzus (Cryptomyzus) galeopsidis
+Iphicrates lineatus
+Numilia subquadrata
+Arocatus chiasmus
+Chaitophorus crucis
+Chaitophorus eoessigi
+Geoica pellucida
+Hoplochaitophorus spiniferus
+Creontiades dilutus
+Schizolachnus flocculosus
+Taedia johnstoni
+Macrosiphoniella artemisiae
+Cinara (Cinara) chinookiana
+Arhyssus crassus
+Swaustraltingis isobellae
+Engynoma tasmaniae
+Phylloxerina salicola
+Acyrthosiphon (Acyrthosiphon) scariolae
+Remaudiereana sp
+Dicyphus discrepans
+Pachygrontha sp
+Poecilometis alienus
+Monellia nigropunctata
+Hiarchas crassicornis
+Pappus crinitus
+Phlegyas spp.
+Cinara (Cinara) piceicola
+Melanaphis sacchari
+Chlorotettix (Chlorotettix) tergatus
+Pachypappa tremulae
+Pemphigus brevicornis
+Aleurodicus capiangae
+Cinara (Cinara) solitaria
+Cinara (Cinara) splendens
+Macrosiphum (Macrosiphum) luteum
+Galgupha nitiduloides
+Aleurodicus floccissimus
+Cinara (Cinara) canatra
+Phytocoris rainieri
+Macrosiphoniella abrotani
+Octaleurodicus pulcherrimus
+Lygaeus reclivatus
+Aleurocanthus citriperdus
+Aleurocerus palmae
+Scolops pungens
+Scolops uhleri
+Neacoryphus rubicollis
+Aleurocybotus spp.
+Atrazonatus umbrosus
+Melanopleurus pyrrhopterus
+Aleuroparadoxus spp.
+Aleuroplatus spina
+Oncopeltus sanguineolentus
+Aleuroplatus semiplumosus
+Aleuropleurocelus ceanothi
+Lopidea balli
+Labopidea nigripes
+Idiocerus (Populicerus) descimusquartus
+Idiocerus (Populicerus) provancheri
+Idiocerus (Populicerus) rufus
+Scaphoideus (Scaphoideus) paludosus
+Orthotylus kekele
+Pseudopachybrachius vinctus
+Salda lugubris
+Irbisia panda
+Ceratagallia (Aceratagallia) siccifolius
+Eupolemus angustulus
+Eupolemus venustulus
+Sarona aula
+Cicadula (Cicadula) longiseta
+Eratoneura basilaris
+Cosmopepla intergressus
+Colladonus arctostaphyli
+Colladonus commissus
+Gargaphia tiliae
+Eratoneura firma
+Leptoypha costata
+Melaleuca sp 93
+Bemisia giffardi
+Eratoneura gilesi
+Colladonus holmesi
+Evacanthus nigramericanus
+Eratoneura impar
+Eratoneura lata
+Ferrisia setosa
+Lygus mexicanus
+Eratoneura sebringensis
+Eratoneura rangifer
+Phytocoris confluens
+Erythridula plena
+Commellus sexvittatus
+Ragwelellus sp
+Trigonotylus usingeri
+Idiodonus spp.
+Macropsis gerhardi
+Helopeltis clavifer
+Gracilimiris litoralis
+Minutaleyrodes minuta
+Scaphytopius (Cloanthanus) diabolus
+Scaphytopius (Scaphytopius) unknown
+Nabis kerasphoros
+Neolygus geminus
+Neolygus knighti
+Aspidiotus cydoniae
+Aspidiotus lataniai
+Calliodis temnostethoides
+Phytocoris taxodii
+Phytocoris puella
+Brachynotocoris puncticornis
+Philya californensis
+Macropsis trimaculatus
+Tibicen townsendii
+Taedia salicis
+Taedia hawleyi
+Taedia limba
+Ashmeadea carinata
+Chionaspis longiloba
+Graphocephala atropunctata
+Chionaspis pseudoleucaspis
+Tropidosteptes populi
+Zelenius debilis
+Catonia cinctifrons
+Catonia carolina
+Catonia pini
+Prepops insitivus
+Cimex dissimilis
+Coridromius variegatus
+Microtechnites chrysolepis
+Heterotoma merioptera
+Neseis (Trachynysius) alternatus
+Uroleucon (Uroleucon) lanceolatum
+Uroleucon (Lambersius) manitobense
+Poecilometis acanthopygius
+Nysius chenopodii
+Nesidiocoris tenuis
+Uroleucon (Uroleucon) pieloui
+Erythroneura beameri
+Lindbergocapsus geminatus
+Clavaspis herculeane
+Hesperocimex coloradensis
+Orthotylus celtidis
+Chionaspis triformis
+Neseis (Trachynysius) neochinai
+Bemisia formosana
+Oncopsis infumata
+Acutaspis decorosa
+Aspidiotus cryptomeriae
+Erythroneura fraxa
+Aspidiotus tridentifer
+Melanaethus pensylvanicus
+Eratoneura ellisi
+Eratoneura era
+Eratoneura gemoides
+Macrosiphum (Macrosiphum) kiowanepus
+Eratoneura bigemina
+Alebra albostriella
+Diaspidiotus ostreaeformis
+Primicimex cavernis
+Eratoneura millsi
+Eratoneura misera
+Eratoneura nimia
+Stricticimex transversus
+Tepa jugosa
+Macrosiphum (Macrosiphum) rudbeckiarum
+Eratoneura parvipes
+Eratoneura concisa
+Illinoia (Masonaphis) rhododendri
+Australcmena lineativentris
+Odonaspis litorosa
+Pediopsoides (Nanopsis) verticis
+Rugaspidiotinus circumdatus
+Lygus scudderi
+Chionaspis platani
+Erythridula rubroscuta
+Erythridula tenuispica
+Diaspis simmondsiae
+Diaspis texensis
+Rhopalosiphum arundinariae
+Leucaspis portaeaureae
+Nicholiella bumeliae
+Pemphigus tartareus
+Ceroplastes rusci
+Muscaphis stroyani
+Myzaphis bucktoni
+Aleuroplatus quercusaquaticae
+Ceroplastodes acaciae
+Glarisia schuhstoni
+Pselliopus barberi
+Protopterocallis fumipennella
+Drepanococcus chiton
+Oncopsis truncata
+Macropsis canadensis
+Tibicen similaris
+Oncopsis inconstans
+Agallia quadripunctata
+Philephedra parvula
+Myzocallis (Lineomyzocallis) elliotti
+Ballana (Viriosana) languida
+Cochlorhinus pasadena
+Macrosiphoniella subterranea
+Sphaerolecanium prunastri
+Kunzeana kunzei
+Ceroputo nulliporus
+Chnaurococcus trifolii
+Chorizococcus abortivus
+Apiomerus crassipes (fab.)
+Melaleuca sp 221
+Aphis (Aphis) caliginosa
+Empicoris vagabundus
+Empicoris sp
+Hoplistoscelis sericans
+Geococcus coffeae
+Nearctaphis californica
+Nesococcus pipturi
+Limotettix (Scleroracus) bullatus
+Oracella acuta
+Targionia yuccarum
+Neokolla (Grapheocephala syn.) gothica
+Aphis (Aphis) gutierrezis
+Cymus discors
+Cedusa maculata
+Anotia mcateei
+Myndus slossoni
+Pseudococcus dysmicus
+Pseudococcus longisetosus
+Obtusicauda (Obtusicauda) frigidae
+Oncometopia (Oncometopia) spp.
+Oncometopia (Similitopia) alpha
+Rhynocoris ventralis americanus
+Pseudococcus pseudobscurus
+Okanagodes gracilis
+Sinea confusa
+Spilococcus andersoni
+Mezira lobata
+Spilococcus parvicirculus
+Trionymus haancheni
+Chaetosiphon potentillae
+Sipha (Rungsia) maydis
+Asterodiaspis variolosa
+Cerococcus koebelei
+Loricula pselaphiformis
+Eriococcus epacrotrichus
+Eriococcus gerbergi
+Lopholeucaspis cockerelli
+Neurotmeta sponsa
+Oregmopyga viscosa
+Allokermes cueroensis
+Kermes concinnulus
+Pleotrichophorus artemisicola
+Austrotachardia melaleucae
+Tachardiella glomerella
+Peritrechus saskatchewanensis
+Peritrechus tristis
+Pleotrichophorus lagacei
+Matsucoccus eduli
+Puto pricei
+Ovaticoccus californicus
+Clastoptera sierra
+Heterotrioza chenopodii
+Trioza breviantennata
+Frameus obrienae
+Craspedolepta caudata
+Lophoscutus lepidus
+Pachypsylla celtidis-vescicula
+Chinaria mexicana
+Acizzia hakeae
+Cacopsylla magna
+Ceanothia ceanothi
+Nyctiphalerus rugipennis
+Nysius nihoae
+Pachypsylla celtidisvesiculum
+Edessa bifida
+Cacopsylla ribesiae
+Ceanothia insolita
+Diaphorina citri
+Triatoma sanguisuga
+Pexopsylla cercocarpi
+Erythroneura vitis
+Rhopalosiphoninus (Myzosiphon) staphyleae
+Clastoptera arizonana
+Nabis tarai
+Juniperthia producta
+Synecdoche autumnalis
+Synecdoche cara
+Synecdoche rubella
+Oecleus snowi
+Aloha flavocollaris
+Thyanta brevis
+Orthezia newcomeri
+Sitobion (Sitobion) alopecuri
+Neottiglossa tumidifrons
+Elatophilus pullus
+Tetraphleps canadensis
+Anthocoris dimorphicus
+Essigella (Essigella) knowltoni
+Tamalia inquilinus
+Aphis (Aphis) baccharicola
+Brachycaudus (Thuleaphis) rumexicolens
+Cavariella (Cavariella) essigi
+Cinara (Cinara) gentneri
+Corylobium avellanae
+Ilburnia tmiberlakei
+Orgamara reducta
+Essigella (Essigella) critchfieldi
+Glarisia melanocephala
+Neaethus uniformis
+Neaethus vitripennis
+Dyctidea intermedia
+Phytocoris juniperanus
+Plagiognathus albifacies
+Takecallis taiwanus
+Microparsus tephrosiae
+Camptotylidea ceratoides
+Orthotylus cruciatus
+Europiella signicornis
+Symydobius intermedius
+Chaitophorus monelli
+Cixius nervosus
+Ceratocapsus denticulatus
+Chionaspis euonymi
+Kermes nudus
+Aradus acutus
+Ciminius hartii
+Oligotylus saxifragicola
+Plagiognathus dimorphicus
+Chlamydatus brevicornis
+Pseudopsallus daleae
+Pilophorus longisetosus
+Hadronema sinuatum
+Camptotylidea albovittata
+Glaucopterum minus
+Psallus anticus
+Campylomma attilioi
+Dimorphocoris fuscus
+Neopsallus powelli
+Laryngodus luteomaculatus
+Wallabicoris pityrodiellus
+Izyacapsus kerzhneri
+Lopidea bonanza
+Telamona ampelopsidis
+Bolteria dakotae
+Bolteria speciosa
+Euschistus biformis
+Aphelonema rugosa
+Phytocoris kiowa
+Phytocoris omani
+Cinara (Cinara) banksiana
+Hyalomyzus monardae
+Aonidia lauri
+Deraeocoris nigritulus
+Macrolophus separatus
+Aleuroplatus ilicis
+Aleurolobus tomkinsae
+Sarona adonias
+Caladonus coquilettei
+Corythucha mollicula
+Corythucha pruni
+Stephanitis takeyai
+Flabellomicrosiphum tridentatae
+Bemisia centroamericana
+Ceratocapsus sericus
+Ceratocapsus wheeleri
+Felisacus magnificus
+Chionaspis kosztarabi
+Cyrtopeltocoris rubripes # 3
+Abgrallaspis fraxini
+Lepidosaphes tokionis
+Humococcus caritus
+Phenacoccus multicerarii
+Aphis (Aphis) nigratibialis
+Thyanta pallidovirens spinosa
+Patchia virginiana
+Spilococcus gutierreziae
+Saldoida slossonae
+Melanocoris nigricornis
+Aphis (Aphis) pentstemonicola
+Macrolophus praeclarus
+Osbornia arborea
+Orthotylus fuscicornis
+Pilophorus geminus
+Psallopsis similis
+Blepharidopterus chlorionis
+Pseudopsallus sericatus
+Parthenicus cercocarpi
+Pseudoloxops coccineus
+Macrosteles spp.
+Panaphis juglandis
+Hormaphis hamamelidis
+Plagiognathus negundinis
+Wallabicoris pultenaei
+Tuponia fuscipes
+Orthotylus fraternus
+Hyoidea kerzhneri
+Nesiomiris lineatus
+Fullawaya saliciradicis
+Phytocoris cuneotinctus
+Carolinaia (Carolinaia) cyperi
+Granitohyoidea calycopeplus
+Nasonovia (Kakimia) alpina
+Uroleucon (Lambersius) baccharidis (nomen dubium)
+Oedancala crassimana
+Aleurotithius timberlakei
+Corythucha pallida
+Dialeurodes schefflerae
+Targionia cueroensis
+Chortinaspis consolidata
+Microsiphoniella oregonensis
+Phenacoccus lotearum
+Amnestus basidentatus
+Abstrusomyzus phloxae
+Eriococcus cryptus
+Praelongorthezia sarcobati
+Eomacrosiphon nigromaculosum
+Euphyllura olivina
+Pachypsylla venusta
+Phytocoris becki
+Lystridea uhleri
+Eriococcus adenostomae
+Pterocomma beulahense
+Oligotylus yavapaiensis
+Megalopsallus pallidus
+Knightomiroides ponderosae
+Solenoxyphus anabasius
+Epimixia alitophrosyne
+Atractotomimus limonii
+Pilophorus cembroides
+Drepanaphis utahensis
+Pseudoepameibaphis xenotrichis
+Allokermes branigani
+Cryptoneossa triangula
+Purshivora pubescens
+Uroleucon (Uromelan) tuataiae
+Pinomiris knighti
+Pinomiris monophyllae
+Cinara (Cinara) brevispinosa
+Phytocoris mundus
+Paracupidaspis wilkeyi
+Obtusicauda (Obtusicauda) filifoliae
+Neurocolpus jessiae
+Pilophorus dislocatus
+Macrosiphum (Macrosiphum) tenuicauda
+Psylla trimaculata
+Brachyunguis bonnevillensis
+Reuteria platani
+Dysaphis (Dysaphis) crataegi
+Plagiognathus salviae
+Pilophorus cinnamopterus
+Uroleucon (Uromelan) verbesinae
+Idiocerus (Populicerus) maximus
+Neurocolpus tiliae
+Neolygus laureae
+Knightomiroides nigrovirgatus
+Ctenocallis setosa
+Rhopalomyzus (Rhopalomyzus) grabhami
+Pilophorus stonedahli
+Pseudoepameibaphis tridentatae
+Parthenicus weemsi
+Leptodictya simulans
+Pseudoepameibaphis essigi
+Parthenicus taxodii
+Oligotylus merinoi
+Pseudoepameibaphis glauca
+Calophya schini
+Diaspidiotus liquidambaris
+Pleotrichophorus gregarius

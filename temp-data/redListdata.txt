@@ -1,0 +1,118 @@
+insect_species_id	numberOnListedHosts	numberOnAnyHost	Family	Genus	Species	Proportion	scientificName
+54611	1	505	Aphididae	Macrosiphum (Macrosiphum)	euphorbiae	0.001980198	Macrosiphum (Macrosiphum) euphorbiae
+54962	1	179	Aphididae	Prociphilus (Prociphilus)	erigeronensis	0.005586592	Prociphilus (Prociphilus) erigeronensis
+40636	1	164	Membracidae	Cyrtolobus	maculifrontis	0.006097561	Cyrtolobus maculifrontis
+54745	1	144	Aphididae	Myzocallis (Neomyzocallis)	punctata	0.006944444	Myzocallis (Neomyzocallis) punctata
+50719	1	113	Miridae	Lygus	hesperus	0.008849558	Lygus hesperus
+81439	1	109	Coccidae	Parthenolecanium	corni	0.009174312	Parthenolecanium corni
+53862	1	101	Aphididae	Acyrthosiphon (Acyrthosiphon)	pisum	0.00990099	Acyrthosiphon (Acyrthosiphon) pisum
+63648	1	97	Diaspididae	Parlatoria	proteus	0.010309278	Parlatoria proteus
+297	1	97	Miridae	Plagiognathus	albatus	0.010309278	Plagiognathus albatus
+40639	2	188	Membracidae	Atymna	querci	0.010638298	Atymna querci
+2230	1	85	Miridae	Parthenicus	juniperi	0.011764706	Parthenicus juniperi
+40559	5	368	Membracidae	Platycotis	vittata	0.013586957	Platycotis vittata
+78099	1	71	Lygaeidae	Nysius	raphanus	0.014084507	Nysius raphanus
+5165	4	284	Miridae	Rhinacloa	forticornis	0.014084507	Rhinacloa forticornis
+1510	1	69	Miridae	Lopidea	picta	0.014492754	Lopidea picta
+73518	1	68	Miridae	Dichrooscytus	latifrons	0.014705882	Dichrooscytus latifrons
+6340	2	132	Miridae	Pygovepres	vaccinicola	0.015151515	Pygovepres vaccinicola
+53931	3	195	Aphididae	Aphis (Aphis)	craccivora	0.015384615	Aphis (Aphis) craccivora
+37485	5	320	Miridae	Deraeocoris	brevis	0.015625	Deraeocoris brevis
+54048	1	63	Aphididae	Aphis (Protaphis)	middletonii	0.015873016	Aphis (Protaphis) middletonii
+1499	1	60	Miridae	Lopidea	nigridia	0.016666667	Lopidea nigridia
+40601	1	59	Membracidae	Ophiderma	flava	0.016949153	Ophiderma flava
+406	1	55	Miridae	Phoenicocoris	strobicola	0.018181818	Phoenicocoris strobicola
+549	1	53	Miridae	Tuxedo	cruralis	0.018867925	Tuxedo cruralis
+4788	3	152	Miridae	Psallovius	piceicola	0.019736842	Psallovius piceicola
+54952	1	50	Aphididae	Prociphilus (Meliarhizophagus)	fraxinifolii	0.02	Prociphilus (Meliarhizophagus) fraxinifolii
+6310	1	47	Miridae	Teleorhinus	cyaneus	0.021276596	Teleorhinus cyaneus
+40268	1	47	Miridae	Ectopiocerus	anthracinus	0.021276596	Ectopiocerus anthracinus
+54953	1	42	Aphididae	Prociphilus (Neoparacletus)	corrugatans	0.023809524	Prociphilus (Neoparacletus) corrugatans
+373	1	41	Miridae	Plagiognathus	verticalis	0.024390244	Plagiognathus verticalis
+41129	1	41	Miridae	Pinalitus	approximatus	0.024390244	Pinalitus approximatus
+550	1	38	Miridae	Tuxedo	susansolomonae	0.026315789	Tuxedo susansolomonae
+40897	1	37	Delphacidae	Stobaera	tricarinata	0.027027027	Stobaera tricarinata
+183	1	35	Miridae	Tuxedo	bicinctus	0.028571429	Tuxedo bicinctus
+1793	1	34	Miridae	Orthotylus	albocostatus	0.029411765	Orthotylus albocostatus
+32664	1	29	Miridae	Izyaius	sericeus	0.034482759	Izyaius sericeus
+63492	1	28	Diaspididae	Oceanaspidiotus	spinosus	0.035714286	Oceanaspidiotus spinosus
+2549	1	27	Miridae	Slaterocoris	croceipes	0.037037037	Slaterocoris croceipes
+54802	1	26	Aphididae	Nearctaphis	crataegifoliae	0.038461538	Nearctaphis crataegifoliae
+62247	1	25	Diaspididae	Chionaspis	pinifoliae	0.04	Chionaspis pinifoliae
+790	1	25	Miridae	Ceratocapsus	modestus	0.04	Ceratocapsus modestus
+50803	1	25	Miridae	Closterocoris	amoenus	0.04	Closterocoris amoenus
+352	2	49	Miridae	Plagiognathus	politus	0.040816327	Plagiognathus politus
+6332	2	48	Miridae	Phallospinophylus	setosus	0.041666667	Phallospinophylus setosus
+72591	1	23	Cicadellidae	Gyponana (Gyponana)	hasta	0.043478261	Gyponana (Gyponana) hasta
+811	1	23	Miridae	Ceratocapsus	pumilus	0.043478261	Ceratocapsus pumilus
+1937	1	22	Miridae	Orthotylus	iolani	0.045454545	Orthotylus iolani
+7873	2	44	Miridae	Aoplonema	rubrum	0.045454545	Aoplonema rubrum
+76052	1	21	Lygaeidae	Kleidocerys	resedae	0.047619048	Kleidocerys resedae
+539	1	21	Miridae	Chlamydatus	keltoni	0.047619048	Chlamydatus keltoni
+648	4	82	Miridae	Blepharidopterus	provancheri	0.048780488	Blepharidopterus provancheri
+41002	1	20	Membracidae	Telamona	reclivata	0.05	Telamona reclivata
+353	1	19	Miridae	Plagiognathus	punctatipes	0.052631579	Plagiognathus punctatipes
+2924	2	37	Miridae	Atractotomus	magnicornis	0.054054054	Atractotomus magnicornis
+72110	1	17	Cicadellidae	Graphocephala	coccinea	0.058823529	Graphocephala coccinea
+73955	1	16	Anthocoridae	Orius	tristicolor	0.0625	Orius tristicolor
+60135	3	47	Miridae	Deraeocoris	nebulosus	0.063829787	Deraeocoris nebulosus
+4425	1	15	Miridae	Phoenicocoris	dissimilis	0.066666667	Phoenicocoris dissimilis
+50787	1	15	Miridae	Dacerla	alata	0.066666667	Dacerla alata
+72610	1	14	Cicadellidae	Gyponana (Gyponana)	procera	0.071428571	Gyponana (Gyponana) procera
+41827	1	14	Membracidae	Archasia	auriculata	0.071428571	Archasia auriculata
+544	1	13	Miridae	Pruneocoris	stonedahli	0.076923077	Pruneocoris stonedahli
+53856	2	26	Aphididae	Acyrthosiphon (Acyrthosiphon)	kondoi	0.076923077	Acyrthosiphon (Acyrthosiphon) kondoi
+1905	3	38	Miridae	Orthotylus	flavosparsus	0.078947368	Orthotylus flavosparsus
+2387	1	12	Miridae	Pseudopsallus	puberus	0.083333333	Pseudopsallus puberus
+2130	1	12	Miridae	Orthotylus	virescens	0.083333333	Orthotylus virescens
+77379	1	12	Miridae	Tupiocoris	rhododendri	0.083333333	Tupiocoris rhododendri
+348	1	11	Miridae	Plagiognathus	nigronitens	0.090909091	Plagiognathus nigronitens
+677	1	11	Miridae	Brooksetta	malvastri	0.090909091	Brooksetta malvastri
+2381	1	11	Miridae	Pseudopsallus	mojaviensis	0.090909091	Pseudopsallus mojaviensis
+51058	1	11	Pentatomidae	Thyanta	pallidovirens	0.090909091	Thyanta pallidovirens
+66766	5	54	Miridae	Hyaliodes	vitripennis	0.092592593	Hyaliodes vitripennis
+54562	1	10	Aphididae	Kaltenbachiella	ulmifusa	0.1	Kaltenbachiella ulmifusa
+86729	1	9	Delphacidae	Aloha	dubantiae	0.111111111	Aloha dubantiae
+1523	1	9	Miridae	Lopidea	salicis	0.111111111	Lopidea salicis
+54409	3	21	Aphididae	Ericaphis	scoliopi	0.142857143	Ericaphis scoliopi
+54114	8	51	Aphididae	Calaphis	betulaecolens	0.156862745	Calaphis betulaecolens
+195	6	38	Miridae	Plagiognathus	modestus	0.157894737	Plagiognathus modestus
+1484	1	6	Miridae	Lopidea	media	0.166666667	Lopidea media
+62539	4	24	Diaspididae	Diaspis	digna	0.166666667	Diaspis digna
+61740	8	43	Diaspididae	Acutaspis	morrisonorum	0.186046512	Acutaspis morrisonorum
+2428	1	5	Miridae	Saileria	bella	0.2	Saileria bella
+66761	1	5	Miridae	Notholopisca	californica	0.2	Notholopisca californica
+70360	1	5	Miridae	Deraeocoris	nubilus	0.2	Deraeocoris nubilus
+59481	2	10	Cicadellidae	Pasadenus	margaritae	0.2	Pasadenus margaritae
+59637	1	4	Cicadellidae	Pasadenus	pasadenus	0.25	Pasadenus pasadenus
+76625	1	4	Coreidae	Leptoglossus	zonatus	0.25	Leptoglossus zonatus
+86799	1	4	Delphacidae	Nesothoe	eugeniae	0.25	Nesothoe eugeniae
+51774	1	3	Cicadellidae	Eratoneura	gemina	0.333333333	Eratoneura gemina
+40426	1	3	Delphacidae	Dictyophorodelphax	swezeyi	0.333333333	Dictyophorodelphax swezeyi
+2417	1	3	Miridae	Reuteria	querci	0.333333333	Reuteria querci
+67692	1	3	Miridae	Diphleps	unica	0.333333333	Diphleps unica
+54419	2	6	Aphididae	Eriosoma	rileyi	0.333333333	Eriosoma rileyi
+85935	2	6	Liviidae	Diclidophlebia	fremontiae	0.333333333	Diclidophlebia fremontiae
+2368	2	6	Miridae	Pseudopsallus	anograe	0.333333333	Pseudopsallus anograe
+676	2	6	Miridae	Brooksetta	incurva	0.333333333	Brooksetta incurva
+2174	4	12	Miridae	Paraproba	capitata	0.333333333	Paraproba capitata
+40642	8	21	Membracidae	Atymna	castaneae	0.380952381	Atymna castaneae
+644	5	13	Miridae	Blepharidopterus	diaphanus	0.384615385	Blepharidopterus diaphanus
+54345	2	5	Aphididae	Colopha	ulmicola	0.4	Colopha ulmicola
+54647	2	4	Aphididae	Macrosiphum (Macrosiphum)	rudbeckiarum	0.5	Macrosiphum (Macrosiphum) rudbeckiarum
+54414	16	31	Aphididae	Eriosoma	lanigerum	0.516129032	Eriosoma lanigerum
+551	5	9	Miridae	Tuxedo	drakei	0.555555556	Tuxedo drakei
+86730	4	7	Delphacidae	Aloha	flavocollaris	0.571428571	Aloha flavocollaris
+55101	23	40	Aphididae	Tinocallis	ulmifolii	0.575	Tinocallis ulmifolii
+722	3	5	Miridae	Ceratocapsus	blatchleyi	0.6	Ceratocapsus blatchleyi
+34946	3	5	Miridae	Cyphopelta	modesta	0.6	Cyphopelta modesta
+62201	9	15	Diaspididae	Chionaspis	americana	0.6	Chionaspis americana
+62789	4	6	Diaspididae	Fissuraspis	ulmi	0.666666667	Fissuraspis ulmi
+62735	4	6	Diaspididae	Fiorinia	externa	0.666666667	Fiorinia externa
+54411	36	48	Aphididae	Eriosoma	americanum	0.75	Eriosoma americanum
+78160	11	14	Aphididae	Myzocallis (Myzocallis)	castaneae	0.785714286	Myzocallis (Myzocallis) castaneae
+84628	5	6	Membracidae	Parantonae	hispida hispida	0.833333333	Parantonae hispida hispida
+79364	5	6	Tingidae	Corythucha	ulmi	0.833333333	Corythucha ulmi
+198	28	33	Miridae	Plagiognathus	tsugae	0.848484848	Plagiognathus tsugae
+69862	3	3	Aphididae	Myzocallis (Myzocallis)	ulmifoliae	1	Myzocallis (Myzocallis) ulmifoliae
+67739	5	5	Miridae	Phytocoris	americanus	1	Phytocoris americanus
