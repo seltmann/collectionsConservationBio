@@ -15,15 +15,15 @@ setwd("~/Documents/collectionsConservationBio/collectionsConservationBio-git")
 
 ##########simple description of database data###################
 
-#read in output from database
-data <- read.delim("hostNetwork.tsv",header = TRUE)
+#read in output from database which is in the hostNetwork.tsv file
+data <- read.delim("temp-data/hostNetwork.tsv",header = TRUE)
 
-#append two new columns
+#append two new columns that includes the host plant name and insect species
 data$host <- paste(data$h_genus,data$h_species)
 data$insect <- paste(data$i_genus,data$i_species)
 
-#write new table
-write.table(data, "data.txt", , na = "NA", row.names = FALSE,col = TRUE, append = FALSE, sep="\t", quote=FALSE)
+#write new table that includes new columns
+write.table(data, "temp-data/data.txt", , na = "NA", row.names = FALSE,col = TRUE, append = FALSE, sep="\t", quote=FALSE)
 
 #total number of collecting events in entire dataset
 sumAllCollectingEvents <- sum(data$coll_number_same_h)
@@ -45,15 +45,15 @@ write.table(uniqueInsectNameRedList, "uniqueInsectNameRedList.txt", , na = "NA",
 
 #write a unique list of red listed plants
 uniqueHostNameRedList <- unique(subdata$host)
-write.table(uniqueHostNameRedList, "uniqueHostNameRedList.txt", , na = "NA", row.names = FALSE,col = FALSE, append = FALSE, sep="\t", quote=FALSE)
+write.table(uniqueHostNameRedList, "temp-data/uniqueHostNameRedList.txt", , na = "NA", row.names = FALSE,col = FALSE, append = FALSE, sep="\t", quote=FALSE)
 
-################redlist proportions###################
+################redlist frequencies###################
 #read in output from database
-data <- read.delim("redListdata.txt",header = TRUE)
+data <- read.delim("temp-data/redListdata.txt",header = TRUE)
 
 #append two new columns
 data$scientificName <- paste(data$Genus,data$Species)
-write.table(data, "redListdata.txt", , na = "NA", row.names = FALSE,col = TRUE, append = FALSE, sep="\t", quote=FALSE)
+write.table(data, "temp-data/redListdata.txt", , na = "NA", row.names = FALSE,col = TRUE, append = FALSE, sep="\t", quote=FALSE)
 
 head(data)
 ##########plots###################
