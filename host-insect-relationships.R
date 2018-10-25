@@ -1,4 +1,5 @@
-  
+#RMariaDB?
+
 #clear brain
 rm(list=ls())
 
@@ -84,3 +85,28 @@ dbClearResult(rs)
 interactions <- read.table("temp-data/host-insect-d1-output.txt", header=TRUE, sep = "\t")
 
 head(interactions)
+for (i_species_id in interactions) {
+  #print(i_species_id)
+  rs <- dbSendQuery(connection,"Select count(distinct ColEventUID) from Specimen 
+                  where Specimen.species=",i_species_id," AND Specimen.species !='0' AND Specimen.HostSp != '0'")
+
+  }
+
+
+
+
+
+#total number of collecting events the insect was collected where host species was recorded
+#	function coll_total_i($i_species_id){
+#global $con;
+#$sql = "Select count(distinct ColEventUID) from Specimen where Specimen.species='$i_species_id' AND Specimen.species !='0' AND Specimen.HostSp != '0'";
+#$results=mysqli_query($con,$sql);
+#$row=mysqli_fetch_array($results,MYSQLI_NUM);
+#$counts = $row[0];
+#echo $counts;
+#$sql_update = "UPDATE `pbi_locality`.`host_network` SET `coll_total_i` = '$counts' where `i_species_id`='$i_species_id'";
+#mysqli_query($con,$sql_update);
+#return $counts;	
+#}
+
+
