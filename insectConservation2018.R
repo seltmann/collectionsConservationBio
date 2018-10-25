@@ -30,18 +30,18 @@ sumAllCollectingEvents <- sum(data$coll_number_same_h)
 
 #write a unique list of insect names in entire dataset
 uniqueInsectNameList <- unique(data$insect)
-write.table(uniqueInsectNameList, "uniqueInsectNameList.txt", , na = "NA", row.names = FALSE,col = FALSE, append = FALSE, sep="\t", quote=FALSE)
+write.table(uniqueInsectNameList, "temp-data/uniqueInsectNameList.txt", , na = "NA", row.names = FALSE,col = FALSE, append = FALSE, sep="\t", quote=FALSE)
 
 #write a unique list of host names in entire dataset
 uniqueHostNameList <- unique(data$host)
-write.table(uniqueHostNameList, "uniqueHostNameList.txt", , na = "NA", row.names = FALSE,col = FALSE, append = FALSE, sep="\t", quote=FALSE)
+write.table(uniqueHostNameList, "temp-data/uniqueHostNameList.txt", , na = "NA", row.names = FALSE,col = FALSE, append = FALSE, sep="\t", quote=FALSE)
 
 #subset data for only redlisted host plants and insects
 subdata <- subset(data,redList == TRUE)
 
 #write a unique list of insects on red listed plants
 uniqueInsectNameRedList <- unique(subdata$insect)
-write.table(uniqueInsectNameRedList, "uniqueInsectNameRedList.txt", , na = "NA", row.names = FALSE,col = FALSE, append = FALSE, sep="\t", quote=FALSE)
+write.table(uniqueInsectNameRedList, "temp-data/uniqueInsectNameRedList.txt", , na = "NA", row.names = FALSE,col = FALSE, append = FALSE, sep="\t", quote=FALSE)
 
 #write a unique list of red listed plants
 uniqueHostNameRedList <- unique(subdata$host)
