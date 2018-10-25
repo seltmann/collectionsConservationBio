@@ -5,14 +5,23 @@ rm(list=ls())
 #set working directory
 setwd("~/Documents/collectionsConservationBio/collectionsConservationBio-git")
 
-#need mysql connector
+#need mysql connectors for entire script (data frame and mysql)
 require(RMySQL)
+library("sqldf")
+library(RSQLite)
 
 #information about mysql connector
 help(RMySQL)
 
+#not sure what this does anymore<-------------
 Sys.setlocale('LC_ALL','C')
   
+#####################################################################################################################
+#####################################################################################################################
+###########################Query Database and return data frame of insects and host plants###########################
+#####################################################################################################################
+
+
 #create a connection to the db:
 connection <- dbConnect(MySQL(), user="pbi_locality", password="generalPass", dbname="pbi_locality", host="localhost")
   
@@ -63,6 +72,15 @@ head(d1)
 
 write.table(d1, "temp-data/host-insect-d1-output.txt", , na = "NA", row.names = FALSE,col = TRUE, append = FALSE, sep="\t", quote=FALSE)
 
-
+#clears the mysql memory before going forward
 dbClearResult(rs)
 
+#####################################################################################################################
+#####################################################################################################################
+###########################Do stuff with data frame ###########################
+#####################################################################################################################
+
+#read in output data frame from part 1 of the script. Good to do this because keeps the output of the first part intact in case we do something silly
+interactions <- read.table("temp-data/host-insect-d1-output.txt", header=TRUE, sep = "\t")
+
+head(interactions)
