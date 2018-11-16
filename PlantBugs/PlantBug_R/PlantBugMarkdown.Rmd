@@ -1,0 +1,141 @@
+---
+title: "PlantBug_Markdown"
+author: "MJL"
+date: "10/24/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+libraries
+```{r message = FALSE}
+library(ggplot2)
+library(RColorBrewer)
+library(ggthemes)
+library(bipartite)
+library(tidyverse)
+```
+
+read in some data
+```{r}
+data <- read.delim("collectionsConservationBio/temp-data/hostNetwork.tsv", header = TRUE)
+
+#create new columns for full species names
+data$host <- paste(data$h_genus, data$h_species)
+data$insect <- paste(data$i_genus, data$i_species)
+
+#new table with columns
+write.table(data, "collectionsConservationBio/temp-data/data.txt", na = "NA", row.names = FALSE, col = TRUE, append = FALSE, sep="\t", quote=FALSE)
+
+#creating a sublist of data where host plants and host insects are redlisted
+subdata <- subset(data, redList == TRUE)
+
+
+
+```
+
+### Creating webs and making calculations
+
+Here we're filtering the big dataset to host family level and then creating the interaction network/calculating network metrics using the package, bipartite. 
+
+```{r warning = FALSE}
+
+### Starting here with the Elaeagnaceae family. There are 54 observations so it's a fairly small set of observations which Michelle's computer can handle.
+
+# filter to Elaeagnaceae family
+elaeagnaceae <- data %>%
+  filter(h_family == "Elaeagnaceae") %>% 
+  # selecting columns with only host, insect, host family, and number of times observed
+  select(host, insect, h_family, coll_number_same_h)
+
+# transform observation data frame into an network matrix array
+ela_matrix <- frame2webs(elaeagnaceae, varnames = c("host", "insect", "h_family", "coll_number_same_h"), type.out = 'array')
+
+# print the network matrix as a data frame
+ela_web <- as.data.frame(ela_matrix)
+
+# calculate connectance
+ela_connectance <- networklevel(ela_web, index = 'connectance')
+ela_connectance
+
+# calculate weighted connectance
+ela_weight_connectance <- networklevel(ela_web, index = 'weighted connectance')
+ela_weight_connectance
+
+# calculate interaction evenness
+ela_even <- networklevel(ela_web, index = 'interaction evenness')
+ela_even
+
+# calcualte network nestedness
+ela_nest <- networklevel(ela_web, index = 'nestedness')
+ela_nest
+
+
+
+### Next, we'll use the Euphorbiaceae family which has 207 observations. Slightly larger, but still manageable.
+
+# filter to Euphorbiaceae family
+euphorb <- data %>% 
+  filter(h_family == "Euphorbiaceae") %>% 
+  select(host, insect, h_family, coll_number_same_h)
+
+# transform observation data frame into an network matrix array
+eup_matrix <- frame2webs(euphorb, varnames = c("host", "insect", "h_family", "coll_number_same_h"), type.out = 'array')
+
+# print the network matrix as a data frame
+eup_web <- as.data.frame(eup_matrix)
+
+# calculate connectance
+eup_connectance <- networklevel(eup_web, index = 'connectance')
+eup_connectance
+
+# calculate weighted connectance
+eup_weight_connectance <- networklevel(eup_web, index = 'weighted connectance')
+eup_weight_connectance
+
+# calculate interaction evenness
+eup_even <- networklevel(eup_web, index = 'interaction evenness')
+eup_even
+
+# calcualte network nestedness
+eup_nest <- networklevel(eup_web, index = 'nestedness')
+eup_nest
+
+
+
+### Much smaller subset here with Dennstaedtiaceae, with 16 observations
+
+# filter to Dennstaedtiaceae family
+den <- data %>%
+  filter(h_family == "Dennstaedtiaceae") %>% 
+  select(host, insect, h_family, coll_number_same_h)
+
+# transform observation data frame into an network matrix array
+den_matrix <- frame2webs(den, varnames = c("host", "insect", "h_family", "coll_number_same_h"), type.out = 'array')
+
+# print the network matrix as a data frame
+den_web <- as.data.frame(den_matrix)
+
+# calculate connectance
+den_connectance <- networklevel(den_web, index = 'connectance')
+den_connectance
+
+# calculate weighted connectance
+den_weight_connectance <- networklevel(den_web, index = 'weighted connectance')
+den_weight_connectance
+
+# calculate interaction evenness
+den_even <- networklevel(den_web, index = 'interaction evenness')
+den_even
+
+# calcualte network nestedness
+den_nest <- networklevel(den_web, index = 'nestedness')
+den_nest
+
+
+
+```
+
+
