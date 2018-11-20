@@ -8,9 +8,18 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+# Plant bug network analyses Fall 2018
+Our goals for this project are to:
+ 1. explore the network across the different Hemiptera species in the Museum database  
+ 2. better understand the geographical and phylogenetic patterns of these networks
 
-libraries
-```{r message = FALSE}
+### Load in necessary libraries for data analysis of Plant-Bug networks:  
+ - ggplot2  
+ - RColorBrewer  
+ - ggthemes  
+ - bipartite  
+ - tidyverse
+```{r message = FALSE, warning = FALSE}
 library(ggplot2)
 library(RColorBrewer)
 library(ggthemes)
@@ -18,29 +27,46 @@ library(bipartite)
 library(tidyverse)
 ```
 
-read in some data
+### Load in necessary datasets
+As of November 2018, we'll be using the "hostNetwork_copy.tsv" that Katja pulled and put together from the museum data (included in this package).
 ```{r}
-data <- read.delim("collectionsConservationBio/temp-data/hostNetwork.tsv", header = TRUE)
+# Read in data file and read as data frame.
+data <- read.delim("hostNetwork_copy.tsv", header = TRUE)
 
-#create new columns for full species names
+# Create new columns for full species names of both the host species and the insect species.
 data$host <- paste(data$h_genus, data$h_species)
 data$insect <- paste(data$i_genus, data$i_species)
 
+
+
 #new table with columns
-write.table(data, "collectionsConservationBio/temp-data/data.txt", na = "NA", row.names = FALSE, col = TRUE, append = FALSE, sep="\t", quote=FALSE)
+#write.table(data, "collectionsConservationBio/temp-data/data.txt", na = "NA", row.names = FALSE, col = TRUE, append = FALSE, sep="\t", quote=FALSE)
 
 #creating a sublist of data where host plants and host insects are redlisted
-subdata <- subset(data, redList == TRUE)
-
-
-
+#subdata <- subset(data, redList == TRUE)
 ```
 
-### Creating webs and making calculations
+### 1. Creating webs and making calculations
 
+#### _Webs and calculations with bipartite_
 Here we're filtering the big dataset to host family level and then creating the interaction network/calculating network metrics using the package, bipartite. 
 
+We focus on connectance, weighted connectance, interaction evenness, and nestedness.
+
 ```{r warning = FALSE}
+
+### Write FOR-LOOP to do the following:
+# 1. take groups of families (only those with n < 200?)
+# 2. create interaction matrix
+# 3. convert matrix to data frame
+# 4. calculate matrix metrics
+# 5. print in metric data frame
+  # a. connectance
+  # b. weighted connectance
+  # c. interaction evenness
+  # d. nestedness
+
+
 
 ### Starting here with the Elaeagnaceae family. There are 54 observations so it's a fairly small set of observations which Michelle's computer can handle.
 
@@ -130,7 +156,7 @@ den_weight_connectance
 den_even <- networklevel(den_web, index = 'interaction evenness')
 den_even
 
-# calcualte network nestedness
+# calculate network nestedness
 den_nest <- networklevel(den_web, index = 'nestedness')
 den_nest
 
@@ -138,4 +164,12 @@ den_nest
 
 ```
 
+#### _Analyses of calculations_
+Following the above network calculations, we are now going analyze general trends in network metrics. 
+
+```{r}
+# check normality of metric spreads
+# basic correlation between each metric and family size
+# any basic 
+```
 
