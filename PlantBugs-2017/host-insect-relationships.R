@@ -85,6 +85,7 @@ dbClearResult(rs)
 interactions <- read.table("temp-data/host-insect-d1-output.txt", header=TRUE, sep = "\t")
 
 head(interactions)
+
 for (i_species_id in interactions) {
   #print(i_species_id)
   rs <- dbSendQuery(connection,"Select count(distinct ColEventUID) from Specimen 
