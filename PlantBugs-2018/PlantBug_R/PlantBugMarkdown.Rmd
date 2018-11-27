@@ -31,7 +31,7 @@ library(tidyverse)
 As of November 2018, we'll be using the "hostNetwork_copy.tsv" that Katja pulled and put together from the museum data (included in this package).
 ```{r}
 # Read in data file and read as data frame.
-data <- read.delim("hostNetwork_copy.tsv", header = TRUE)
+data <- read.delim("../data/hostNetwork.tsv", header = TRUE)
 
 # Create new columns for full species names of both the host species and the insect species.
 data$host <- paste(data$h_genus, data$h_species)
