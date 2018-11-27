@@ -149,6 +149,28 @@ lil <- data %>%
 multi_metric(web(lil))
 ```
 
+Size bin: 75-100
+```{r}
+# Magnoliaceae <- 82 obs
+mag <- data %>%
+  filter(h_family == "Magnoliaceae") %>% 
+  select(host, insect, h_family, coll_number_same_h)
+multi_metric(web(mag))
+
+# Casuarinaceae <- 76 obs
+cas <- data %>%
+  filter(h_family == "Casuarinaceae") %>% 
+  select(host, insect, h_family, coll_number_same_h)
+multi_metric(web(cas))
+
+# Chenopodiaceae <- 93 obs
+che <- data %>%
+  filter(h_family == "Chenopodiaceae") %>% 
+  select(host, insect, h_family, coll_number_same_h)
+multi_metric(web(che))
+```
+
+
 
 ```{r warning = FALSE}
 ### Next, we'll use the Euphorbiaceae family which has 207 observations. Slightly larger, but still manageable.
@@ -202,14 +224,34 @@ hostfam_hist
 
 
 # check normality of metric spreads
-net_mets <- read_csv("plantbug_selectNetMets.csv")
+net_mets <- read_csv("plantbug_selectNetMets.csv") #%>% 
+  #filter(h_family != "Euphorbiaceae")
+
+hist_connect <- ggplot(net_mets, aes(x = connectance)) +
+  geom_histogram()
+hist_connect
 
 
-# basic correlation between each metric and family size
-# any basic life history information (i.e. body size?)
+## basic correlation between each metric and family size
 
+# connectance and family size
+connect_famsize <- ggplot(net_mets, aes(x = h_fam_size, y = connectance)) +
+  geom_point()
+connect_famsize
+
+# weighted connectance and family size
+wconnect_famsize <- ggplot(net_mets, aes(x = h_fam_size, y = net_mets$weigh_connect)) +
+  geom_point()
+wconnect_famsize
 
 # relative specialization of insect families
 ```
+
+### Interaction network for just host and insect families
+```{r}
+
+```
+
+
 
 ### 1b. Do these analyses change if we look from the insect family perspective?
