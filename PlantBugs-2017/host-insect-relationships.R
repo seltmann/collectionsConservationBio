@@ -4,7 +4,7 @@
 rm(list=ls())
 
 #set working directory
-setwd("~/Documents/collectionsConservationBio/collectionsConservationBio-git")
+setwd("~/Documents/collectionsConservationBio/collectionsConservationBio-git/PlantBugs-2017")
 
 #need mysql connectors for entire script (data frame and mysql)
 require(RMySQL)
@@ -66,14 +66,16 @@ rs <- dbSendQuery(connection,"SELECT distinct F4.HostTaxName as h_family,
                   AND T2.TaxName not like '%sp.%' 
                   AND F2.HostTaxName not like \"%'%\"
                   AND F1.HostTaxName not like \"%'%\"
-                  AND F4.HostTaxName !='Unplaced'")
+                  AND F4.HostTaxName !='Unplaced'
+                  AND T5.TaxName = 'Miridae'")
 
 d1 <- fetch(rs)
+
 head(d1)
 
-write.table(d1, "temp-data/host-insect-d1-output.txt", , na = "NA", row.names = FALSE,col = TRUE, append = FALSE, sep="\t", quote=FALSE)
+write.table(d1, file = "temp-data/host-insect-d1-output.txt", na = "NA", row.names = FALSE,col = TRUE, append = FALSE, sep="\t", quote=FALSE)
 
-#clears the mysql memory before going forward
+#clears mysql results from memory
 dbClearResult(rs)
 
 #####################################################################################################################
@@ -85,13 +87,19 @@ dbClearResult(rs)
 interactions <- read.table("temp-data/host-insect-d1-output.txt", header=TRUE, sep = "\t")
 
 head(interactions)
+species_id <- unique(interactions$i_species_id)
 
-for (i_species_id in interactions) {
-  #print(i_species_id)
-  rs <- dbSendQuery(connection,"Select count(distinct ColEventUID) from Specimen 
-                  where Specimen.species=",i_species_id," AND Specimen.species !='0' AND Specimen.HostSp != '0'")
+#limited to one family Miridae from SQL that created output file. Will limit geographically and remove some bad data in next query set.
 
+  for (species_id in interactions) {
+    xc <- paste("Select Specimen.Species, count(distinct ColEventUID) from Specimen where Species='",species_id,"' group by Specimen.Species",  sep = "")
+    print(xc)
+    rsp <- dbSendQuery(connection, paste("Select Specimen.Species, count(distinct ColEventUID) from Specimen where Species='",species_id,"' group by Specimen.Species",  sep = ""))
+    d1 <- fetch(rsp)
+    write.table(d1, file = "temp-data/test.txt", na = "NA", row.names = FALSE,col = FALSE, append = TRUE, sep="\t", quote=FALSE)
   }
+
+dbClearResult(rsp)
 
 
 
