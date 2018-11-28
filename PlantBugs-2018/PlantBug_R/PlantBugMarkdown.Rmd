@@ -19,13 +19,17 @@ Our goals for this project are to:
  - ggthemes  
  - bipartite  
  - tidyverse
+ - dplyr
 ```{r message = FALSE, warning = FALSE}
 library(ggplot2)
 library(RColorBrewer)
 library(ggthemes)
 library(bipartite)
 library(tidyverse)
+library(dplyr)
+library(plyr)
 ```
+
 
 ### Load in necessary datasets
 As of November 2018, we'll be using the "hostNetwork_copy.tsv" that Katja pulled and put together from the museum data (included in this package).
@@ -46,20 +50,154 @@ data$insect <- paste(data$i_genus, data$i_species)
 #subdata <- subset(data, redList == TRUE)
 ```
 
-### 1. Creating webs and making calculations
+
+
+
+### 1a. Creating webs and making calculations
 
 #### _Webs and calculations with bipartite_
 Here we're filtering the big dataset to host family level and then creating the interaction network/calculating network metrics using the package, bipartite. 
 
 We focus on connectance, weighted connectance, interaction evenness, and nestedness.
+```{r}
+### Functions
+
+## dataframe to matrix
+web <- function(df) {
+  as.data.frame(frame2webs(df, varnames = c("host", "insect", "h_family", "coll_number_same_h"), type.out = 'array'))
+}
+
+## multiple network metric calculations
+multi_metric <- function(df) {
+  c(
+    # connectance
+    connect <- networklevel(df, index = 'connectance'),
+    # weighted connectance
+    weight_connect <- networklevel(df, index = 'weighted connectance'),
+    # interaction evenness
+    even <- networklevel(df, index = 'interaction evenness'),
+    # nestedness
+    nest <- networklevel(den_web, index = 'nestedness')
+)}
+
+
+```
+
+
+
+Size bins: 0-25
+```{r}
+# Dennstaedtiaceae <- 16 obs
+den <- data %>%
+  filter(h_family == "Dennstaedtiaceae") %>% 
+  select(host, insect, h_family, coll_number_same_h)
+# transform observation data frame into an network matrix array
+multi_metric(web(den))
+
+### Ginkgoaceae <- only 3 observations
+gin <- data %>%
+  filter(h_family == "Ginkgoaceae") %>% 
+  select(host, insect, h_family, coll_number_same_h)
+multi_metric(web(gin))
+
+### Aspleniaceae <- 1 obs
+asp <- data %>%
+  filter(h_family == "Aspleniaceae") %>% 
+  select(host, insect, h_family, coll_number_same_h)
+multi_metric(web(asp))
+```
+
+Size bin: 25-50
+```{r}
+# Lythraceae <- 41 obs
+lyt <- data %>%
+  filter(h_family == "Lythraceae") %>% 
+  select(host, insect, h_family, coll_number_same_h)
+multi_metric(web(lyt))
+
+# Primulaceae <- 33 obs
+pri <- data %>%
+  filter(h_family == "Primulaceae") %>% 
+  select(host, insect, h_family, coll_number_same_h)
+multi_metric(web(pri))
+
+# Cycadaceae <- 31 obs
+cyc <- data %>%
+  filter(h_family == "Cycadaceae") %>% 
+  select(host, insect, h_family, coll_number_same_h)
+multi_metric(web(cyc))
+```
+
+Size bin: 50-75
+```{r}
+# Elaeagnaceae <- 54 obs
+ela <- data %>%
+  filter(h_family == "Elaeagnaceae") %>% 
+  select(host, insect, h_family, coll_number_same_h)
+multi_metric(web(ela))
+
+# Cucurbitaceae <- 55 obs
+cuc <- data %>%
+  filter(h_family == "Cucurbitaceae") %>% 
+  select(host, insect, h_family, coll_number_same_h)
+multi_metric(web(cuc))
+
+# Liliaceae <- 55 obs
+lil <- data %>%
+  filter(h_family == "Liliaceae") %>% 
+  select(host, insect, h_family, coll_number_same_h)
+multi_metric(web(lil))
+```
+
+Size bin: 75-100
+```{r}
+# Magnoliaceae <- 82 obs
+mag <- data %>%
+  filter(h_family == "Magnoliaceae") %>% 
+  select(host, insect, h_family, coll_number_same_h)
+multi_metric(web(mag))
+
+# Casuarinaceae <- 76 obs
+cas <- data %>%
+  filter(h_family == "Casuarinaceae") %>% 
+  select(host, insect, h_family, coll_number_same_h)
+multi_metric(web(cas))
+
+# Chenopodiaceae <- 93 obs
+che <- data %>%
+  filter(h_family == "Chenopodiaceae") %>% 
+  select(host, insect, h_family, coll_number_same_h)
+multi_metric(web(che))
+```
+
+
 
 ```{r warning = FALSE}
+### Next, we'll use the Euphorbiaceae family which has 207 observations. Slightly larger, but still manageable.
+eup <- data %>%
+  filter(h_family == "Euphorbiaceae") %>% 
+  select(host, insect, h_family, coll_number_same_h)
+multi_metric(web(eup))
+```
 
-### Write FOR-LOOP to do the following:
+#### Make a more streamlined function to go through families 
+```{r}
 # 1. take groups of families (only those with n < 200?)
+family_groups <- data %>%
+  group_by(h_family) %>% 
+  filter(length(h_family) < 100) %>% 
+  arrange(h_family) %>% 
+  select(h_family, host, i_family, insect, coll_number_same_h)
+
 # 2. create interaction matrix
 # 3. convert matrix to data frame
+connect <- function(df) {
+networklevel(as.data.frame(frame2webs(df, varnames = c("host", "insect", "h_family", "coll_number_same_h"), type.out = 'array')), index = "connectance")
+}
+
 # 4. calculate matrix metrics
+connect_fam <- dlply(family_groups, family_groups$h_family, .fun = connect)
+
 # 5. print in metric data frame
   # a. connectance
   # b. weighted connectance
@@ -67,109 +205,53 @@ We focus on connectance, weighted connectance, interaction evenness, and nestedn
   # d. nestedness
 
 
-
-### Starting here with the Elaeagnaceae family. There are 54 observations so it's a fairly small set of observations which Michelle's computer can handle.
-
-# filter to Elaeagnaceae family
-elaeagnaceae <- data %>%
-  filter(h_family == "Elaeagnaceae") %>% 
-  # selecting columns with only host, insect, host family, and number of times observed
-  select(host, insect, h_family, coll_number_same_h)
-
-# transform observation data frame into an network matrix array
-ela_matrix <- frame2webs(elaeagnaceae, varnames = c("host", "insect", "h_family", "coll_number_same_h"), type.out = 'array')
-
-# print the network matrix as a data frame
-ela_web <- as.data.frame(ela_matrix)
-
-# calculate connectance
-ela_connectance <- networklevel(ela_web, index = 'connectance')
-ela_connectance
-
-# calculate weighted connectance
-ela_weight_connectance <- networklevel(ela_web, index = 'weighted connectance')
-ela_weight_connectance
-
-# calculate interaction evenness
-ela_even <- networklevel(ela_web, index = 'interaction evenness')
-ela_even
-
-# calcualte network nestedness
-ela_nest <- networklevel(ela_web, index = 'nestedness')
-ela_nest
-
-
-
-### Next, we'll use the Euphorbiaceae family which has 207 observations. Slightly larger, but still manageable.
-
-# filter to Euphorbiaceae family
-euphorb <- data %>% 
-  filter(h_family == "Euphorbiaceae") %>% 
-  select(host, insect, h_family, coll_number_same_h)
-
-# transform observation data frame into an network matrix array
-eup_matrix <- frame2webs(euphorb, varnames = c("host", "insect", "h_family", "coll_number_same_h"), type.out = 'array')
-
-# print the network matrix as a data frame
-eup_web <- as.data.frame(eup_matrix)
-
-# calculate connectance
-eup_connectance <- networklevel(eup_web, index = 'connectance')
-eup_connectance
-
-# calculate weighted connectance
-eup_weight_connectance <- networklevel(eup_web, index = 'weighted connectance')
-eup_weight_connectance
-
-# calculate interaction evenness
-eup_even <- networklevel(eup_web, index = 'interaction evenness')
-eup_even
-
-# calcualte network nestedness
-eup_nest <- networklevel(eup_web, index = 'nestedness')
-eup_nest
-
-
-
-### Much smaller subset here with Dennstaedtiaceae, with 16 observations
-
-# filter to Dennstaedtiaceae family
-den <- data %>%
-  filter(h_family == "Dennstaedtiaceae") %>% 
-  select(host, insect, h_family, coll_number_same_h)
-
-# transform observation data frame into an network matrix array
-den_matrix <- frame2webs(den, varnames = c("host", "insect", "h_family", "coll_number_same_h"), type.out = 'array')
-
-# print the network matrix as a data frame
-den_web <- as.data.frame(den_matrix)
-
-# calculate connectance
-den_connectance <- networklevel(den_web, index = 'connectance')
-den_connectance
-
-# calculate weighted connectance
-den_weight_connectance <- networklevel(den_web, index = 'weighted connectance')
-den_weight_connectance
-
-# calculate interaction evenness
-den_even <- networklevel(den_web, index = 'interaction evenness')
-den_even
-
-# calculate network nestedness
-den_nest <- networklevel(den_web, index = 'nestedness')
-den_nest
-
-
-
 ```
+
+
 
 #### _Analyses of calculations_
 Following the above network calculations, we are now going analyze general trends in network metrics. 
 
 ```{r}
+# Filter data for histogram looking at the number of unique interactions per host family
+fam_hist_data <- data %>%
+  group_by(h_family) %>% 
+  filter(length(h_family) >100) %>% 
+  select(h_family, host, i_family, insect, coll_number_same_h)
+hostfam_hist <- ggplot(fam_hist_data, aes(x = coll_number_same_h)) +
+  geom_histogram()
+hostfam_hist
+
+
 # check normality of metric spreads
-# basic correlation between each metric and family size
-# any basic 
+net_mets <- read_csv("plantbug_selectNetMets.csv") #%>% 
+  #filter(h_family != "Euphorbiaceae")
+
+hist_connect <- ggplot(net_mets, aes(x = connectance)) +
+  geom_histogram()
+hist_connect
+
+
+## basic correlation between each metric and family size
+
+# connectance and family size
+connect_famsize <- ggplot(net_mets, aes(x = h_fam_size, y = connectance)) +
+  geom_point()
+connect_famsize
+
+# weighted connectance and family size
+wconnect_famsize <- ggplot(net_mets, aes(x = h_fam_size, y = net_mets$weigh_connect)) +
+  geom_point()
+wconnect_famsize
+
+# relative specialization of insect families
 ```
 
+### Interaction network for just host and insect families
+```{r}
+
+```
+
+
+
+### 1b. Do these analyses change if we look from the insect family perspective?
