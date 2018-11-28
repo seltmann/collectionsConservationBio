@@ -35,7 +35,8 @@ library(plyr)
 As of November 2018, we'll be using the "hostNetwork_copy.tsv" that Katja pulled and put together from the museum data (included in this package).
 ```{r}
 # Read in data file and read as data frame.
-data <- read.delim("../data/hostNetwork.tsv", header = TRUE)
+data <- read.delim("../data/hostNetwork.tsv", header = TRUE) %>% 
+  filter(h_family != "Unknown")
 
 # Create new columns for full species names of both the host species and the insect species.
 data$host <- paste(data$h_genus, data$h_species)
@@ -82,7 +83,6 @@ multi_metric <- function(df) {
 
 
 ```
-
 
 
 Size bins: 0-25
@@ -191,18 +191,70 @@ family_groups <- data %>%
 
 # 2. create interaction matrix
 # 3. convert matrix to data frame
-connect <- function(df) {
-networklevel(as.data.frame(frame2webs(df, varnames = c("host", "insect", "h_family", "coll_number_same_h"), type.out = 'array')), index = "connectance")
-}
+#connect <- function(df) {
+#networklevel(as.data.frame(frame2webs(df, varnames = c("host", "insect", "h_family", "coll_number_same_h"), type.out = 'array')), index = "connectance")
+#}
 
 # 4. calculate matrix metrics
-connect_fam <- dlply(family_groups, family_groups$h_family, .fun = connect)
+# connect_fam <- dlply(family_groups, family_groups$h_family, .fun = connect)
 
 # 5. print in metric data frame
   # a. connectance
   # b. weighted connectance
   # c. interaction evenness
   # d. nestedness
+
+
+
+
+```
+
+##### Example For Loop to pull out individual families and calculate network metrics 
+```{r}
+## dataframe to matrix
+web <- function(df) {
+  as.data.frame(frame2webs(df, varnames = c("host", "insect", "h_family", "coll_number_same_h"), type.out = 'array'))
+}
+
+## multiple network metric calculations
+multi_metric <- function(df) {
+  c(
+    # connectance
+    connect <- networklevel(df, index = 'connectance'),
+    # weighted connectance
+    weight_connect <- networklevel(df, index = 'weighted connectance'),
+    # interaction evenness
+    even <- networklevel(df, index = 'interaction evenness'),
+    # nestedness
+    nest <- networklevel(df, index = 'nestedness')
+  )}
+
+# Dennstaedtiaceae <- 16 obs
+unique_families <- unique(data$h_family) 
+unique_families
+
+#den<- list()
+data_new <- data
+
+family_data <- function(i) {
+  den <- subset(data_new, data_new$h_family == i)
+  return(den)
+}
+
+for (i in unique_families) {
+  print(i)
+  den <- family_data(i)
+  x <- multi_metric(web(den))
+  den_output <- (rbind(den_output,x))
+}
+
+head(den_output)
+
+den <- data %>%
+  filter(h_family == "Dennstaedtiaceae") %>% 
+  select(host, insect, h_family, coll_number_same_h)
+# transform observation data frame into an network matrix array
+multi_metric(web(den))
 
 
 ```
@@ -216,8 +268,8 @@ Following the above network calculations, we are now going analyze general trend
 # Filter data for histogram looking at the number of unique interactions per host family
 fam_hist_data <- data %>%
   group_by(h_family) %>% 
-  filter(length(h_family) >100) %>% 
-  select(h_family, host, i_family, insect, coll_number_same_h)
+  filter(length(h_family) > 100) %>% 
+  select(h_family, h_genus, host, i_family, i_genus, insect, coll_number_same_h)
 hostfam_hist <- ggplot(fam_hist_data, aes(x = coll_number_same_h)) +
   geom_histogram()
 hostfam_hist
@@ -249,6 +301,17 @@ wconnect_famsize
 
 ### Interaction network for just host and insect families
 ```{r}
+family_groups <- data %>%
+  group_by(h_family) %>% 
+  filter(length(h_family) < 100) %>% 
+  arrange(h_family) %>% 
+  select(h_family, h_genus, host, i_family, i_genus, insect, coll_number_same_h)
+
+family_web <- frame2webs(family_groups, varnames = c("h_genus", "i_genus", "h_family"))
+plotweb(family_web)
+networklevel(family_web, index = "connectance")
+
+
 
 ```
 
