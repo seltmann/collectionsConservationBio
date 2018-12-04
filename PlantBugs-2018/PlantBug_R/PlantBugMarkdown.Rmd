@@ -193,12 +193,16 @@ family_data <- function(i) {
   fam <- subset(data_new, data_new$h_family == i)
   return(fam)
 }
+output<-list()
 
 for (i in unique_families) {
   fam <- as.data.frame(family_data(i))
   x <- multi_metric(web(fam))
-  output <- as.data.frame(rbind(i,x))
+  y <- rbind(i, x)
+  output <- as.data.frame(rbind(output,y))
 }
+
+
 
 head(output)
 
