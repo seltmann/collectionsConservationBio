@@ -22,8 +22,6 @@ Our goals for this project are to:
  - dplyr
 ```{r message = FALSE, warning = FALSE}
 library(ggplot2)
-library(RColorBrewer)
-library(ggthemes)
 library(bipartite)
 library(tidyverse)
 library(dplyr)
@@ -78,7 +76,7 @@ multi_metric <- function(df) {
     # interaction evenness
     even <- networklevel(df, index = 'interaction evenness'),
     # nestedness
-    nest <- networklevel(den_web, index = 'nestedness')
+    nest <- networklevel(df, index = 'nestedness')
 )}
 
 
@@ -171,7 +169,6 @@ multi_metric(web(che))
 ```
 
 
-
 ```{r warning = FALSE}
 ### Next, we'll use the Euphorbiaceae family which has 207 observations. Slightly larger, but still manageable.
 eup <- data %>%
@@ -182,80 +179,28 @@ multi_metric(web(eup))
 
 #### Make a more streamlined function to go through families 
 ```{r}
-# 1. take groups of families (only those with n < 200?)
-family_groups <- data %>%
+# Create df with families with fewer than 200 unique interactions
+data_new <- data %>% 
   group_by(h_family) %>% 
-  filter(length(h_family) < 100) %>% 
-  arrange(h_family) %>% 
-  select(h_family, host, i_family, insect, coll_number_same_h)
+  filter(length(h_family) < 200)
 
-# 2. create interaction matrix
-# 3. convert matrix to data frame
-#connect <- function(df) {
-#networklevel(as.data.frame(frame2webs(df, varnames = c("host", "insect", "h_family", "coll_number_same_h"), type.out = 'array')), index = "connectance")
-#}
-
-# 4. calculate matrix metrics
-# connect_fam <- dlply(family_groups, family_groups$h_family, .fun = connect)
-
-# 5. print in metric data frame
-  # a. connectance
-  # b. weighted connectance
-  # c. interaction evenness
-  # d. nestedness
-
-
-
-
-```
-
-##### Example For Loop to pull out individual families and calculate network metrics 
-```{r}
-## dataframe to matrix
-web <- function(df) {
-  as.data.frame(frame2webs(df, varnames = c("host", "insect", "h_family", "coll_number_same_h"), type.out = 'array'))
-}
-
-## multiple network metric calculations
-multi_metric <- function(df) {
-  c(
-    # connectance
-    connect <- networklevel(df, index = 'connectance'),
-    # weighted connectance
-    weight_connect <- networklevel(df, index = 'weighted connectance'),
-    # interaction evenness
-    even <- networklevel(df, index = 'interaction evenness'),
-    # nestedness
-    nest <- networklevel(df, index = 'nestedness')
-  )}
-
-# Dennstaedtiaceae <- 16 obs
-unique_families <- unique(data$h_family) 
+# This calls all unique names of families
+unique_families <- unique(data_new$h_family) 
 unique_families
 
-#den<- list()
-data_new <- data
-
+# Function that subsets each family and returns the shortened dataframe
 family_data <- function(i) {
-  den <- subset(data_new, data_new$h_family == i)
-  return(den)
+  fam <- subset(data_new, data_new$h_family == i)
+  return(fam)
 }
 
 for (i in unique_families) {
-  print(i)
-  den <- family_data(i)
-  x <- multi_metric(web(den))
-  den_output <- (rbind(den_output,x))
+  fam <- as.data.frame(family_data(i))
+  x <- multi_metric(web(fam))
+  output <- as.data.frame(rbind(i,x))
 }
 
-head(den_output)
-
-den <- data %>%
-  filter(h_family == "Dennstaedtiaceae") %>% 
-  select(host, insect, h_family, coll_number_same_h)
-# transform observation data frame into an network matrix array
-multi_metric(web(den))
-
+head(output)
 
 ```
 
