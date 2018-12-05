@@ -21,7 +21,7 @@ Sys.setlocale('LC_ALL','C')
 #####################################################################################################################
 ###########################Query Database and return data frame of insects and host plants###########################
 #####################################################################################################################
-
+#host plants to genus level
 
 #create a connection to the db:
 connection <- dbConnect(MySQL(), user="pbi_locality", password="generalPass", dbname="pbi_locality", host="localhost")
@@ -58,9 +58,6 @@ rs <- dbSendQuery(connection,"SELECT distinct F4.HostTaxName as h_family,
                   AND F1.HostTaxName not like '%cf.%' 
                   AND F1.HostTaxName not like '%nr.%' 
                   AND F1.HostTaxName !='Unknown' 
-                  AND F2.HostTaxName not like '%sp.%' 
-                  AND F2.HostTaxName not like '%spp.%' 
-                  AND F2.HostTaxName not like '%unknown%' 
                   AND F2.HostMNLUID != '0' 
                   AND T1.TaxName not like '%sp.%' 
                   AND T2.TaxName not like '%sp.%' 
@@ -93,9 +90,8 @@ species_id <- unique(interactions$i_species_id)
 #write to table
 
   for (species_id in interactions) {
-    rsp <- dbSendQuery(connection, paste("Select count(distinct ColEventUID) from Specimen where Species='",species_id,"' group by Specimen.Species",  sep = ""))
+    rsp <- dbSendQuery(connection, paste("Select Specimen.Species,count(distinct ColEventUID) from Specimen where Species='",species_id,"'",  sep = ""))
     d1 <- fetch(rsp)
-    dbClearResult(rsp)
     write.table(d1, file = "temp-data/test.txt", na = "NA", row.names = FALSE,col = FALSE, append = TRUE, sep="\t", quote=FALSE)
   }
 
@@ -103,8 +99,9 @@ dbClearResult(rsp)
 
 C2count<-list()
 #write to data frame
+
   for (species_id in interactions){
-    sql2 <- paste("Select distinct round(L1.DLat,3),round(L1.DLong,3) FROM Specimen S1 
+    sql2 <- paste("Select distinct T1.TaxName as i_genus,T2.TaxName as i_species,round(L1.DLat,3),round(L1.DLong,3) FROM Specimen S1 
                   left join MNL T1 ON S1.Genus = T1.MNLUID 
                   left join MNL T2  ON S1.Species = T2.MNLUID 
                   left join MNL T3 ON S1.Tribe=T3.MNLUID 
@@ -138,7 +135,7 @@ C2count<-list()
                   AND F4.HostTaxName !='Unplaced'
                   AND T5.TaxName = 'Miridae' 
                   AND (CN.UID = '2' or CN.UID = '8' or CN.UID = '11') 
-                  AND S1.species='",species_id,"' limit 10",  sep = "")
+                  AND S1.species='",species_id,"'",  sep = "")
     C2count<-rbind(C2count,dbGetQuery(connection, sql2))
   }
 
