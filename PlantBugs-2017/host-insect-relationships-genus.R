@@ -66,8 +66,9 @@ rs <- dbSendQuery(connection,"SELECT distinct F4.HostTaxName as h_family,
                   AND F4.HostTaxName !='Unplaced'
                   AND T5.TaxName = 'Miridae'")
 
-d1 <- fetch(rs)
-
+#pending rows???? Not fetching all
+d1 <- dbFetch(rs)
+help("fetch")
 head(d1)
 
 write.table(d1, file = "temp-data/host-insect-d1-output.txt", na = "NA", row.names = FALSE,col = TRUE, append = FALSE, sep="\t", quote=FALSE)
@@ -85,7 +86,7 @@ interactions <- read.table("temp-data/host-insect-d1-output.txt", header=TRUE, s
 
 head(interactions)
 species_id <- unique(interactions$i_species_id)
-
+head(species_id)
 #limited to one family Miridae from SQL that created output file. Will limit geographically and remove some bad data in next query set.
 #write to table
 
@@ -136,7 +137,9 @@ C2count<-list()
                   AND T5.TaxName = 'Miridae' 
                   AND (CN.UID = '2' or CN.UID = '8' or CN.UID = '11') 
                   AND S1.species='",species_id,"'",  sep = "")
-    C2count<-rbind(C2count,dbGetQuery(connection, sql2))
+    rsp <- dbGetQuery(connection, sql2)
+    C2count<-rbind(C2count,rsp)
+    dbClearResult(rsp)
   }
 
 print(C2count)
