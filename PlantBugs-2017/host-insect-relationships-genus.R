@@ -127,21 +127,21 @@ head(counts)
 require(RMySQL)
 require(igraph)
 
-#create a connection to the db:
+#create a connection to the db and write to a table
 connection <- dbConnect(MySQL(), user="pbi_locality", password="generalPass", dbname="pbi_locality", host="localhost")
-
-dbListFields(connection, "host_network")
-host <- dbGetQuery(connection, "select distinct concat(i_genus,\"_\",i_species) as insect, concat(h_family, \"_\", h_genus) as host, rel_confidence from host_network")
+host <- dbGetQuery(connection, "select distinct concat(i_genus,\"_\",i_species) as insect, concat(h_family, \"_\", h_genus), coll_percent as host from host_network")
 write.table(host, "temp-data/edges3.txt", sep=",", row.names=FALSE , col.names=TRUE, quote=FALSE)
 write.table(host$host, "temp-data/plants.txt", sep=",", row.names=FALSE , col.names=TRUE, quote=FALSE)
+
+
 
 bsk <- read.delim(file="temp-data/edges3.txt",sep=",",head=TRUE)
 bsk.network<-graph.data.frame(bsk, directed=F)
 V(bsk.network) #prints the list of vertices (people)
 E(bsk.network) #prints the list of edges (relationships)
 degree(bsk.network) #print the number of edges per vertex (relationships per people)
-V(bsk.network)$size<-degree(bsk.network)
-vertex.label=V(bsk.network)$name<-ifelse(degree(bsk.network) > 10,V(bsk.network)$name,'')
+#V(bsk.network)$size<-degree(bsk.network)
+vertex.label=V(bsk.network)$name<-ifelse(degree(bsk.network) > 1000,V(bsk.network)$name,'')
 E(bsk.network)$width<- 2
 plot(bsk.network)
 
