@@ -99,7 +99,7 @@ rs <- dbSendQuery(connection,"Select T1.TaxName as genus,T2.TaxName as species, 
                   left join colevent CE on S1.ColEventUID=CE.ColEventUID 
                   left join Collector C1 on CE.Collector=C1.CollectorUID 
                   left join Country CN on SP.CountryUID=CN.UID 
-                  WHERE T5.TaxName = 'Miridae' AND (CN.UID = '2' or CN.UID = '8' or CN.UID = '11') limit 10")
+                  WHERE T5.TaxName = 'Miridae' AND (CN.UID = '2' or CN.UID = '8' or CN.UID = '11')")
 
 while (!dbHasCompleted(rs)) {
   chunk <- dbFetch(rs, 10)
