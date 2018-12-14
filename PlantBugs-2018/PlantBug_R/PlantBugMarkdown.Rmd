@@ -201,7 +201,7 @@ for (i in unique_families) {
   y <- rbind(i, x)
   output <- as.data.frame(rbind(output,y))
 }
-
+# FIX: printing y as a matrix rather than i attached to the values in x in one row
 
 
 head(output)
@@ -267,3 +267,87 @@ networklevel(family_web, index = "connectance")
 
 
 ### 1b. Do these analyses change if we look from the insect family perspective?
+Make a more streamlined function to go through families 
+```{r}
+# Create df with families with fewer than 200 unique interactions
+ins_data_new <- data %>% 
+  group_by(i_genus) %>% 
+  filter(i_genus == "Dendrocoris" | i_genus == "Myrmecoroides" | i_genus == "Xyonysius" | i_genus == "Anthelococcus" | i_genus == "Ceroplastes")
+  # this pops out a df with 7619 observations
+
+# Function that subsets each family and returns the shortened dataframe
+ins_genus_data <- function(i) {
+  igen <- subset(ins_data_new, ins_data_new$i_genus == i)
+  return(igen)
+}
+insect_output<-list()
+
+### before running this, all functions need to be rewritten
+
+# new web function needs to be created
+ins_web <- function(df) {
+  as.data.frame(frame2webs(df, varnames = c("h_family", "i_genus", "i_genus"), type.out = 'array'))
+}
+
+i_genus_web <- ins_web(ins_data_new)
+
+# multimetric should be edited to just pop out specialization metrics
+species_multimet <- function(df) {
+  c(
+    # partner diversity
+    part_div <- specieslevel(df, index = "partner diversity", level = "higher"),
+    # proportional similarity
+    prop_sim <- specieslevel(df, index = "proportional similarity", level = "higher"),
+    # d
+    d_spec <- specieslevel(df, index = "d", level = "higher")
+  )
+}
+
+#### we might not need these old functions
+for (i in unique_ifamilies) {
+  ifam <- as.data.frame(ins_family_data(i))
+  x <- multi_metric(web(ifam))
+  y <- rbind(i, x)
+  insect_output <- as.data.frame(rbind(output,y))
+}
+# FIX: printing y as a matrix rather than i attached to the values in x in one row
+
+
+head(insect_output)
+
+```
+
+
+# BASIC DATA VISUALIZATION
+```{r}
+# histogram of number of times insects are collected on the same host
+collection_hist <- ggplot(data, aes(x = coll_number_same_h)) +
+  geom_histogram()
+collection_hist
+
+# all insect genuses and the number of times they are in the dataset
+i_genus_bar <- ggplot(data, aes(x = i_genus)) +
+  geom_bar(aes(fill = i_family), show.legend = FALSE)
+i_genus_bar
+  # a little overwhelming, switching to family
+
+# all insect families and the number of times they are in the dataset
+i_family_bar <- ggplot(data, aes(x = i_family)) +
+  geom_bar()
+i_family_bar
+  # this is slightly better
+
+
+### lat/long visualization
+# read in lat/long dataset
+latlong_data <- read.delim("~/Desktop/PlantBugNetwork/collectionsConservationBio/PlantBugs-2017/temp-data/lat-long-Miridae.txt", header = TRUE, nrows = 2000) %>% 
+  filter(h_family != "Unknown") %>% 
+  filter(dlong != "0")
+# scatter plot
+lat_long_scatter <- ggplot(latlong_data, aes(x = dlat, y = dlong)) +
+  geom_point(aes(colour = latlong_data$i_genus))
+lat_long_scatter
+
+```
+
+
