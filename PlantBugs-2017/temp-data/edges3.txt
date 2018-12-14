@@ -1,4 +1,4 @@
-insect,concat(h_family, "_", h_genus),host
+insect,host,percent
 Lepidargyrus_ancorifer,Rosaceae_Holodiscus,6.9
 Lepidargyrus_ancorifer,Apiaceae_Daucus,6.9
 Chlamydatus_associatus,Fagaceae_Quercus,0.49

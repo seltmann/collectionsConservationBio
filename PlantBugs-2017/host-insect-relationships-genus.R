@@ -129,9 +129,10 @@ require(igraph)
 
 #create a connection to the db and write to a table
 connection <- dbConnect(MySQL(), user="pbi_locality", password="generalPass", dbname="pbi_locality", host="localhost")
-host <- dbGetQuery(connection, "select distinct concat(i_genus,\"_\",i_species) as insect, concat(h_family, \"_\", h_genus), coll_percent as host from host_network")
+host <- dbGetQuery(connection, "select distinct concat(i_genus,\"_\",i_species) as insect, concat(h_family, \"_\", h_genus) as host, coll_percent as percent from host_network")
 write.table(host, "temp-data/edges3.txt", sep=",", row.names=FALSE , col.names=TRUE, quote=FALSE)
 write.table(host$host, "temp-data/plants.txt", sep=",", row.names=FALSE , col.names=TRUE, quote=FALSE)
+
 
 
 
@@ -145,8 +146,16 @@ vertex.label=V(bsk.network)$name<-ifelse(degree(bsk.network) > 1000,V(bsk.networ
 E(bsk.network)$width<- 2
 plot(bsk.network)
 
+g <- graph_from_incidence_matrix(bsk.network)
+plot(bsk.network, layout = layout_as_bipartite,
+     vertex.color=c("green","cyan")[V(g)$type+1])
+help(graph_from_incidence_matrix)
+# Two columns
+g %>%
+  add_layout_(as_bipartite()) %>%
+  plot()
 
-
+help(igraph)
 help(plot)
 
 
@@ -180,5 +189,14 @@ for (single_species in all_species_ids) {
 
 #if need to type warngings, type in command line warmings()
 
+# Random bipartite graph
+inc <- matrix(sample(0:1, 50, replace = TRUE, prob=c(2,1)), 10, 5)
+g <- graph_from_incidence_matrix(inc)
+plot(g, layout = layout_as_bipartite,
+     vertex.color=c("green","cyan")[V(g)$type+1])
 
+# Two columns
+g %>%
+  add_layout_(as_bipartite()) %>%
+  plot()
 

@@ -3,4 +3,5 @@ db.php
 .RData
 .Rhistory
 .Rproj.user
-.jpeg
+*.jpeg
+*.sql
