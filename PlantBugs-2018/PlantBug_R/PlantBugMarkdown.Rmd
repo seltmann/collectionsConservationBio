@@ -320,27 +320,33 @@ head(insect_output)
 
 # BASIC DATA VISUALIZATION
 ```{r}
+# just Mirid data
+miridae_data <- read.delim("~/Desktop/PlantBugs/collectionsConservationBio/PlantBugs-2017/temp-data/lat-long-Miridae.txt", header = TRUE)
+
+
 # histogram of number of times insects are collected on the same host
-collection_hist <- ggplot(data, aes(x = coll_number_same_h)) +
+collection_hist <- ggplot(latlong_data, aes(x = coll_number_same_h)) +
   geom_histogram()
 collection_hist
 
-# all insect genuses and the number of times they are in the dataset
-i_genus_bar <- ggplot(data, aes(x = i_genus)) +
-  geom_bar(aes(fill = i_family), show.legend = FALSE)
+# all insect genuses and the number of times they are in the mirid dataset
+i_genus_bar <- ggplot(miridae_data, aes(x = i_genus)) +
+  geom_bar()
 i_genus_bar
   # a little overwhelming, switching to family
 
-# all insect families and the number of times they are in the dataset
-i_family_bar <- ggplot(data, aes(x = i_family)) +
+large_genera <- miridae_data %>% 
+  group_by(i_genus) %>% 
+  filter(length(i_genus) > 2500)
+
+i_largegenera_bar <- ggplot(large_genera, aes(x = i_genus)) +
   geom_bar()
-i_family_bar
-  # this is slightly better
+i_largegenera_bar
 
 
 ### lat/long visualization
 # read in lat/long dataset
-latlong_data <- read.delim("~/Desktop/PlantBugNetwork/collectionsConservationBio/PlantBugs-2017/temp-data/lat-long-Miridae.txt", header = TRUE, nrows = 2000) %>% 
+latlongscatter_data <- read.delim("~/Desktop/PlantBugs/collectionsConservationBio/PlantBugs-2017/temp-data/lat-long-Miridae.txt", header = TRUE, nrows = 2000) %>% 
   filter(h_family != "Unknown") %>% 
   filter(dlong != "0")
 # scatter plot
