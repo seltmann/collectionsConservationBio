@@ -29,7 +29,7 @@ connection <- dbConnect(MySQL(), user="pbi_locality", password="generalPass", db
 help(fetch)
 #check mysql connnection
 dbListTables(connection)
-dbListFields(connection, "MNL")
+dbListFields(connection, "StateProv")
 
 #mysql query that selects distinct insect and host plants from pbi_locaity database. Need to remove spaces and underscores
 rs <- dbSendQuery(connection,"SELECT distinct F4.HostTaxName as h_family,
@@ -74,12 +74,12 @@ while (!dbHasCompleted(rs)) {
 }
 
 #add headers to file that gets data from database for loop below. Does not append so this will delete information in file if run
-headers <- paste("i_genus","i_species","dlat","dlong","georef_method","GeoRefAccuracy","h_family","h_genus","h_species","i_family","i_tribe","i_genus","i_species","h_family_id","h_genus_id","h_species_id","i_family_id","i_tribe_id","i_genus_id","i_species_id", sep = "\t" )
+headers <- paste("i_genus","i_species","dlat","dlong","georef_method","GeoRefAccuracy","country","stateProv","collectingID","h_family","h_genus","h_species","i_family","i_tribe","i_genus","i_species","h_family_id","h_genus_id","h_species_id","i_family_id","i_tribe_id","i_genus_id","i_species_id", sep = "\t" )
 write.table(headers, file = "temp-data/lat-long-Miridae.txt", na = "NA", row.names = FALSE, col = FALSE, append = FALSE, sep="\t", quote=FALSE)
 
 
 #mysql query that selects lat-long insect and host plants from pbi_locaity database. Need to remove spaces and underscores
-rs <- dbSendQuery(connection,"Select T1.TaxName as genus,T2.TaxName as species, L1.DLat as dlat, L1.DLong as dlong, L1.GeoRefMethod as geoMethod, L1.LocAccuracy as location_accuracy, F4.HostTaxName as h_family,
+rs <- dbSendQuery(connection,"Select T1.TaxName as genus,T2.TaxName as species, L1.DLat as dlat, L1.DLong as dlong, L1.GeoRefMethod as geoMethod, L1.LocAccuracy as location_accuracy,CN.Country as country,SP.StateProv as stateProv,S1.ColEventUID as eventID,F4.HostTaxName as h_family,
                   F1.HostTaxName as h_genus,F2.HostTaxName as h_species, T5.TaxName as i_family,T3.TaxName as i_tribe,T1.TaxName as i_genus,
                   T2.TaxName as i_species,F4.HostMNLUID as h_family_id,F1.HostMNLUID as h_genus_id,F2.HostMNLUID as h_species_id, T5.MNLUID as i_family_id,
                   T3.MNLUID as i_tribe_id,T1.MNLUID as i_genus_id,T2.MNLUID as i_species_id
@@ -99,7 +99,7 @@ rs <- dbSendQuery(connection,"Select T1.TaxName as genus,T2.TaxName as species, 
                   left join colevent CE on S1.ColEventUID=CE.ColEventUID 
                   left join Collector C1 on CE.Collector=C1.CollectorUID 
                   left join Country CN on SP.CountryUID=CN.UID 
-                  WHERE T5.TaxName = 'Miridae' AND (CN.UID = '2' or CN.UID = '8' or CN.UID = '11')")
+                  WHERE T5.TaxName = 'Miridae' AND (CN.UID = '2' or CN.UID = '8' or CN.UID = '11') limit 10")
 
 while (!dbHasCompleted(rs)) {
   chunk <- dbFetch(rs, 10)
