@@ -1,0 +1,269 @@
+---
+title: "Plant Bug Network Analyses"
+author: "K. Seltmann & M. Lee"
+date: "14-Dec-18"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Plant bug network analyses Fall 2018
+Our goals for this project are to:
+ 1. explore the network across the different Hemiptera species in the Museum database  
+ 2. better understand the geographical and phylogenetic patterns of these networks
+
+### Load in necessary libraries for data analysis of Plant-Bug networks:  
+```{r message = FALSE, warning = FALSE}
+library(bipartite)
+library(tidyverse)
+```
+
+
+### Load in necessary datasets
+As of December 2018, we'll be using the "lat-long-Miridae.txt" that Katja pulled and put together from the museum data (included in this package).
+```{r}
+# Read in data file and read as data frame. Beware, this dataset is LARGE.
+  # 282,718 observations and 24 columns
+
+data <- read.delim("~/Desktop/PlantBugs/collectionsConservationBio/PlantBugs-2017/temp-data/lat-long-Miridae.txt", header = TRUE)
+
+```
+
+# 1. BASIC DATA VISUALIZATION
+
+### _network nodes_
+```{r}
+######### MIRIDAE IS 1 FAMILY #########
+### 362 unique Miridae genera
+num_gen_mirid <- length(unique(data$i_genus))
+num_gen_mirid
+### 2544 unique Miridae species
+num_spp_mirid <- nrow(unique(data[, c("i_genus","i_species")]))
+num_spp_mirid
+######################################
+
+
+######### PLANT INFORMATION #########
+### 156 unique plant families
+num_fam_host <- length(unique(data$h_family))
+num_fam_host
+
+### DISCREPANCY--unique plant genera: either 745 or 806
+# unique combinations of family and genus gives 806
+num_gen_host <- nrow(unique(data[, c("h_family","h_genus")]))
+num_gen_host
+# unique genera gives 745
+num_gen_host2 <- length(unique(data$h_genus))
+num_gen_host2
+
+### DISCREPANCY--unique plant species
+# unique host family, genus, species combinations
+num_spp_host <- nrow(unique(data[, c("h_family","h_genus","h_species")]))
+num_spp_host
+# unique species IDs
+num_spp_host2 <- length(unique(data$h_species_id))
+num_spp_host2
+#####################################
+```
+
+
+### _spread of genus data_
+```{r}
+# all mirid genera and the number of times they are in the dataset
+# thus this represents the number of observations there are for each genus
+gen_bar <- ggplot(data, aes(x = i_genus)) +
+  geom_bar() +
+  theme(
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank()
+        ) +
+  xlab("Mirid Genera") +
+  ylab("Observation Events")
+gen_bar
+
+# log of counts
+log_gen_bar <- ggplot(data, aes(x = i_genus)) +
+  geom_bar() +
+  scale_y_log10() +
+  theme(
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank()
+        ) +
+  xlab("Mirid Genera") +
+  ylab("Observation Events (log transformed)")
+log_gen_bar
+
+
+# subset of mirid genera with A LOT of observations
+large_genera <- data %>% 
+  group_by(i_genus) %>% 
+  filter(length(i_genus) > 2500)
+
+# new bar graph with only the genera with the most 
+biggen_bar <- ggplot(large_genera, aes(x = i_genus)) +
+  geom_bar() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  xlab("Mirid Genera with over 2500 Observations") +
+  ylab("Observation Events")
+biggen_bar
+
+
+```
+
+### _latitude/longitude visualizations_
+```{r}
+### lat/long visualization
+# read in lat/long dataset
+lat_long_scatter <- ggplot(data, aes(x = dlong, y = dlat)) +
+  geom_point() +
+  xlab("Longitude (decimal degrees)") +
+  ylab("Latitude (decimal degrees)")
+lat_long_scatter
+
+aes(colour = latlong_data$i_genus)
+```
+
+
+
+# 2. Create network
+```{r}
+# Create df with families with fewer than 200 unique interactions
+data_new <- data %>% 
+  group_by(h_family) %>% 
+  filter(length(h_family) < 200)
+
+# This calls all unique names of families
+unique_families <- unique(data_new$h_family) 
+unique_families
+
+# Function that subsets each family and returns the shortened dataframe
+family_data <- function(i) {
+  fam <- subset(data_new, data_new$h_family == i)
+  return(fam)
+}
+output<-list()
+
+for (i in unique_families) {
+  fam <- as.data.frame(family_data(i))
+  x <- multi_metric(web(fam))
+  y <- rbind(i, x)
+  output <- as.data.frame(rbind(output,y))
+}
+# FIX: printing y as a matrix rather than i attached to the values in x in one row
+
+
+head(output)
+
+```
+
+
+
+#### _Analyses of calculations_
+Following the above network calculations, we are now going analyze general trends in network metrics. 
+
+```{r}
+# Filter data for histogram looking at the number of unique interactions per host family
+fam_hist_data <- data %>%
+  group_by(h_family) %>% 
+  filter(length(h_family) > 100) %>% 
+  select(h_family, h_genus, host, i_family, i_genus, insect, coll_number_same_h)
+hostfam_hist <- ggplot(fam_hist_data, aes(x = coll_number_same_h)) +
+  geom_histogram()
+hostfam_hist
+
+
+# check normality of metric spreads
+net_mets <- read_csv("plantbug_selectNetMets.csv") #%>% 
+  #filter(h_family != "Euphorbiaceae")
+
+hist_connect <- ggplot(net_mets, aes(x = connectance)) +
+  geom_histogram()
+hist_connect
+
+
+## basic correlation between each metric and family size
+
+# connectance and family size
+connect_famsize <- ggplot(net_mets, aes(x = h_fam_size, y = connectance)) +
+  geom_point()
+connect_famsize
+
+# weighted connectance and family size
+wconnect_famsize <- ggplot(net_mets, aes(x = h_fam_size, y = net_mets$weigh_connect)) +
+  geom_point()
+wconnect_famsize
+
+# relative specialization of insect families
+```
+
+### Interaction network for just host and insect families
+```{r}
+family_groups <- data %>%
+  group_by(h_family) %>% 
+  filter(length(h_family) < 100) %>% 
+  arrange(h_family) %>% 
+  select(h_family, h_genus, host, i_family, i_genus, insect, coll_number_same_h)
+
+family_web <- frame2webs(family_groups, varnames = c("h_genus", "i_genus", "h_family"))
+plotweb(family_web)
+networklevel(family_web, index = "connectance")
+
+
+
+```
+
+
+
+### 1b. Do these analyses change if we look from the insect family perspective?
+Make a more streamlined function to go through families 
+```{r}
+# Create df with families with fewer than 200 unique interactions
+ins_data_new <- data %>% 
+  group_by(i_genus) %>% 
+  filter(i_genus == "Dendrocoris" | i_genus == "Myrmecoroides" | i_genus == "Xyonysius" | i_genus == "Anthelococcus" | i_genus == "Ceroplastes")
+  # this pops out a df with 7619 observations
+
+# Function that subsets each family and returns the shortened dataframe
+ins_genus_data <- function(i) {
+  igen <- subset(ins_data_new, ins_data_new$i_genus == i)
+  return(igen)
+}
+insect_output<-list()
+
+### before running this, all functions need to be rewritten
+
+# new web function needs to be created
+ins_web <- function(df) {
+  as.data.frame(frame2webs(df, varnames = c("h_family", "i_genus", "i_genus"), type.out = 'array'))
+}
+
+i_genus_web <- ins_web(ins_data_new)
+
+# multimetric should be edited to just pop out specialization metrics
+species_multimet <- function(df) {
+  c(
+    # partner diversity
+    part_div <- specieslevel(df, index = "partner diversity", level = "higher"),
+    # proportional similarity
+    prop_sim <- specieslevel(df, index = "proportional similarity", level = "higher"),
+    # d
+    d_spec <- specieslevel(df, index = "d", level = "higher")
+  )
+}
+
+#### we might not need these old functions
+for (i in unique_ifamilies) {
+  ifam <- as.data.frame(ins_family_data(i))
+  x <- multi_metric(web(ifam))
+  y <- rbind(i, x)
+  insect_output <- as.data.frame(rbind(output,y))
+}
+# FIX: printing y as a matrix rather than i attached to the values in x in one row
+
+
+head(insect_output)
+
+```
+
+
