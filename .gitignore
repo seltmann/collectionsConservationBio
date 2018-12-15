@@ -5,3 +5,5 @@ db.php
 .Rproj.user
 *.jpeg
 *.sql
+PlantBugs-2017/temp-data/lat-long-AllBee.txt
+PlantBugs-2017/temp-data/lat-long-AllHemiptera.txt
