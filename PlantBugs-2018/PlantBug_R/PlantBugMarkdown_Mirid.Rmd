@@ -100,9 +100,10 @@ large_genera <- data %>%
   group_by(i_genus) %>% 
   filter(length(i_genus) > 2500)
 
-# new bar graph with only the genera with the most 
+# new bar graph with only the genera with the most observations
+# then colored by species
 biggen_bar <- ggplot(large_genera, aes(x = i_genus)) +
-  geom_bar() +
+  geom_bar(aes(fill = i_species), show.legend = FALSE) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
   xlab("Mirid Genera with over 2500 Observations") +
   ylab("Observation Events")
@@ -114,89 +115,72 @@ biggen_bar
 ### _latitude/longitude visualizations_
 ```{r}
 ### lat/long visualization
-# read in lat/long dataset
 lat_long_scatter <- ggplot(data, aes(x = dlong, y = dlat)) +
-  geom_point() +
+  geom_point(aes(colour = i_genus), show.legend = FALSE) +
   xlab("Longitude (decimal degrees)") +
   ylab("Latitude (decimal degrees)")
 lat_long_scatter
 
-aes(colour = latlong_data$i_genus)
+### lat/long visualization for just CA
+CA_latlong <- data %>%
+  filter(stateProv == "California" & dlat != "0")
+cal_scatter <- ggplot(CA_latlong, aes(x = dlong, y = dlat)) +
+  geom_point(aes(colour = i_genus), show.legend = FALSE) +
+  xlab("Longitude (decimal degrees)") +
+  ylab("Latitude (decimal degrees)")
+cal_scatter
+
 ```
 
 
+# 2. Preliminary Analyses of binned Genera
 
-# 2. Create network
+### building necessary calculations
+Things we want to do here:
+ - create a new column where genera binned based on how many observed interactions
+ - create a new column with how many genera of plant each insect genus interacts with
+ - create a new column with number of species within each genera
+ - create a new column with binned latitudes
+ - create a new column with binned longitudes
+ - create a new column with binned elevation
 ```{r}
-# Create df with families with fewer than 200 unique interactions
-data_new <- data %>% 
-  group_by(h_family) %>% 
-  filter(length(h_family) < 200)
+# summary of how many insect species and host families per host genus
+binned_gen <- data %>%
+  group_by(i_genus) %>% 
+  summarise(spp_pergen = length(unique(i_species_id)), host_pergen = length(unique(h_family)))
 
-# This calls all unique names of families
-unique_families <- unique(data_new$h_family) 
-unique_families
-
-# Function that subsets each family and returns the shortened dataframe
-family_data <- function(i) {
-  fam <- subset(data_new, data_new$h_family == i)
-  return(fam)
-}
-output<-list()
-
-for (i in unique_families) {
-  fam <- as.data.frame(family_data(i))
-  x <- multi_metric(web(fam))
-  y <- rbind(i, x)
-  output <- as.data.frame(rbind(output,y))
-}
-# FIX: printing y as a matrix rather than i attached to the values in x in one row
-
-
-head(output)
-
+# scatter relationship of number of species per insect genus by the number of plant families
+pergenus_scatter <- ggplot(binned_gen, aes(x = spp_pergen, y = host_pergen)) +
+  geom_point() +
+  xlab("Insect species per genus") +
+  ylab("Host families per genus") +
+  geom_smooth(method = "lm", se = FALSE) +
+  stat_smooth(method = "lm", formula = y ~ log(x), se = FALSE, color = "green")
+pergenus_scatter
 ```
 
 
-
-#### _Analyses of calculations_
-Following the above network calculations, we are now going analyze general trends in network metrics. 
-
+### visualizations of calculations
+Things we want to do here:
+ - scatter plot: # plants interacted with by # species in genus
+ - bipartite visualizations of:
+    - genus size and plant families
+    - range of latitudes and plant families
+    - range of longitudes and plant families
+    - range of elevation (m) and plant families
 ```{r}
-# Filter data for histogram looking at the number of unique interactions per host family
-fam_hist_data <- data %>%
-  group_by(h_family) %>% 
-  filter(length(h_family) > 100) %>% 
-  select(h_family, h_genus, host, i_family, i_genus, insect, coll_number_same_h)
-hostfam_hist <- ggplot(fam_hist_data, aes(x = coll_number_same_h)) +
-  geom_histogram()
-hostfam_hist
+# plants interacted with by species in genus
 
 
-# check normality of metric spreads
-net_mets <- read_csv("plantbug_selectNetMets.csv") #%>% 
-  #filter(h_family != "Euphorbiaceae")
-
-hist_connect <- ggplot(net_mets, aes(x = connectance)) +
-  geom_histogram()
-hist_connect
-
-
-## basic correlation between each metric and family size
-
-# connectance and family size
-connect_famsize <- ggplot(net_mets, aes(x = h_fam_size, y = connectance)) +
-  geom_point()
-connect_famsize
-
-# weighted connectance and family size
-wconnect_famsize <- ggplot(net_mets, aes(x = h_fam_size, y = net_mets$weigh_connect)) +
-  geom_point()
-wconnect_famsize
-
-# relative specialization of insect families
 ```
 
+ 
+
+
+
+
+
+# 3. Network Creation
 ### Interaction network for just host and insect families
 ```{r}
 family_groups <- data %>%
