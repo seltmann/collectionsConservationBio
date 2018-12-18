@@ -17,6 +17,9 @@ Our goals for this project are to:
 ```{r message = FALSE, warning = FALSE}
 library(bipartite)
 library(tidyverse)
+library(dplyr)
+library(OneR)
+library(mltools)
 ```
 
 
@@ -26,7 +29,12 @@ As of December 2018, we'll be using the "lat-long-Miridae.txt" that Katja pulled
 # Read in data file and read as data frame. Beware, this dataset is LARGE.
   # 282,718 observations and 24 columns
 
-data <- read.delim("~/Desktop/PlantBugs/collectionsConservationBio/PlantBugs-2017/temp-data/lat-long-Miridae.txt", header = TRUE)
+data1 <- read.delim("~/Desktop/PlantBugs/collectionsConservationBio/PlantBugs-2017/temp-data/lat-long-Miridae.txt", header = TRUE)
+
+# filter out bad lat/long
+data <- data1 %>% 
+  filter(dlong < "0")
+
 
 ```
 
@@ -133,54 +141,123 @@ cal_scatter
 ```
 
 
-# 2. Preliminary Analyses of binned Genera
+# 2. PRELIMINARY ANALYSES OF BINNED GENERA
 
-### building necessary calculations
-Things we want to do here:
- - create a new column where genera binned based on how many observed interactions
- - create a new column with how many genera of plant each insect genus interacts with
- - create a new column with number of species within each genera
- - create a new column with binned latitudes
- - create a new column with binned longitudes
- - create a new column with binned elevation
+### scatter plot: # plants interacted with by # species in genus
 ```{r}
 # summary of how many insect species and host families per host genus
-binned_gen <- data %>%
+summary_gen <- data %>%
   group_by(i_genus) %>% 
   summarise(spp_pergen = length(unique(i_species_id)), host_pergen = length(unique(h_family)))
 
 # scatter relationship of number of species per insect genus by the number of plant families
-pergenus_scatter <- ggplot(binned_gen, aes(x = spp_pergen, y = host_pergen)) +
+pergenus_scatter <- ggplot(summary_gen, aes(x = spp_pergen, y = host_pergen)) +
   geom_point() +
   xlab("Insect species per genus") +
   ylab("Host families per genus") +
-  geom_smooth(method = "lm", se = FALSE) +
-  stat_smooth(method = "lm", formula = y ~ log(x), se = FALSE, color = "green")
+  stat_smooth(method = "lm", formula = y ~ log(x))
 pergenus_scatter
 ```
 
-
-### visualizations of calculations
-Things we want to do here:
- - scatter plot: # plants interacted with by # species in genus
- - bipartite visualizations of:
-    - genus size and plant families
-    - range of latitudes and plant families
-    - range of longitudes and plant families
-    - range of elevation (m) and plant families
+### binning continuous data
 ```{r}
-# plants interacted with by species in genus
-
-
+# binning continuous data 
+dat_binned <- data %>% 
+  mutate(
+    elev_bin = bin_data(ElevM, bins = 30),
+    long_bin = bin_data(dlong, bins = 30),
+    lat_bin = bin_data(dlat, bins = 30)
+  )
 ```
 
- 
+
+### relationship between longitude and # plant families interacted with
+```{r}
+# group_by above data and then count plant family interactions
+long <- dat_binned %>% 
+  group_by(long_bin) %>% 
+  summarise(host_perlong = length(unique(h_family)))
+# bar graph of long data and plant family interactions
+long_scatter <- ggplot(long, aes(x = long_bin, y = host_perlong)) +
+  geom_point() +
+  xlab("Longitude (decimal degrees)") +
+  ylab("Host families") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+long_scatter
+
+# same of figure above without labels 
+long_no_labels <- ggplot(long, aes(x = long_bin, y = host_perlong)) +
+  geom_point() +
+  xlab("Longitude (decimal degrees)") +
+  ylab("Host families") +
+  theme(
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank()
+  )
+long_no_labels
+```
+
+
+### relationship between latitude and # plant families interacted with
+```{r}
+# group_by above data and then count plant family interactions
+lat <- dat_binned %>% 
+  group_by(lat_bin) %>% 
+  summarise(host_perlat = length(unique(h_family)))
+# bar graph of lat data and plant family interactions
+lat_scatter <- ggplot(lat, aes(x = lat_bin, y = host_perlat)) +
+  geom_point() +
+  xlab("Latitude (decimal degrees)") +
+  ylab("Host families") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+lat_scatter
+
+# same of figure above without labels 
+lat_no_labels <- ggplot(lat, aes(x = lat_bin, y = host_perlat)) +
+  geom_point() +
+  xlab("Latitude (decimal degrees)") +
+  ylab("Host families") +
+  theme(
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank()
+  )
+lat_no_labels
+```
+
+
+### relationship between elevation and # plant families interacted with
+```{r}
+# group_by above data and then count plant family interactions
+elev <- dat_binned %>% 
+  group_by(elev_bin) %>% 
+  summarise(host_perelev = length(unique(h_family)))
+# bar graph of lat data and plant family interactions
+elev_scatter <- ggplot(elev, aes(x = elev_bin, y = host_perelev)) +
+  geom_point() +
+  xlab("Elevation (m)") +
+  ylab("Host families") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+elev_scatter
+
+# same of figure above without labels 
+elev_no_labels <- ggplot(elev, aes(x = elev_bin, y = host_perelev)) +
+  geom_point() +
+  xlab("Elevation (m)") +
+  ylab("Host families") +
+  theme(
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank()
+  )
+elev_no_labels
+```
 
 
 
 
 
-# 3. Network Creation
+
+
+# 3. NETWORK CREATION
 ### Interaction network for just host and insect families
 ```{r}
 family_groups <- data %>%
