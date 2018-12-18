@@ -4,7 +4,7 @@
 rm(list=ls())
 
 #set working directory
-setwd("~/Documents/collectionsConservationBio/collectionsConservationBio-git/PlantBugs-2017")
+setwd("~/Documents/collectionsConservationBio/PlantBugNetworks/collectionsConservationBio/PlantBugs-2017")
 
 #need mysql connectors for entire script (data frame and mysql)
 require(RMySQL)
@@ -126,37 +126,53 @@ head(counts)
 #requirements
 require(RMySQL)
 require(igraph)
+require(bipartite)
+help(bipartite)
+help(visweb)
+
+data(Safariland)
+plotweb(Safariland)
+visweb(Safariland)
+networklevel(Safariland)
+specieslevel(Safariland)
+head(Safariland)
 
 #create a connection to the db and write to a table
 connection <- dbConnect(MySQL(), user="pbi_locality", password="generalPass", dbname="pbi_locality", host="localhost")
 host <- dbGetQuery(connection, "select distinct concat(i_genus,\"_\",i_species) as insect, concat(h_family, \"_\", h_genus) as host, coll_percent as percent from host_network")
-write.table(host, "temp-data/edges3.txt", sep=",", row.names=FALSE , col.names=TRUE, quote=FALSE)
-write.table(host$host, "temp-data/plants.txt", sep=",", row.names=FALSE , col.names=TRUE, quote=FALSE)
+host <- dbGetQuery(connection, "select distinct concat(i_genus,\"_\",i_species) as insect, concat(h_family, \"_\", h_genus) as host from host_network")
+write.table(host, "temp-data/edges3.txt", sep=",", row.names=FALSE, append = FALSE, col.names=TRUE, quote=FALSE)
+write.table(host$host, "temp-data/plants.txt", sep=",", row.names=FALSE ,append = FALSE, col.names=TRUE, quote=FALSE)
 
 
 
-
-bsk <- read.delim(file="temp-data/edges3.txt",sep=",",head=TRUE)
 bsk.network<-graph.data.frame(bsk, directed=F)
 V(bsk.network) #prints the list of vertices (people)
 E(bsk.network) #prints the list of edges (relationships)
 degree(bsk.network) #print the number of edges per vertex (relationships per people)
-#V(bsk.network)$size<-degree(bsk.network)
-vertex.label=V(bsk.network)$name<-ifelse(degree(bsk.network) > 1000,V(bsk.network)$name,'')
+V(bsk.network)$size<-degree(bsk.network)
+vertex.label=V(bsk.network)$name<-ifelse(degree(bsk.network) > 10000,V(bsk.network)$name,'')
 E(bsk.network)$width<- 2
 plot(bsk.network)
 
-g <- graph_from_incidence_matrix(bsk.network)
-plot(bsk.network, layout = layout_as_bipartite,
-     vertex.color=c("green","cyan")[V(g)$type+1])
-help(graph_from_incidence_matrix)
-# Two columns
-g %>%
-  add_layout_(as_bipartite()) %>%
-  plot()
 
-help(igraph)
-help(plot)
+host <- dbGetQuery(connection, "select distinct concat(i_genus,\"_\",i_species) as insect, h_family, \"_\", h_genus) as host, coll_percent as percent from host_network")
+write.table(host, "temp-data/edges3.txt", sep=",", row.names=FALSE, append = FALSE, col.names=TRUE, quote=FALSE)
+bsk <- read.delim(file="temp-data/edges3.txt",sep=",",head=TRUE)
+head(bsk)
+g <- graph_from_data_frame(bsk, directed = FALSE)
+V(g)$label <- V(g)$name
+V(g)$type <- 1
+vertex.label=V(g)$name<-ifelse(degree(g) > 10000,V(g)$name,'')
+
+plot(g, layout = layout_as_bipartite,
+     vertex.color=c("green","cyan")[E(g)$type+1])
+
+
+#######example from 
+#https://stackoverflow.com/questions/31366066/how-to-plot-a-bipartite-graph-in-r
+
+
 
 
 ####Below this line is unused code################
@@ -185,18 +201,3 @@ for (single_species in all_species_ids) {
     write.table(chunk, file = "temp-data/lat-long-Miridae.txt", na = "NA", row.names = FALSE,col = FALSE, append = TRUE, sep="\t", quote=FALSE)
   }
 }
-
-
-#if need to type warngings, type in command line warmings()
-
-# Random bipartite graph
-inc <- matrix(sample(0:1, 50, replace = TRUE, prob=c(2,1)), 10, 5)
-g <- graph_from_incidence_matrix(inc)
-plot(g, layout = layout_as_bipartite,
-     vertex.color=c("green","cyan")[V(g)$type+1])
-
-# Two columns
-g %>%
-  add_layout_(as_bipartite()) %>%
-  plot()
-
