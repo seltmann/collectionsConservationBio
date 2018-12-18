@@ -17,6 +17,9 @@ Our goals for this project are to:
 ```{r message = FALSE, warning = FALSE}
 library(bipartite)
 library(tidyverse)
+library(dplyr)
+library(OneR)
+library(mltools)
 ```
 
 
@@ -26,7 +29,12 @@ As of December 2018, we'll be using the "lat-long-Miridae.txt" that Katja pulled
 # Read in data file and read as data frame. Beware, this dataset is LARGE.
   # 282,718 observations and 24 columns
 
-data <- read.delim("~/Desktop/PlantBugs/collectionsConservationBio/PlantBugs-2017/temp-data/lat-long-Miridae.txt", header = TRUE)
+data1 <- read.delim("~/Desktop/PlantBugs/collectionsConservationBio/PlantBugs-2017/temp-data/lat-long-Miridae.txt", header = TRUE)
+
+# filter out bad lat/long
+data <- data1 %>% 
+  filter(dlong < "0")
+
 
 ```
 
@@ -100,9 +108,10 @@ large_genera <- data %>%
   group_by(i_genus) %>% 
   filter(length(i_genus) > 2500)
 
-# new bar graph with only the genera with the most 
+# new bar graph with only the genera with the most observations
+# then colored by species
 biggen_bar <- ggplot(large_genera, aes(x = i_genus)) +
-  geom_bar() +
+  geom_bar(aes(fill = i_species), show.legend = FALSE) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
   xlab("Mirid Genera with over 2500 Observations") +
   ylab("Observation Events")
@@ -114,89 +123,141 @@ biggen_bar
 ### _latitude/longitude visualizations_
 ```{r}
 ### lat/long visualization
-# read in lat/long dataset
 lat_long_scatter <- ggplot(data, aes(x = dlong, y = dlat)) +
-  geom_point() +
+  geom_point(aes(colour = i_genus), show.legend = FALSE) +
   xlab("Longitude (decimal degrees)") +
   ylab("Latitude (decimal degrees)")
 lat_long_scatter
 
-aes(colour = latlong_data$i_genus)
+### lat/long visualization for just CA
+CA_latlong <- data %>%
+  filter(stateProv == "California" & dlat != "0")
+cal_scatter <- ggplot(CA_latlong, aes(x = dlong, y = dlat)) +
+  geom_point(aes(colour = i_genus), show.legend = FALSE) +
+  xlab("Longitude (decimal degrees)") +
+  ylab("Latitude (decimal degrees)")
+cal_scatter
+
 ```
 
 
+# 2. PRELIMINARY ANALYSES OF BINNED GENERA
 
-# 2. Create network
+### scatter plot: # plants interacted with by # species in genus
 ```{r}
-# Create df with families with fewer than 200 unique interactions
-data_new <- data %>% 
-  group_by(h_family) %>% 
-  filter(length(h_family) < 200)
+# summary of how many insect species and host families per host genus
+summary_gen <- data %>%
+  group_by(i_genus) %>% 
+  summarise(spp_pergen = length(unique(i_species_id)), host_pergen = length(unique(h_family)))
 
-# This calls all unique names of families
-unique_families <- unique(data_new$h_family) 
-unique_families
-
-# Function that subsets each family and returns the shortened dataframe
-family_data <- function(i) {
-  fam <- subset(data_new, data_new$h_family == i)
-  return(fam)
-}
-output<-list()
-
-for (i in unique_families) {
-  fam <- as.data.frame(family_data(i))
-  x <- multi_metric(web(fam))
-  y <- rbind(i, x)
-  output <- as.data.frame(rbind(output,y))
-}
-# FIX: printing y as a matrix rather than i attached to the values in x in one row
-
-
-head(output)
-
+# scatter relationship of number of species per insect genus by the number of plant families
+pergenus_scatter <- ggplot(summary_gen, aes(x = spp_pergen, y = host_pergen)) +
+  geom_point() +
+  xlab("Insect species per genus") +
+  ylab("Host families per genus") +
+  stat_smooth(method = "lm", formula = y ~ log(x))
+pergenus_scatter
 ```
 
-
-
-#### _Analyses of calculations_
-Following the above network calculations, we are now going analyze general trends in network metrics. 
-
+### binning continuous data
 ```{r}
-# Filter data for histogram looking at the number of unique interactions per host family
-fam_hist_data <- data %>%
-  group_by(h_family) %>% 
-  filter(length(h_family) > 100) %>% 
-  select(h_family, h_genus, host, i_family, i_genus, insect, coll_number_same_h)
-hostfam_hist <- ggplot(fam_hist_data, aes(x = coll_number_same_h)) +
-  geom_histogram()
-hostfam_hist
-
-
-# check normality of metric spreads
-net_mets <- read_csv("plantbug_selectNetMets.csv") #%>% 
-  #filter(h_family != "Euphorbiaceae")
-
-hist_connect <- ggplot(net_mets, aes(x = connectance)) +
-  geom_histogram()
-hist_connect
-
-
-## basic correlation between each metric and family size
-
-# connectance and family size
-connect_famsize <- ggplot(net_mets, aes(x = h_fam_size, y = connectance)) +
-  geom_point()
-connect_famsize
-
-# weighted connectance and family size
-wconnect_famsize <- ggplot(net_mets, aes(x = h_fam_size, y = net_mets$weigh_connect)) +
-  geom_point()
-wconnect_famsize
-
-# relative specialization of insect families
+# binning continuous data 
+dat_binned <- data %>% 
+  mutate(
+    elev_bin = bin_data(ElevM, bins = 30),
+    long_bin = bin_data(dlong, bins = 30),
+    lat_bin = bin_data(dlat, bins = 30)
+  )
 ```
 
+
+### relationship between longitude and # plant families interacted with
+```{r}
+# group_by above data and then count plant family interactions
+long <- dat_binned %>% 
+  group_by(long_bin) %>% 
+  summarise(host_perlong = length(unique(h_family)))
+# bar graph of long data and plant family interactions
+long_scatter <- ggplot(long, aes(x = long_bin, y = host_perlong)) +
+  geom_point() +
+  xlab("Longitude (decimal degrees)") +
+  ylab("Host families") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+long_scatter
+
+# same of figure above without labels 
+long_no_labels <- ggplot(long, aes(x = long_bin, y = host_perlong)) +
+  geom_point() +
+  xlab("Longitude (decimal degrees)") +
+  ylab("Host families") +
+  theme(
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank()
+  )
+long_no_labels
+```
+
+
+### relationship between latitude and # plant families interacted with
+```{r}
+# group_by above data and then count plant family interactions
+lat <- dat_binned %>% 
+  group_by(lat_bin) %>% 
+  summarise(host_perlat = length(unique(h_family)))
+# bar graph of lat data and plant family interactions
+lat_scatter <- ggplot(lat, aes(x = lat_bin, y = host_perlat)) +
+  geom_point() +
+  xlab("Latitude (decimal degrees)") +
+  ylab("Host families") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+lat_scatter
+
+# same of figure above without labels 
+lat_no_labels <- ggplot(lat, aes(x = lat_bin, y = host_perlat)) +
+  geom_point() +
+  xlab("Latitude (decimal degrees)") +
+  ylab("Host families") +
+  theme(
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank()
+  )
+lat_no_labels
+```
+
+
+### relationship between elevation and # plant families interacted with
+```{r}
+# group_by above data and then count plant family interactions
+elev <- dat_binned %>% 
+  group_by(elev_bin) %>% 
+  summarise(host_perelev = length(unique(h_family)))
+# bar graph of lat data and plant family interactions
+elev_scatter <- ggplot(elev, aes(x = elev_bin, y = host_perelev)) +
+  geom_point() +
+  xlab("Elevation (m)") +
+  ylab("Host families") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+elev_scatter
+
+# same of figure above without labels 
+elev_no_labels <- ggplot(elev, aes(x = elev_bin, y = host_perelev)) +
+  geom_point() +
+  xlab("Elevation (m)") +
+  ylab("Host families") +
+  theme(
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank()
+  )
+elev_no_labels
+```
+
+
+
+
+
+
+
+# 3. NETWORK CREATION
 ### Interaction network for just host and insect families
 ```{r}
 family_groups <- data %>%
